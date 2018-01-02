@@ -1,0 +1,119 @@
+
+$font-title: 'Nunito Sans', sans-serif; // name var to reuse
+$font-body: 'Nunito Sans', sans-serif;
+
+$font-title2: 'Lato', sans-serif;
+
+
+body {
+    font: 100% $font-title;
+}
+
+p {
+    font: 135% $font-body;
+    letter-spacing: 0px;
+    line-height: 37.8px; 
+}
+
+.subtitles {
+    font: 135% $font-title;
+    letter-spacing: 3px;
+}
+
+.main-footer-grid {
+    font: 75% $font-body;
+}
+
+/* HOME */
+
+
+/* ABOUT */
+.ab-title {
+    font: 100px $font-title2;
+    font-weight: 700;
+}
+
+.ab-banner-text {
+    font: 112px $font-title2;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* SERVICES */
+.srv-title {
+    font: 100px $font-title2;
+    font-weight: 700;
+}
+
+/* CONTACT */
+.news-title {
+    font: 100px $font-title2;
+    font-weight: 700;
+}
+
+
+@media screen and (min-width: 736px) and (max-width: 1366px) {
+    /* HOME */
+    .hm-title {
+     font: 344% $font-title2;
+     }
+ 
+     .subtitles {
+         font: 125% $font-title;
+         letter-spacing: 1.2px;
+     }
+ 
+     .subtitles-mob {
+         font: 125% $font-title;
+         letter-spacing: 1.2px;
+     }
+ 
+ }
+
+ @media screen and (max-width: 736px) {
+
+    p {
+        font: 80% $font-body;
+        letter-spacing: 3px;
+        line-height: 26px; 
+    }
+
+    h1 {
+        font: 120% $font-title; 
+        line-height: 30px;
+    }
+
+    .subtitles-mob {
+        font: 110% $font-title;
+        letter-spacing: 1.2px;
+    }
+
+    /* HOME */
+    .hm-title {
+        font: 200% $font-title2;
+    }
+
+    /* ABOUT */
+    .ab-title {
+        font: 200% $font-title2;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+    
+
+    /* SERVICES */
+    .srv-title {
+        font: 200% $font-title2;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+    
+    
+    /* CONTACT */
+    .con-title {
+        font: 200% $font-title2;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+    
+}
