@@ -18,7 +18,7 @@ class Footer extends Component {
 
                 <div className="ft-contact">
                     <h3>contact us</h3>
-                    <p>3536 Navigation Blvd.<br/>
+                    <p>3536 Navigation Blvd.
                        Houston, TX 77003<br/>
                        832.532.7823<br/>
                        <a href="mailto:info@gutier.com?subject=Hello, Gutier!">info@gutier.com</a>

@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Main.css';
 import Footer from './Footer';
+
+import '../styles/Main.css';
+import 'animate.css';
 
 import aboutImage1 from '../assets/about_us_01.jpg';
 import aboutImage2 from '../assets/about_us_02.jpg';
 import aboutGif1 from '../assets/gutier_gifs/W.gif';
-import aboutGif2 from '../assets/gutier_gifs/W.gif';
+import aboutGif2 from '../assets/gutier_gifs/C.gif';
 
 
 class About extends Component {
@@ -23,13 +25,19 @@ class About extends Component {
                     <h1 className="ab-banner-text">About Us</h1> 
                 </div>
 
+                <div className="tenants">
+                    <span className="animated fadeInLeft tenant1">Safety</span>
+                    <span className="animated fadeInLeft tenant2">Accountability</span>
+                    <span className="animated fadeInLeft tenant3">Quality</span>
+                </div>
+
                 <div className="ab-box1-desk">
                     <div className="ab-gif1">
                         <img src={aboutGif1} alt="aboutGif1" />
                     </div>
 
                     <div className="ab-title1">
-                        <h1 className="ab-title">Why Gutier</h1>
+                        <h1 className="animated fadeInLeft ab-title ab-title1">Why Gutier</h1>
                     </div>
 
                     <div className="ab-img1">
@@ -55,7 +63,7 @@ class About extends Component {
                 <div className="ab-box2-desk">
 
                     <div className="ab-title2">
-                        <h1 className="ab-title">Community</h1>
+                        <h1 className="animated fadeInRight ab-title ab-title2">Community</h1>
                     </div>
 
                     <div className="ab-img2">

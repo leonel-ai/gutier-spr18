@@ -10,7 +10,7 @@ body {
 }
 
 p {
-    font: 135% $font-body;
+    font: 24px $font-body;
     letter-spacing: 0px;
     line-height: 37.8px; 
 }
@@ -25,7 +25,14 @@ p {
 }
 
 /* HOME */
+.cube > div > p {
+    font: 32px $font-title2;
+    font-weight: 700;
+}
 
+.cube > div > button {
+    font: 10px $font-body;
+}
 
 /* ABOUT */
 .ab-title {
@@ -37,6 +44,12 @@ p {
     font: 112px $font-title2;
     font-weight: 700;
     letter-spacing: 2px;
+}
+
+
+.tenant1, .tenant2, .tenant3 {
+    font: 96px $font-title;
+    font-weight: 400;
 }
 
 /* SERVICES */
