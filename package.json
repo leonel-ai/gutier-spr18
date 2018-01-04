@@ -14,7 +14,8 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
     "semantic-ui-react": "^0.77.1",
-    "webfontloader": "^1.6.28"
+    "webfontloader": "^1.6.28",
+    "wheel-react": "^1.0.3"
   },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",

@@ -1,64 +1,59 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Cube from './Cube';
+import WheelReact from 'wheel-react';
 import '../styles/Main.css';
-import homeGif from '../assets/cube.gif';
 
 class Home extends Component {
-    state = {expanded: false}
+    constructor(props) {
+        super(props);
+        // this.onClick = this.handleClick.bind(this);
+
+        this.state = {
+            content: <Cube />
+        };
+        WheelReact.config({
+            left: () => {
+                this.setState({
+                    content: 'left direction detected.'
+                });
+            },
+            right: () => {
+                this.setState({
+                    content: 'right direction detected.'
+                });
+            },
+            up: () => {
+                this.setState({
+                    content: 'up direction detected.'
+                });
+            },
+            down: () => {
+                this.setState({
+                    content: 'down direction detected.'
+                });
+            }
+        });
+    }
 
     componentWillMount() {
         this.props.history.push('/');
     }
 
-    render()    {
+    componentWillUnmount() {
+        WheelReact.clearTimeout();
+    }
+
+
+
+    render() {
+
         return (
-            <div className="hm-grid">
-                <div className="mainDiv">
-                    <div className="cube">
-
-                        <div className="front">
-                            <p><span className="hm-largeTxt">INNOVATION</span><br/>starts from the top</p>
-                            <button className="hm-button"><Link to="/services">Services</Link></button>
-                        </div>
-
-                        <div className="back">
-                            <p><span className="hm-largeTxt">EXCELLENCE</span><br/>starts from the top</p>
-                            <button className="hm-button"><Link to="/news">News</Link></button>                        
-                        </div>
-
-                        <div className="right">
-                            <p><span className="hm-largeTxt">COMMITMENT</span><br/>starts from the top</p>
-                            <button className="hm-button"><Link to="/contact">Contact</Link></button>                         
-                        </div>
-
-                        <div className="left">
-                            <p><span className="hm-largeTxt">INTEGRITY</span><br/>starts from the top</p>
-                            <button className="hm-button"><Link to="/about">About Us</Link></button> 
-                        </div>
-
-                        <div className="top"></div>
-                        <div className="bottom"></div>
-                    </div>
-                </div>
+            <div {...WheelReact.events} tabIndex="1" className="hm-grid">
+                {this.state.content}
             </div>
         )
     }
 }
 
 export default Home;
-
-           {/* <div className="hm-box1">
-                    <img className="hm-pg-img" src={homeGif} alt="homepage" />
-                </div>
-
-                <div className="hm-box2">
-                    <img className="hm-pg-img" src={homeGif} alt="homepage" />
-                </div>
-
-                <div className="hm-box3">
-                    <img className="hm-pg-img" src={homeGif} alt="homepage" />
-                </div>
-
-                <div className="hm-box4">
-                    <img className="hm-pg-img" src={homeGif} alt="homepage" />
-                </div> */}
