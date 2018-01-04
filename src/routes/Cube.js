@@ -6,7 +6,6 @@ import '../styles/Main.css';
 class Cube extends Component {
     constructor(props) {
         super(props);
-
     }
 
     render() {
