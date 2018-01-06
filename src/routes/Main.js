@@ -22,12 +22,11 @@ class Routes extends Component {
                         <div className="NavBar">
 
                             <div className="top-logo">
-                                <img src={logo} className="logo" />
+                                <Link to='/'><img src={logo} className="logo" /></Link>
                             </div>
 
-                            <Link to='/'>Gutier</Link>
-                            <Link to='/about'>About</Link>
                             <Link to='/services'>Services</Link>
+                            <Link to='/about'>About</Link>
                             <a href="https://medium.com/">News</a>
                             <Link to='/contact'>Contact</Link>
 
@@ -36,8 +35,8 @@ class Routes extends Component {
                     <Switch>
 
                     <Route exact path="/" render={(props) => <Home {...props} />} />
-                    <Route exact path="/about" render={(props) => <About {...props} />} />
                     <Route exact path="/services" render={(props) => <Services {...props} />} />
+                    <Route exact path="/about" render={(props) => <About {...props} />} />
                     <Route exact path="/contact" render={(props) => <Contact {...props} />} />
 
                     </Switch>

@@ -58,10 +58,34 @@ p {
     font-weight: 700;
 }
 
-/* CONTACT */
+.srv-banner-text {
+    font: 112px $font-title2;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* NEWS */
 .news-title {
     font: 100px $font-title2;
     font-weight: 700;
+}
+
+.news-banner-text {
+    font: 112px $font-title2;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* CONTACT */
+.con-title {
+    font: 100px $font-title2;
+    font-weight: 700;
+}
+
+.con-banner-text {
+    font: 112px $font-title2;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
 
