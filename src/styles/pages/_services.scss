@@ -1,0 +1,33 @@
+/* services page */
+
+.srv-grid {
+    display: grid;
+    box-sizing: border-box;
+    max-width: 1680px;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(160px, auto);
+}
+
+/* banner */
+.srv-banner {
+    grid-column: 1;
+    padding-top: 40px;
+}
+
+.srv-banner {
+    background-image: url('../assets/cube_s02.png');
+    height: 840px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.srv-banner-text {
+    color:white;
+    text-align: center;
+    position: absolute;
+    top: 14%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+}

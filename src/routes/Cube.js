@@ -12,8 +12,7 @@ class Cube extends Component {
 
     handleClick(event) {
         if (document.getElementsByClassName('front')) {
-            var front = document.getElementsByClassName('front');
-            console.log('does match');
+            var cube = document.getElementsByClassName('cube').classList;
         } else {
             console.log('does not match');
         }

@@ -10,7 +10,7 @@ import aboutImage2 from '../assets/about_us_02.jpg';
 import aboutGif1 from '../assets/gutier_gifs/W.gif';
 import aboutGif2 from '../assets/gutier_gifs/C.gif';
 
-
+ 
 class About extends Component {
     state = {expanded: false}
 
