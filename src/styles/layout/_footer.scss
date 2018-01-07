@@ -33,10 +33,19 @@
     justify-self: center;
 }
 
-.ft-pulse {
-    animation-timing-function: ease-in-out;
-    animation-duration: 10s;
-    animation-iteration-count: 12;
+.ft-cta {
+    position: relative;
+    -webkit-transform:  translate(0, 0);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -moz-transform:  translate(0, 0);
+    -moz-transition: -webkit-transform .2s ease-in-out;
+    transform: translate(0, 0);
+    transition-property: all;
+    transition-property: transform .2s ease-in-out;
+}
+
+.ft-cta:hover {
+    transform: translate3d(0, -10px, 0);
 }
 
 @media screen and (min-width: 736px) and (max-width: 1366px) {

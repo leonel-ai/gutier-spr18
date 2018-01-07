@@ -65,7 +65,7 @@ ul, li {
 }
 
 .srv-banner-text {
-    font: 200px $font-title2;
+    font: 112px $font-title2;
     font-weight: 700;
     letter-spacing: 2px;
 }
@@ -92,6 +92,12 @@ ul, li {
     font: 112px $font-title2;
     font-weight: 700;
     letter-spacing: 2px;
+}
+
+.news-sub1, .news-sub2, .news-sub3 {
+    font: 34px $font-title;
+    letter-spacing: 3px;
+    font-weight: 700;
 }
 
 /* CONTACT */

@@ -5,7 +5,7 @@ import Footer from './Footer';
 import '../styles/Main.css';
 import 'animate.css';
 
-import aboutImage1 from '../assets/about_us_01.jpg';
+import aboutImage1 from '../assets/g1.png';
 import aboutImage2 from '../assets/about_us_02.jpg';
 import aboutGif1 from '../assets/gutier_gifs/W.gif';
 import aboutGif2 from '../assets/gutier_gifs/C.gif';

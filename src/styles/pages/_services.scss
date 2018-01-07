@@ -28,7 +28,17 @@
     position: absolute;
     top: 8%;
     left: 50%;
+    -webkit-transform:  translate(-50%, -50%);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -moz-transform:  translate(-50%, -50%);
+    -moz-transition: -webkit-transform .2s ease-in-out;
     transform: translate(-50%, -50%);
+    transition-property: all;
+    transition-property: transform .2s ease-in-out;
+}
+
+.srv-banner-text:hover {
+    transform: translate3d(-50%, -70%, 0);
 }
 
 /* expertise */

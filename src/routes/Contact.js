@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
+import Footer from './Footer';
+
 import '../styles/Main.css';
+import 'animate.css';
+
 
 class Contact extends Component {
     state = {expanded: false}
@@ -11,8 +15,14 @@ class Contact extends Component {
     render() {
         return (
             <div className="con-grid">
-                contact page
-            </div>
+                <div className="con-banner"> 
+                    <h1 className="con-banner-text">Contact Us</h1> 
+                </div>  
+
+                <div className="pg-footer">
+                    <Footer />
+                </div>  
+         </div>
         )
     }
 }

@@ -28,9 +28,19 @@
     color:white;
     text-align: center;
     position: absolute;
-    top: 14%;
-    left: 18%;
+    top: 8%;
+    left: 50%;
+    -webkit-transform:  translate(-50%, -50%);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -moz-transform:  translate(-50%, -50%);
+    -moz-transition: -webkit-transform .2s ease-in-out;
     transform: translate(-50%, -50%);
+    transition-property: all;
+    transition-property: transform .2s ease-in-out;
+}
+
+.ab-banner-text:hover {
+    transform: translate3d(-50%, -70%, 0);
 }
 
 /* tenants */
@@ -39,6 +49,18 @@
     justify-self: center;
     padding-top: 260px;
     padding-bottom: 100px;
+    position: relative;
+    -webkit-transform:  translate(0, 0);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -moz-transform:  translate(0, 0);
+    -moz-transition: -webkit-transform .2s ease-in-out;
+    transform: translate(0, 0);
+    transition-property: all;
+    transition-property: transform .2s ease-in-out;
+}
+
+.tenants:hover {
+    transform: translate3d(0, -20px, 0);
 }
 
 .tenant1, .tenant2, .tenant3 {
@@ -85,7 +107,19 @@
     align-self: end;
     min-width: 800px;
     max-height: 0px;
-    z-index: 100;
+    z-index: 100;    
+    position: relative;
+    -webkit-transform:  translate(0, 0);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -moz-transform:  translate(0, 0);
+    -moz-transition: -webkit-transform .2s ease-in-out;
+    transform: translate(0, 0);
+    transition-property: all;
+    transition-property: transform .2s ease-in-out;
+}
+
+.ab-title1:hover {
+    transform: translate3d(0, -20px, 0);
 }
 
 .ab-title1 {
@@ -107,9 +141,18 @@
 
 .ab-img1 img{
     opacity: 0.5;
+    position: relative;
+    -webkit-transform:  translate(0, 0);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -moz-transform:  translate(0, 0);
+    -moz-transition: -webkit-transform .2s ease-in-out;
+    transform: translate(0, 0);
+    transition-property: all;
+    transition-property: transform .2s ease-in-out;
 }
 
-.ab-img1 img:hover {
+.ab-img1:hover {
+    transform: translate3d(0, -10px, 0);
     opacity: 1.0;
 }
 
@@ -130,6 +173,18 @@
     align-self: start;
     max-width: 300px;
     z-index: 100;
+    position: relative;
+    -webkit-transform:  translate(0, 0);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -moz-transform:  translate(0, 0);
+    -moz-transition: -webkit-transform .2s ease-in-out;
+    transform: translate(0, 0);
+    transition-property: all;
+    transition-property: transform .2s ease-in-out;
+}
+
+.ab-title2:hover {
+    transform: translate3d(0, -20px, 0);
 }
 
 .ab-title2 {
@@ -158,9 +213,18 @@
 
 .ab-img2 img{
     opacity: 0.5;
+    position: relative;
+    -webkit-transform:  translate(0, 0);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -moz-transform:  translate(0, 0);
+    -moz-transition: -webkit-transform .2s ease-in-out;
+    transform: translate(0, 0);
+    transition-property: all;
+    transition-property: transform .2s ease-in-out;
 }
 
-.ab-img2 img:hover {
+.ab-img2:hover {
+    transform: translate3d(0, -10px, 0);
     opacity: 1.0;
 }
 
