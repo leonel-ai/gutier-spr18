@@ -123,16 +123,16 @@ class Services extends Component {
                         <div className="quote"><p>"From the beginning, they were very timely with
                         scheduling meetings, estimates, and completing our roof. They kept a clean
                         site and didn't interrupt our operations at all. Excellent group to work with!"
-                        <br/>— Jonathan Thomas, Stampede Land Services</p></div>
+                        <br/><br/>— Jonathan Thomas, Stampede Land Services</p></div>
                         <div className="quote"><p>"They presented us solutions very well and excuted
                         the project exactly as promised... can't say enough about their professionalism
                         and how great they are aobut communicating progress. Top notch." 
-                        <br/>— Ellis Welker, WFMS Inc.</p></div>
+                        <br/><br/>— Ellis Welker, WFMS Inc.</p></div>
                         <div className="quote"><p>"Everything about their operations was extremely
                         professional and informative. They took the time to walk me through our
                         problem areas and discussed solutions for us to consider... they had our interests
                         in mind."
-                        <br/>— Ross Summers, Texas Auto</p></div>
+                        <br/><br/>— Ross Summers, Texas Auto</p></div>
                     </div>
 
                 </div>

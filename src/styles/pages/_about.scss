@@ -141,18 +141,9 @@
 
 .ab-img1 img{
     opacity: 0.5;
-    position: relative;
-    -webkit-transform:  translate(0, 0);
-    -webkit-transition: -webkit-transform .2s ease-in-out;
-    -moz-transform:  translate(0, 0);
-    -moz-transition: -webkit-transform .2s ease-in-out;
-    transform: translate(0, 0);
-    transition-property: all;
-    transition-property: transform .2s ease-in-out;
 }
 
 .ab-img1:hover {
-    transform: translate3d(0, -10px, 0);
     opacity: 1.0;
 }
 
@@ -213,18 +204,9 @@
 
 .ab-img2 img{
     opacity: 0.5;
-    position: relative;
-    -webkit-transform:  translate(0, 0);
-    -webkit-transition: -webkit-transform .2s ease-in-out;
-    -moz-transform:  translate(0, 0);
-    -moz-transition: -webkit-transform .2s ease-in-out;
-    transform: translate(0, 0);
-    transition-property: all;
-    transition-property: transform .2s ease-in-out;
 }
 
 .ab-img2:hover {
-    transform: translate3d(0, -10px, 0);
     opacity: 1.0;
 }
 

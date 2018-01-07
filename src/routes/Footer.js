@@ -30,6 +30,7 @@ class Footer extends Component {
                     <ul>
                         <li><a href="https://www.linkedin.com/company/amagazi/">linkedin</a></li>
                         <li><a href="https://www.facebook.com/amagazi">facebook</a></li>
+                        <li><a href="https://www.medium.com/">blog</a></li>
                     </ul>
                 </div>
 

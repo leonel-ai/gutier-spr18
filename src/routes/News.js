@@ -7,8 +7,9 @@ import 'animate.css';
 import newsImage1 from '../assets/cnn.png';
 import newsImage2 from '../assets/tel.png';
 import newsImage3 from '../assets/htv.png';
+import mediumImg from '../assets/medium.png';
 import newsGif1 from '../assets/gutier_gifs/N.gif';
-
+import newsGif2 from '../assets/gutier_gifs/I.gif';
 
 
 class News extends Component {
@@ -40,15 +41,17 @@ class News extends Component {
                         <img src={newsImage1} alt="newsImage1" />
                     </div>
                     <div className="news-text1">
-                    <div className="animated animated fadeInRight news-sub1"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0">
-                        Immigrants, the workforce to rebuild Houston</a></div>
-                    <p>Gutier on CNN En Espanol</p>
+                        <div className="animated fadeInRight news-sub1"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0">
+                            Immigrants, the workforce to rebuild Houston</a></div>
+                            <p>CNN En Espanol</p>
+                            <p className="actionLink"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0">
+                               See the video  &#9656;</a></p>
                     </div>
                 </div>                    
 
                 <div className="news-box3-desk">
                     <div className="news-text2">
-                        <div className="animated animated fadeInLeft news-sub2"><a href="http://www.telemundo.com/">
+                        <div className="animated fadeInLeft news-sub2"><a href="http://www.telemundo.com/">
                             Gutier headline tbd on Telemundo</a></div>
                         <p>Gutier on Telemundo (Air Date: 2018)</p>
                     </div>
@@ -62,14 +65,31 @@ class News extends Component {
                         <img src={newsImage3} alt="newsImage3" />
                     </div>
                     <div className="news-text3">
-                    <div className="animated animated fadeInRight news-sub3"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0">
-                        Immigrants, the workforce to rebuild Houston</a></div>
-                    <p>Gutier on CNN En Espanol</p>
+                    <div className="animated fadeInRight news-sub3"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0">
+                        Insights to Opportunity</a></div>
+                    <p>HTV Houston Television</p>
                     </div>
                 </div>
 
                 <div className="news-box5-desk">
-                    MEDIUM promo
+                    <div className="news-gif2">
+                        <img src={newsGif2} alt="newsGif2" />
+                    </div>
+
+                    <div className="news-title1">
+                        <h1 className="animated fadeInRight news-title news-title1">Insights</h1>
+                    </div>
+                </div>
+
+                <div className="news-box6-desk">
+                    <div className="animated pulse medium-img">
+                        <img src={mediumImg} alt="mediumImg"/>
+                    </div>
+                    <div className="news-text4">
+                    <p>Interested in more? Check out our latest insights, recommendations, and industry trends
+                        at Medium.com.</p>
+                    <p className="actionLink"><a href="http://www.medium.com/">Join the community and follow us!  &#9656;</a></p>
+                    </div>
                 </div>
 
                 <div className="pg-footer">

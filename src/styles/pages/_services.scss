@@ -66,6 +66,18 @@
     min-width: 600px;
     max-height: 0px;
     z-index: 100;
+    position: relative;
+    -webkit-transform:  translate(0, 0);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -moz-transform:  translate(0, 0);
+    -moz-transition: -webkit-transform .2s ease-in-out;
+    transform: translate(0, 0);
+    transition-property: all;
+    transition-property: transform .2s ease-in-out;
+}
+
+.srv-title1:hover {
+    transform: translate3d(0, -20px, 0);
 }
 
 .srv-title1 {
@@ -89,7 +101,7 @@
     opacity: 0.5;
 }
 
-.srv-img1 img:hover {
+.srv-img1:hover {
     opacity: 1.0;
 }
 
@@ -111,6 +123,18 @@
     min-height: 100px;
     padding-right: 200px;
     z-index: 100;
+    position: relative;
+    -webkit-transform:  translate(0, 0);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -moz-transform:  translate(0, 0);
+    -moz-transition: -webkit-transform .2s ease-in-out;
+    transform: translate(0, 0);
+    transition-property: all;
+    transition-property: transform .2s ease-in-out;
+}
+
+.srv-title2:hover {
+    transform: translate3d(0, -20px, 0);
 }
 
 .srv-title2 {
@@ -200,6 +224,18 @@
     min-height: 100px;
     padding-left: 200px;
     z-index: 100;
+    position: relative;
+    -webkit-transform:  translate(0, 0);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -moz-transform:  translate(0, 0);
+    -moz-transition: -webkit-transform .2s ease-in-out;
+    transform: translate(0, 0);
+    transition-property: all;
+    transition-property: transform .2s ease-in-out;
+}
+
+.srv-title3:hover {
+    transform: translate3d(0, -20px, 0);
 }
 
 .srv-title3 {
@@ -237,6 +273,18 @@
     .quote {
         padding: 40px 60px 40px 60px;
         text-align: center;
+        position: relative;
+        -webkit-transform:  translate(0, 0);
+        -webkit-transition: -webkit-transform .2s ease-in-out;
+        -moz-transform:  translate(0, 0);
+        -moz-transition: -webkit-transform .2s ease-in-out;
+        transform: translate(0, 0);
+        transition-property: all;
+        transition-property: transform .2s ease-in-out;
+    }
+    
+    .quote:hover {
+        transform: translate3d(0, -20px, 0);
     }
 
 /* footer */
