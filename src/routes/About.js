@@ -74,7 +74,7 @@ class About extends Component {
                         <p>Community is a key part of our identity at Gutier. We are 
                             committed to using our resources and expertise to drive change 
                             in the community and impact the lives of others. One of Gutier’s 
-                            flagship partnerships is with SER Jobs for Progress where we 
+                            flagship partnerships is with <b>SER Jobs for Progress</b> where we 
                             administer a collaborative vocational training program for young 
                             adults in need of career mentorship and life guidance. Learn more 
                             about how we are making a difference.

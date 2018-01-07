@@ -6,7 +6,7 @@ import '../styles/Main.css';
 import 'animate.css';
 
 import serviceImage1 from '../assets/services_01.jpg';
-import serviceImage2 from '../assets/services_02.jpg';
+import serviceImage2 from '../assets/g4.png';
 import serviceGif1 from '../assets/gutier_gifs/E.gif';
 import serviceGif2 from '../assets/gutier_gifs/M.gif';
 import serviceGif3 from '../assets/gutier_gifs/I.gif';
@@ -105,6 +105,11 @@ class Services extends Component {
 
 
                 <div className="srv-box3-desk">
+
+                    <div className="srv-img2">
+                        <img src={serviceImage2} alt="serviceImage2" />
+                    </div>
+
                     <div className="srv-title3">
                         <h1 className="animated fadeInLeft srv-title srv-title3">Trust</h1>
                     </div>

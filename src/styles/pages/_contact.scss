@@ -15,7 +15,7 @@
 }
 
 .con-banner {
-    background-image: url('../assets/cube_s03.png');
+    background-image: url('../assets/contactBanner.png');
     height: 840px;
     background-attachment: fixed;
     background-position: center;
@@ -40,4 +40,157 @@
 
 .con-banner-text:hover {
     transform: translate3d(-50%, -70%, 0);
+}
+
+/* contact info */
+.con-box1-desk {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 600px;
+    border: 2px solid red;
+}
+
+.con-text1 {
+    align-self: start;
+    justify-self: center;
+}
+
+.con-sub {
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+
+/* contact form */
+.contact-form {
+    align-self: start;
+    justify-self: center;    
+}
+
+/* careers */
+.con-box2-desk {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding-left: 28px;
+    padding-right: 20px;
+    padding-top: 600px;
+    padding-bottom: 0px;
+    border: 2px solid blue;
+}
+
+.con-gif1 {
+    grid-column: 1;
+    justify-self: start;
+    max-height: 200px;
+    min-width: 600px;
+}
+
+.con-title1 {
+    justify-self: start;
+    align-self: end;
+    min-width: 800px;
+    max-height: 0px;
+    z-index: 100;    
+    position: relative;
+    -webkit-transform:  translate(0, 0);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -moz-transform:  translate(0, 0);
+    -moz-transition: -webkit-transform .2s ease-in-out;
+    transform: translate(0, 0);
+    transition-property: all;
+    transition-property: transform .2s ease-in-out;
+}
+
+.con-title1:hover {
+    transform: translate3d(0, -20px, 0);
+}
+
+.con-title1 {
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.con-text2 {
+    justify-self: start;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+.con-img1 {
+    max-height: 400px;
+    max-width: 200px;
+}
+
+.con-img1 img{
+    opacity: 1;
+}
+
+.con-img1:hover {
+    opacity: .5;
+}
+
+/* SER */
+.con-box3-desk {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding-left: 28px;
+    padding-right: 20px;
+    padding-top: 600px;
+    padding-bottom: 600px;
+    border: 2px solid blue;
+}
+
+.con-gif2 {
+    grid-column: 1;
+    justify-self: start;
+    max-height: 200px;
+    min-width: 600px;
+}
+
+.con-title2 {
+    justify-self: start;
+    align-self: end;
+    min-width: 800px;
+    max-height: 0px;
+    z-index: 100;    
+    position: relative;
+    -webkit-transform:  translate(0, 0);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -moz-transform:  translate(0, 0);
+    -moz-transition: -webkit-transform .2s ease-in-out;
+    transform: translate(0, 0);
+    transition-property: all;
+    transition-property: transform .2s ease-in-out;
+}
+
+.con-title2:hover {
+    transform: translate3d(0, -20px, 0);
+}
+
+.con-title2 {
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.con-text3 {
+    justify-self: start;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+.con-img2 {
+    max-height: 400px;
+    max-width: 200px;
+}
+
+.con-img2 img{
+    opacity: 1;
+}
+
+.con-img2:hover {
+    opacity: .5;
 }

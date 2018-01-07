@@ -11,8 +11,11 @@
     "react": "^16.2.0",
     "react-burger-menu": "^2.2.3",
     "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-redux-form": "^1.16.3",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
     "semantic-ui-react": "^0.77.1",
     "webfontloader": "^1.6.28",
     "wheel-react": "^1.0.3"

@@ -98,11 +98,11 @@
 }
 
 .srv-img1 img{
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .srv-img1:hover {
-    opacity: 1.0;
+    opacity: 0.5;
 }
 
 /* markets */
@@ -261,6 +261,15 @@
         max-height: 100px;
         z-index: -30;
     }
+
+.srv-img2 > img {
+    height: 700px;
+    opacity: 1;
+}
+
+.srv-img2 > img:hover {
+    opacity: 0.5;
+}
 
 .srv-trust {
     display: grid;
