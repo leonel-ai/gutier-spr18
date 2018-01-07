@@ -11,6 +11,8 @@ import serviceGif1 from '../assets/gutier_gifs/E.gif';
 import serviceGif2 from '../assets/gutier_gifs/M.gif';
 import serviceGif3 from '../assets/gutier_gifs/I.gif';
 import serviceGif4 from '../assets/gutier_gifs/I.gif';
+import clientGif1 from '../assets/gutier_gifs/clients1.gif';
+import clientGif2 from '../assets/gutier_gifs/clients2.gif';
 
 
 class Services extends Component {
@@ -41,7 +43,13 @@ class Services extends Component {
                     </div>
 
                     <div className="srv-text1">
-                        <p>list here 
+                        <p>
+                            Re-Roofing<br/>
+                            New Roof Construction<br/>
+                            Roof Maintenance<br/>
+                            Sheet Metal<br/>
+                            Waterproofing<br/>
+                            Roof Coatings and Restoration
                         </p>
                     </div>
                 </div>
@@ -52,16 +60,45 @@ class Services extends Component {
                         <h1 className="animated fadeInRight srv-title srv-title2">Markets</h1>
                     </div>
 
-                    <div className="srv-img2">
-                        <img src={serviceImage2} alt="serviceImage2" />
+                    <div className="srv-market1">
+                        <div className="commercial">
+                            <div className="com-block1">
+                                <p><span className="animated fadeInDown com-sub">Commercial</span>
+                                    <ul>
+                                        <li>—  Office</li>
+                                        <li>—  Healthcare</li>
+                                        <li>—  Education</li>
+                                        <li>—  Multi-family</li>
+                                        <li>—  Mixed-use</li>
+                                        <li>—  Hospitality</li>
+                                        <li>—  Warehouse</li>
+                                        <li>—  Retail</li>
+                                    </ul>
+                                </p></div>
+                            <div className="com-block2">
+                                <img src={clientGif1} alt="clientGif1" />
+                            </div>
+                        </div>
                     </div>
-
-                    <div className="srv-text2">
-                        <p> create 2x3 grid for commercial and industrial markets, insert forrest client gifs</p>
-                    </div>
-
-                    <div className="srv-gif2">
-                        <img src={serviceGif2} alt="serviceGif2" />
+                    <div className="srv-market2">
+                        <div className="industrial">
+                            <div className="ind-block1">
+                                <p><span className="animated fadeInDown ind-sub">Industrial</span>
+                                    <ul>
+                                        <li>Power</li>
+                                        <li>Distribution + Storage</li>
+                                        <li>Production Facilities</li>
+                                        <li>Refineries</li>
+                                        <li>Chemical</li>
+                                        <li>Processing Plants</li>
+                                        <li>Manufacturing</li>
+                                        <li>Pharmaceutical + Biotech</li>
+                                    </ul>
+                                </p></div>
+                            <div className="ind-block2">
+                                <img src={clientGif2} alt="clientGif2" />
+                            </div>
+                        </div>
                     </div>
 
                 </div>

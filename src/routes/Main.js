@@ -8,8 +8,9 @@ import logo from '../assets/logo.png';
 
 
 import Home from './Home';
-import About from './About';
 import Services from './Services';
+import About from './About';
+import News from './News';
 import Contact from './Contact';
 
 
@@ -27,7 +28,7 @@ class Routes extends Component {
 
                             <Link to='/services'>Services</Link>
                             <Link to='/about'>About</Link>
-                            <a href="https://medium.com/">News</a>
+                            <Link to='/news'>News</Link>
                             <Link to='/contact'>Contact</Link>
 
                         </div>
@@ -37,6 +38,7 @@ class Routes extends Component {
                     <Route exact path="/" render={(props) => <Home {...props} />} />
                     <Route exact path="/services" render={(props) => <Services {...props} />} />
                     <Route exact path="/about" render={(props) => <About {...props} />} />
+                    <Route exact path="/news" render={(props) => <News {...props} />} />
                     <Route exact path="/contact" render={(props) => <Contact {...props} />} />
 
                     </Switch>

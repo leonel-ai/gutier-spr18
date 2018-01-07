@@ -17,20 +17,20 @@ class Footer extends Component {
                 </div>
 
                 <div className="ft-contact">
-                    <h3>contact us</h3>
-                    <p>3536 Navigation Blvd.
-                       Houston, TX 77003<br/>
-                       832.532.7823<br/>
-                       <a href="mailto:info@gutier.com?subject=Hello, Gutier!">info@gutier.com</a>
-                    </p>
+                    <h3 className="animated pulse ft-pulse">contact us</h3>
+                    <ul><li>3536 Navigation Blvd.
+                       Houston, TX 77003</li>
+                        <li>832.532.7823</li>
+                       <li><a href="mailto:info@gutier.com?subject=Hello, Gutier!">info@gutier.com</a></li>
+                    </ul>
                 </div>
 
                 <div className="ft-social">
-                    <h3>follow us</h3>
-                    <p>
-                        <a href="https://www.linkedin.com/company/amagazi/">linkedin</a><br/>
-                        <a href="https://www.facebook.com/amagazi">facebook</a><br/>
-                    </p>
+                    <h3 className="animated pulse ft-pulse">follow us</h3>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/company/amagazi/">linkedin</a></li>
+                        <li><a href="https://www.facebook.com/amagazi">facebook</a></li>
+                    </ul>
                 </div>
 
             </div>

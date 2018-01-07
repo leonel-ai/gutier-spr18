@@ -15,13 +15,19 @@ p {
     line-height: 37.8px; 
 }
 
+ul, li {
+    text-decoration: none;
+    list-style: none;
+    font: 18px $font-body;
+}
+
 .subtitles {
     font: 135% $font-title;
     letter-spacing: 3px;
 }
 
 .main-footer-grid {
-    font: 75% $font-body;
+    font: 18px $font-body;
 }
 
 /* HOME */
@@ -59,9 +65,21 @@ p {
 }
 
 .srv-banner-text {
-    font: 112px $font-title2;
+    font: 200px $font-title2;
     font-weight: 700;
     letter-spacing: 2px;
+}
+
+.com-sub {
+    font: 34px $font-title;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.ind-sub {
+    font: 34px $font-title;
+    letter-spacing: 3px;
+    font-weight: 700;
 }
 
 /* NEWS */

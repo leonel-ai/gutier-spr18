@@ -1,5 +1,5 @@
 /* about page */
-
+ 
 
 .ab-grid {
     display: grid;
@@ -13,11 +13,10 @@
 
 .ab-banner {
     grid-column: 1;
-    padding-top: 40px;
 }
 
 .ab-banner {
-    background-image: url('../assets/cube_s03.png');
+    background-image: url('../assets/cube_s02.jpg');
     height: 840px;
     background-attachment: fixed;
     background-position: center;
@@ -123,7 +122,7 @@
     padding-left: 28px;
     padding-right: 20px;
     padding-top: 700px;
-    padding-bottom: 800px;
+    padding-bottom: 1000px;
 }
 
 .ab-title2 {
