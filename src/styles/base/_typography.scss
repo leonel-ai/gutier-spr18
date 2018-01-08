@@ -21,9 +21,13 @@ ul, li {
     font: 18px $font-body;
 }
 
-h3 {
-    font-size: 34px;
-    margin: 0 0 10px;
+.caption > h1 {
+    font: 460% $font-title;
+    margin: 0 0 8px;
+}
+
+.caption > p {
+    font: 200% $font-title;
 }
 
 .ft-cta {
@@ -39,24 +43,24 @@ h3 {
     font: 18px $font-body;
 }
 
-/* HOME */
-.cube > div > p {
-    font: 32px $font-title2;
-    font-weight: 700;
-}
+// /* HOME */
+// .cube > div > p {
+//     font: 32px $font-title2;
+//     font-weight: 700;
+// }
 
-.cube > div > button {
-    font: 14px $font-body;
-}
+// .cube > div > button {
+//     font: 14px $font-body;
+// }
 
 /* ABOUT */
 .ab-title {
-    font: 100px $font-title2;
+    font: 100px $font-title;
     font-weight: 700;
 }
 
 .ab-banner-text {
-    font: 112px $font-title2;
+    font: 112px $font-title;
     font-weight: 700;
     letter-spacing: 2px;
 }
@@ -69,12 +73,12 @@ h3 {
 
 /* SERVICES */
 .srv-title {
-    font: 100px $font-title2;
+    font: 100px $font-title;
     font-weight: 700;
 }
 
 .srv-banner-text {
-    font: 112px $font-title2;
+    font: 112px $font-title;
     font-weight: 700;
     letter-spacing: 2px;
 }
@@ -93,12 +97,12 @@ h3 {
 
 /* NEWS */
 .news-title {
-    font: 100px $font-title2;
+    font: 100px $font-title;
     font-weight: 700;
 }
 
 .news-banner-text {
-    font: 112px $font-title2;
+    font: 112px $font-title;
     font-weight: 700;
     letter-spacing: 2px;
 }
@@ -111,12 +115,12 @@ h3 {
 
 /* CONTACT */
 .con-title {
-    font: 100px $font-title2;
+    font: 100px $font-title;
     font-weight: 700;
 }
 
 .con-banner-text {
-    font: 112px $font-title2;
+    font: 112px $font-title;
     font-weight: 700;
     letter-spacing: 2px;
 }
@@ -147,7 +151,7 @@ button {
 @media screen and (min-width: 736px) and (max-width: 1366px) {
     /* HOME */
     .hm-title {
-     font: 344% $font-title2;
+     font: 344% $font-title;
      }
  
      .subtitles {

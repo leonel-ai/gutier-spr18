@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../styles/Main.css';
 
 
@@ -10,52 +10,44 @@ class Cube extends Component {
 
 	render() {
 		return (
-			<div class="buttons-wrapper">
+			<div className="buttons-wrapper">
 
 				<input id="slide1" type="radio" name="slider" checked />
 				<input id="slide2" type="radio" name="slider" />
 				<input id="slide3" type="radio" name="slider" />
 				<input id="slide4" type="radio" name="slider" />
 
-				<ul class="slider">
+				<ul className="slider">
 					<li>
-						<div class="caption">
-							<h3>INNOVATION</h3>
-							<p>
-							starts from the top
-							</p>
+						<div className="caption">
+							<h1>INNOVATION STARTS FROM THE TOP</h1>
+							<button><NavLink to="/services" activeClassName="is-active">Services</NavLink></button>
 						</div>
 					</li>
 					<li>
-						<div class="caption">
-							<h3>INTEGRITY</h3>
-							<p>
-							starts from the top
-							</p>
+						<div className="caption">
+							<h1>INTEGRITY STARTS FROM THE TOP</h1>
+							<button><NavLink to="/about" activeClassName="is-active">About</NavLink></button>
 						</div>
 					</li>
 					<li>
-						<div class="caption">
-							<h3>EXCELLENCE</h3>
-							<p>
-							starts from the top
-							</p>
+						<div className="caption">
+							<h1>EXCELLENCE STARTS FROM THE TOP</h1>
+							<button><NavLink to="/news" activeClassName="is-active">News</NavLink></button>
 						</div>
 					</li>
 					<li>
-						<div class="caption">
-							<h3>COMMITMENT</h3>
-							<p>
-							starts from the top
-							</p>
+						<div className="caption">
+							<h1>COMMITMENT STARTS FROM THE TOP</h1>
+							<button><NavLink to="/contact" activeClassName="is-active">Contact</NavLink></button>
 						</div>
 					</li>
 				</ul>
 
-				<label for="slide1"></label>
-				<label for="slide2"></label>
-				<label for="slide3"></label>
-				<label for="slide4"></label>
+				<label htmlFor="slide1"></label>
+				<label htmlFor="slide2"></label>
+				<label htmlFor="slide3"></label>
+				<label htmlFor="slide4"></label>
 
 			</div>
 		)

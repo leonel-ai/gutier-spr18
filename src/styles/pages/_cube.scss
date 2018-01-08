@@ -1,74 +1,6 @@
-
-// .mainDiv {
-//     width: 400px;
-//     height: 400px;
-//     margin-top: 200px;
-//     perspective: 500px; }
-  
-// .cube {
-//     width: 400px;
-//     transform-style: preserve-3d;
-//     animation: rotate 15s linear infinite;
-// }
-  
-// .cube > div {
-//     width: 400px;
-//     height: 400px;
-//     position: absolute;
-//     opacity: 0.85;
-//     text-align: center;
-// }
-
-// .cube > div > p {
-//     padding-top: 26px;
-// }
-
-// .hm-largeTxt {
-//     font-size: 42px;
-// }
-
-// .hm-button {
-//     padding: 1rem 1rem;
-//     text-transform: uppercase;
-// }
-
-// .front { background-image: url('../assets/testbox1.jpg'); }
-// .back { background: rgb(133, 0, 0); }
-// .right { background: rgb(70, 123, 70); }
-// .left { background: salmon; }
-// .top { background: grey; }
-// .bottom { background: grey; }
-
-// .front  { transform: translateZ( 200px ); }
-// .back   { transform: rotateY( 180deg ) translateZ( 200px ); }
-// .left   { transform: rotateY( -90deg ) translateX( -200px );
-//           transform-origin: left; }
-// .right  { transform: rotateY( 90deg ) translateX( 200px );
-//     transform-origin: right; }
-// .top    { transform: rotateX( -90deg ) translateY( -200px );
-//     transform-origin: top; }
-// .bottom    { transform: rotateX( 90deg ) translateY( 200px );
-//         transform-origin: bottom; }
-
-// .turnPage {
-//     @keyframes rotate {
-//         0% { transform: rotateY(0); }
-//         100% { transform: rotateY(90deg); }
-//     }
-// }
-
+/* cube */
 
 @charset "UTF-8";
-
-// *,p {
-//     margin: 0
-// }
-
-// * {
-//     -webkit-box-sizing: border-box;
-//     -moz-box-sizing: border-box;
-//     box-sizing: border-box;
-// }
 
 @-webkit-keyframes anim {
     0%,10%,100%,20% {
@@ -92,7 +24,7 @@
 
 @-o-keyframes anim {
     0%,10%,100%,20% {
-        line-height: 54px
+        line-height: 54pxd
     }
 
     15%,5% {
@@ -110,19 +42,7 @@
     }
 }
 
-// p {
-//     padding-top: 10px;
-//     color: rgba(255,255,255,.7);
-//     font-weight: 300;
-//     font-size: 18px
-// }
-
-// a {
-//     display: inline-block;
-//     text-decoration: none
-// }
-
-body .buttons-wrapper input,body .buttons-wrapper input:nth-child(1):checked~label {
+.buttons-wrapper input,.buttons-wrapper input:nth-child(1):checked~label {
     display: none
 }
 
@@ -166,7 +86,7 @@ body .buttons-wrapper input,body .buttons-wrapper input:nth-child(1):checked~lab
     }
 }
 
-body .buttons-wrapper {
+.buttons-wrapper {
     position: absolute;
     top: 0;
     left: 0;
@@ -182,27 +102,27 @@ body .buttons-wrapper {
     animation: anim2 5s forwards
 }
 
-body .buttons-wrapper input:nth-child(1) {
+.buttons-wrapper input:nth-child(1) {
     top: 10px;
     left: 75pt
 }
 
-body .buttons-wrapper input:nth-child(2) {
+.buttons-wrapper input:nth-child(2) {
     top: 10px;
     left: 200px
 }
 
-body .buttons-wrapper input:nth-child(3) {
+.buttons-wrapper input:nth-child(3) {
     top: 10px;
     left: 300px
 }
 
-body .buttons-wrapper input:nth-child(4) {
+.buttons-wrapper input:nth-child(4) {
     top: 10px;
     left: 25pc
 }
 
-body .buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(1) {
+.buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(1) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
@@ -211,7 +131,7 @@ body .buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(1) {
     z-index: 2
 }
 
-body .buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(2) {
+.buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(2) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
@@ -219,7 +139,7 @@ body .buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(2) {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg)
 }
 
-body .buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(3) {
+.buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(3) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg);
@@ -227,7 +147,7 @@ body .buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(3) {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg)
 }
 
-body .buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(4) {
+.buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(4) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-260deg);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-260deg);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-260deg);
@@ -235,7 +155,7 @@ body .buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(4) {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-260deg)
 }
 
-body .buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(1) {
+.buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(1) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
@@ -243,7 +163,7 @@ body .buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(1) {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg)
 }
 
-body .buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(2) {
+.buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(2) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
@@ -252,7 +172,7 @@ body .buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(2) {
     z-index: 2
 }
 
-body .buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(3) {
+.buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(3) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
@@ -260,7 +180,7 @@ body .buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(3) {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg)
 }
 
-body .buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(4) {
+.buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(4) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg);
@@ -268,7 +188,7 @@ body .buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(4) {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg)
 }
 
-body .buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(1) {
+.buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(1) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg);
@@ -276,7 +196,7 @@ body .buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(1) {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg)
 }
 
-body .buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(2) {
+.buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(2) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
@@ -284,7 +204,7 @@ body .buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(2) {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg)
 }
 
-body .buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(3) {
+.buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(3) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
@@ -293,7 +213,7 @@ body .buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(3) {
     z-index: 2
 }
 
-body .buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(4) {
+.buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(4) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
@@ -301,7 +221,7 @@ body .buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(4) {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg)
 }
 
-body .buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(1) {
+.buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(1) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(260deg);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(260deg);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(260deg);
@@ -309,7 +229,7 @@ body .buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(1) {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(260deg)
 }
 
-body .buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(2) {
+.buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(2) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg);
@@ -317,7 +237,7 @@ body .buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(2) {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg)
 }
 
-body .buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(3) {
+.buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(3) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
@@ -325,7 +245,7 @@ body .buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(3) {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg)
 }
 
-body .buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(4) {
+.buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(4) {
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
@@ -334,7 +254,7 @@ body .buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(4) {
     z-index: 2
 }
 
-body .buttons-wrapper input:nth-child(1):checked~.slider li:nth-child(2) .caption {
+.buttons-wrapper input:nth-child(1):checked~.slider li:nth-child(2) .caption {
     -webkit-transform: rotate(1deg) rotateY(20deg) translate(0,100%);
     -moz-transform: rotate(1deg) rotateY(20deg) translate(0,100%);
     -ms-transform: rotate(1deg) rotateY(20deg) translate(0,100%);
@@ -342,7 +262,7 @@ body .buttons-wrapper input:nth-child(1):checked~.slider li:nth-child(2) .captio
     transform: rotate(1deg) rotateY(20deg) translate(0,100%)
 }
 
-body .buttons-wrapper input:nth-child(2):checked~.slider li:nth-child(1) .caption {
+.buttons-wrapper input:nth-child(2):checked~.slider li:nth-child(1) .caption {
     -webkit-transform: rotate(-7deg) translate(0,-100%);
     -moz-transform: rotate(-7deg) translate(0,-100%);
     -ms-transform: rotate(-7deg) translate(0,-100%);
@@ -350,7 +270,7 @@ body .buttons-wrapper input:nth-child(2):checked~.slider li:nth-child(1) .captio
     transform: rotate(-7deg) translate(0,-100%)
 }
 
-body .buttons-wrapper input:nth-child(2):checked~.slider li:nth-child(3) .caption {
+.buttons-wrapper input:nth-child(2):checked~.slider li:nth-child(3) .caption {
     -webkit-transform: rotate(-1deg) rotateY(40deg) translate(0,100%);
     -moz-transform: rotate(-1deg) rotateY(40deg) translate(0,100%);
     -ms-transform: rotate(-1deg) rotateY(40deg) translate(0,100%);
@@ -358,7 +278,7 @@ body .buttons-wrapper input:nth-child(2):checked~.slider li:nth-child(3) .captio
     transform: rotate(-1deg) rotateY(40deg) translate(0,100%)
 }
 
-body .buttons-wrapper input:nth-child(3):checked~.slider li:nth-child(2) .caption {
+.buttons-wrapper input:nth-child(3):checked~.slider li:nth-child(2) .caption {
     -webkit-transform: rotate(1deg) rotateY(20deg) translate(0,-100%);
     -moz-transform: rotate(1deg) rotateY(20deg) translate(0,-100%);
     -ms-transform: rotate(1deg) rotateY(20deg) translate(0,-100%);
@@ -366,7 +286,7 @@ body .buttons-wrapper input:nth-child(3):checked~.slider li:nth-child(2) .captio
     transform: rotate(1deg) rotateY(20deg) translate(0,-100%)
 }
 
-body .buttons-wrapper input:nth-child(3):checked~.slider li:nth-child(4) .caption {
+.buttons-wrapper input:nth-child(3):checked~.slider li:nth-child(4) .caption {
     -webkit-transform: translate(0,100%) rotateX(20deg);
     -moz-transform: translate(0,100%) rotateX(20deg);
     -ms-transform: translate(0,100%) rotateX(20deg);
@@ -374,7 +294,7 @@ body .buttons-wrapper input:nth-child(3):checked~.slider li:nth-child(4) .captio
     transform: translate(0,100%) rotateX(20deg)
 }
 
-body .buttons-wrapper input:nth-child(4):checked~.slider li:nth-child(3) .caption {
+.buttons-wrapper input:nth-child(4):checked~.slider li:nth-child(3) .caption {
     -webkit-transform: rotate(-1deg) rotateY(40deg) translate(0,-100%);
     -moz-transform: rotate(-1deg) rotateY(40deg) translate(0,-100%);
     -ms-transform: rotate(-1deg) rotateY(40deg) translate(0,-100%);
@@ -382,7 +302,7 @@ body .buttons-wrapper input:nth-child(4):checked~.slider li:nth-child(3) .captio
     transform: rotate(-1deg) rotateY(40deg) translate(0,-100%)
 }
 
-body .buttons-wrapper input:nth-child(1):checked~label:nth-of-type(2),body .buttons-wrapper input:nth-child(2):checked~label:nth-of-type(3) {
+.buttons-wrapper input:nth-child(1):checked~label:nth-of-type(2),.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(3) {
     color: #fff;
     text-align: center;
     left: 50%;
@@ -393,15 +313,10 @@ body .buttons-wrapper input:nth-child(1):checked~label:nth-of-type(2),body .butt
     bottom: 10%
 }
 
-body .buttons-wrapper input:nth-child(1):checked~label:nth-of-type(2) {
+.buttons-wrapper input:nth-child(1):checked~label:nth-of-type(2) {
     display: block;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: 0 0;
-    border: 1px solid #fff;
-    line-height: 54px;
-    font-size: 24px;
+    line-height: 40px;
+    font-size: 20px;
     -webkit-transform-origin: center center;
     -moz-transform-origin: center center;
     -o-transform-origin: center center;
@@ -419,37 +334,32 @@ body .buttons-wrapper input:nth-child(1):checked~label:nth-of-type(2) {
     animation: anim 3s infinite
 }
 
-body .buttons-wrapper input:nth-child(1):checked~label:nth-of-type(2):after {
+.buttons-wrapper input:nth-child(1):checked~label:nth-of-type(2):after {
     content: '↓'
 }
 
-body .buttons-wrapper input:nth-child(1):checked~label:nth-of-type(2):hover {
+.buttons-wrapper input:nth-child(1):checked~label:nth-of-type(2):hover {
     -webkit-transform: translate(-50%,0) scale(1);
     -moz-transform: translate(-50%,0) scale(1);
     -ms-transform: translate(-50%,0) scale(1);
     -o-transform: translate(-50%,0) scale(1);
     transform: translate(-50%,0) scale(1);
-    font-size: 44px;
-    line-height: 75pt;
+    font-size: 30px;
+    line-height: 40pt;
     -webkit-animation: none;
     -moz-animation: none;
     -o-animation: none;
     animation: none
 }
 
-body .buttons-wrapper input:nth-child(2):checked~label {
+.buttons-wrapper input:nth-child(2):checked~label {
     display: none
 }
 
-body .buttons-wrapper input:nth-child(2):checked~label:nth-of-type(3) {
+.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(3) {
     display: block;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: 0 0;
-    border: 1px solid #fff;
-    line-height: 54px;
-    font-size: 24px;
+    line-height: 40px;
+    font-size: 20px;
     -webkit-transform-origin: center center;
     -moz-transform-origin: center center;
     -o-transform-origin: center center;
@@ -467,29 +377,28 @@ body .buttons-wrapper input:nth-child(2):checked~label:nth-of-type(3) {
     animation: none
 }
 
-body .buttons-wrapper input:nth-child(2):checked~label:nth-of-type(3):after {
+.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(3):after {
     content: '↓'
 }
 
-body .buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1):after,body .buttons-wrapper input:nth-child(3):checked~label:nth-of-type(2):after,body .buttons-wrapper input:nth-child(4):checked~label:nth-of-type(3):after {
+.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1):after,.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(2):after,.buttons-wrapper input:nth-child(4):checked~label:nth-of-type(3):after {
     content: '↑'
 }
 
-body .buttons-wrapper input:nth-child(2):checked~label:nth-of-type(3):hover {
+.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(3):hover {
     -webkit-transform: translate(-50%,0) scale(1);
     -moz-transform: translate(-50%,0) scale(1);
     -ms-transform: translate(-50%,0) scale(1);
     -o-transform: translate(-50%,0) scale(1);
     transform: translate(-50%,0) scale(1);
-    font-size: 44px;
-    line-height: 75pt;
+    font-size: 30px;
     -webkit-animation: none;
     -moz-animation: none;
     -o-animation: none;
     animation: none
 }
 
-body .buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1),body .buttons-wrapper input:nth-child(3):checked~label:nth-of-type(4) {
+.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1),.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(4) {
     border-radius: 50%;
     -webkit-transition: .3s;
     -moz-transition: .3s;
@@ -505,11 +414,10 @@ body .buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1),body .butt
     color: #fff
 }
 
-body .buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1) {
+.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1) {
     display: block;
-    border: 1px solid #fff;
-    line-height: 54px;
-    font-size: 24px;
+    line-height: 40px;
+    font-size: 20px;
     top: 10%;
     -webkit-transform-origin: center center;
     -moz-transform-origin: center center;
@@ -526,30 +434,29 @@ body .buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1) {
     animation: none
 }
 
-body .buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1):hover {
+.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1):hover {
     -webkit-transform: translate(-50%,0) scale(1);
     -moz-transform: translate(-50%,0) scale(1);
     -ms-transform: translate(-50%,0) scale(1);
     -o-transform: translate(-50%,0) scale(1);
     transform: translate(-50%,0) scale(1);
-    font-size: 44px;
-    line-height: 1px
+    font-size: 30px;
+    line-height: 40px
 }
 
-body .buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1):hover:after {
+.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1):hover:after {
     display: block;
     margin-top: -10px
 }
 
-body .buttons-wrapper input:nth-child(3):checked~label {
+.buttons-wrapper input:nth-child(3):checked~label {
     display: none
 }
 
-body .buttons-wrapper input:nth-child(3):checked~label:nth-of-type(4) {
+.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(4) {
     display: block;
-    border: 1px solid #fff;
-    line-height: 54px;
-    font-size: 24px;
+    line-height: 40px;
+    font-size: 20px;
     bottom: 10%;
     -webkit-transform-origin: center center;
     -moz-transform-origin: center center;
@@ -566,35 +473,28 @@ body .buttons-wrapper input:nth-child(3):checked~label:nth-of-type(4) {
     animation: none
 }
 
-body .buttons-wrapper input:nth-child(3):checked~label:nth-of-type(4):after {
+.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(4):after {
     content: '↓'
 }
 
-body .buttons-wrapper input:nth-child(3):checked~label:nth-of-type(4):hover {
+.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(4):hover {
     -webkit-transform: translate(-50%,0) scale(1);
     -moz-transform: translate(-50%,0) scale(1);
     -ms-transform: translate(-50%,0) scale(1);
     -o-transform: translate(-50%,0) scale(1);
     transform: translate(-50%,0) scale(1);
-    font-size: 44px;
-    line-height: 75pt;
+    font-size: 30px;
+    line-height: 40pt;
     -webkit-animation: none;
     -moz-animation: none;
     -o-animation: none;
     animation: none
 }
 
-body .buttons-wrapper input:nth-child(3):checked~label:nth-of-type(2) {
+.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(2) {
     display: block;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    color: #fff;
-    background: 0 0;
-    border: 1px solid #fff;
-    text-align: center;
-    line-height: 54px;
-    font-size: 24px;
+    line-height: 40px;
+    font-size: 20px;
     top: 10%;
     left: 50%;
     cursor: pointer;
@@ -618,7 +518,7 @@ body .buttons-wrapper input:nth-child(3):checked~label:nth-of-type(2) {
     animation: none
 }
 
-body .buttons-wrapper input:nth-child(3):checked~label:nth-of-type(2):hover {
+.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(2):hover {
     -webkit-transform: translate(-50%,0) scale(1);
     -moz-transform: translate(-50%,0) scale(1);
     -ms-transform: translate(-50%,0) scale(1);
@@ -628,26 +528,19 @@ body .buttons-wrapper input:nth-child(3):checked~label:nth-of-type(2):hover {
     line-height: 1px
 }
 
-body .buttons-wrapper input:nth-child(3):checked~label:nth-of-type(2):hover:after {
+.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(2):hover:after {
     display: block;
     margin-top: -10px
 }
 
-body .buttons-wrapper input:nth-child(4):checked~label {
+.buttons-wrapper input:nth-child(4):checked~label {
     display: none
 }
 
-body .buttons-wrapper input:nth-child(4):checked~label:nth-of-type(3) {
+.buttons-wrapper input:nth-child(4):checked~label:nth-of-type(3) {
     display: block;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    color: #fff;
-    background: 0 0;
-    border: 1px solid #fff;
-    text-align: center;
-    line-height: 54px;
-    font-size: 24px;
+    line-height: 40px;
+    font-size: 20px;
     top: 10%;
     left: 50%;
     cursor: pointer;
@@ -671,12 +564,12 @@ body .buttons-wrapper input:nth-child(4):checked~label:nth-of-type(3) {
     animation: none
 }
 
-body .buttons-wrapper .slider>li,body .buttons-wrapper .slider>li:nth-child(1) .caption {
+.buttons-wrapper .slider>li,.buttons-wrapper .slider>li:nth-child(1) .caption {
     -webkit-transition: 3s cubic-bezier(.5,0,0,.99);
     -moz-transition: 3s cubic-bezier(.5,0,0,.99)
 }
 
-body .buttons-wrapper input:nth-child(4):checked~label:nth-of-type(3):hover {
+.buttons-wrapper input:nth-child(4):checked~label:nth-of-type(3):hover {
     -webkit-transform: translate(-50%,0) scale(1);
     -moz-transform: translate(-50%,0) scale(1);
     -ms-transform: translate(-50%,0) scale(1);
@@ -687,16 +580,16 @@ body .buttons-wrapper input:nth-child(4):checked~label:nth-of-type(3):hover {
     color: #2D3D59
 }
 
-body .buttons-wrapper input:nth-child(4):checked~label:nth-of-type(3):hover:after {
+.buttons-wrapper input:nth-child(4):checked~label:nth-of-type(3):hover:after {
     display: block;
     margin-top: -10px
 }
 
-body .buttons-wrapper label {
+.buttons-wrapper label {
     display: block;
     width: 40px;
     height: 40px;
-    background: #900;
+    background: transparent;
     position: fixed;
     backface-visibility: hidden;
     z-index: 10;
@@ -704,7 +597,7 @@ body .buttons-wrapper label {
     left: 75pt
 }
 
-body .buttons-wrapper .slider {
+.buttons-wrapper .slider {
     position: fixed;
     display: block;
     top: 0;
@@ -718,7 +611,7 @@ body .buttons-wrapper .slider {
     opacity: .99
 }
 
-body .buttons-wrapper .slider>li {
+.buttons-wrapper .slider>li {
     display: block;
     position: absolute;
     top: 0;
@@ -735,7 +628,7 @@ body .buttons-wrapper .slider>li {
     perspective: 750pt
 }
 
-body .buttons-wrapper .slider>li:nth-child(1) {
+.buttons-wrapper .slider>li:nth-child(1) {
     background: url('../assets/cube_s01.jpg') center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -749,37 +642,31 @@ body .buttons-wrapper .slider>li:nth-child(1) {
     transform-origin: center center -50vh
 }
 
-body .buttons-wrapper .slider>li:nth-child(1) .caption {
+.buttons-wrapper .slider>li:nth-child(1) .caption {
     position: absolute;
-    width: 40%;
-    text-align: right;
-    border-right: 2px solid #EE250C;
-    padding-right: 20px;
-    right: 45%;
-    top: 10%;
+    width: 1460px;
+    text-align: center;
+    color: white;
+    right: 6.5%;
+    top: 40%;
     text-shadow: 0 2px 10px #000,0 1px 1px rgba(0,0,0,.5);
-    -webkit-transform: rotate(-7deg);
-    -moz-transform: rotate(-7deg);
-    -ms-transform: rotate(-7deg);
-    -o-transform: rotate(-7deg);
-    transform: rotate(-7deg);
     -o-transition: 3s cubic-bezier(.5,0,0,.99);
     transition: 3s cubic-bezier(.5,0,0,.99)
 }
 
-body .buttons-wrapper .slider>li:nth-child(2) .caption,body .buttons-wrapper .slider>li:nth-child(3) .caption {
-    padding-right: 20px;
+.buttons-wrapper .slider>li:nth-child(2) .caption,.buttons-wrapper .slider>li:nth-child(3) .caption {
+    color: white;
     -webkit-transition: 3s cubic-bezier(.5,0,0,.99);
     -moz-transition: 3s cubic-bezier(.5,0,0,.99);
     -o-transition: 3s cubic-bezier(.5,0,0,.99);
     text-shadow: 0 2px 10px #000,0 1px 1px rgba(0,0,0,.5)
 }
 
-body .buttons-wrapper .slider>li:nth-child(1) .caption a,body .buttons-wrapper .slider>li:nth-child(1) .caption h3 {
-    color: #EE250C
+.buttons-wrapper .slider>li:nth-child(1) .caption a,.buttons-wrapper .slider>li:nth-child(1) .caption h1 {
+    color: white;
 }
 
-body .buttons-wrapper .slider>li:nth-child(2) {
+.buttons-wrapper .slider>li:nth-child(2) {
     background: url('../assets/cube_s02.jpg') center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -793,26 +680,21 @@ body .buttons-wrapper .slider>li:nth-child(2) {
     transform-origin: center center -50vh
 }
 
-body .buttons-wrapper .slider>li:nth-child(2) .caption {
+.buttons-wrapper .slider>li:nth-child(2) .caption {
     position: absolute;
-    width: 40%;
-    text-align: right;
-    border-right: 2px solid #EE250C;
-    right: 55%;
-    bottom: 20%;
-    -webkit-transform: rotate(1deg) rotateY(20deg);
-    -moz-transform: rotate(1deg) rotateY(20deg);
-    -ms-transform: rotate(1deg) rotateY(20deg);
-    -o-transform: rotate(1deg) rotateY(20deg);
-    transform: rotate(1deg) rotateY(20deg);
+    width: 1460px;
+    text-align: center;
+    color: white;
+    right: 6.5%;
+    top: 40%;
     transition: 3s cubic-bezier(.5,0,0,.99)
 }
 
-body .buttons-wrapper .slider>li:nth-child(2) .caption a,body .buttons-wrapper .slider>li:nth-child(2) .caption h3 {
-    color: #EE250C
+.buttons-wrapper .slider>li:nth-child(2) .caption a,.buttons-wrapper .slider>li:nth-child(2) .caption h1 {
+    color: white;
 }
 
-body .buttons-wrapper .slider>li:nth-child(3) {
+.buttons-wrapper .slider>li:nth-child(3) {
     background: url('../assets/cube_s03.png') bottom center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -826,34 +708,25 @@ body .buttons-wrapper .slider>li:nth-child(3) {
     transform-origin: center center -50vh
 }
 
-body .buttons-wrapper .slider>li:nth-child(3) .caption {
+.buttons-wrapper .slider>li:nth-child(3) .caption {
     position: absolute;
-    width: 35%;
-    text-align: right;
-    border-right: 2px solid #ddd;
-    right: 55%;
-    bottom: 25%;
-    -webkit-transform: rotate(-1deg) rotateY(40deg);
-    -moz-transform: rotate(-1deg) rotateY(40deg);
-    -ms-transform: rotate(-1deg) rotateY(40deg);
-    -o-transform: rotate(-1deg) rotateY(40deg);
-    transform: rotate(-1deg) rotateY(40deg);
+    width: 1460px;
+    text-align: center;
+    color: white;
+    right: 6.5%;
+    top: 40%;
     transition: 3s cubic-bezier(.5,0,0,.99)
 }
 
-body .buttons-wrapper .slider>li:nth-child(3) .caption a,body .buttons-wrapper .slider>li:nth-child(3) .caption h3 {
+.buttons-wrapper .slider>li:nth-child(3) .caption a,.buttons-wrapper .slider>li:nth-child(3) .caption h1 {
     color: #fff
 }
 
-body .buttons-wrapper .slider>li:nth-child(3) .caption h3 {
-    font-size: 28px
+.buttons-wrapper .slider>li:nth-child(3) .caption h1 {
+    text-align: center
 }
 
-body .buttons-wrapper .slider>li:nth-child(3) .caption p {
-    font-size: 1pc
-}
-
-body .buttons-wrapper .slider>li:nth-child(4) {
+.buttons-wrapper .slider>li:nth-child(4) {
     background: url('../assets/cube_s04.jpg') bottom left no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -867,103 +740,29 @@ body .buttons-wrapper .slider>li:nth-child(4) {
     transform-origin: center center -50vh
 }
 
-body .buttons-wrapper .slider>li:nth-child(4) .caption {
+.buttons-wrapper .slider>li:nth-child(4) .caption {
     position: absolute;
-    width: 40%;
-    text-align: justify;
-    right: 30%;
-    top: 32%;
+    width: 1460px;
+    text-align: center;
+    color: white;
+    right: 6.5%;
+    top: 40%;
     text-shadow: 0 2px 10px #000,0 1px 1px rgba(0,0,0,.5);
-    -webkit-transform: rotateX(20deg);
-    -moz-transform: rotateX(20deg);
-    -ms-transform: rotateX(20deg);
-    -o-transform: rotateX(20deg);
-    transform: rotateX(20deg);
     -webkit-transition: 3s cubic-bezier(.5,0,0,.99);
     -moz-transition: 3s cubic-bezier(.5,0,0,.99);
     -o-transition: 3s cubic-bezier(.5,0,0,.99);
     transition: 3s cubic-bezier(.5,0,0,.99)
 }
 
-body .buttons-wrapper .slider>li:nth-child(4) .caption a,body .buttons-wrapper .slider>li:nth-child(4) .caption h3 {
+.buttons-wrapper .slider>li:nth-child(4) .caption a,.buttons-wrapper .slider>li:nth-child(4) .caption h1 {
     color: #fff
 }
 
-body .buttons-wrapper .slider>li:nth-child(4) .caption h3 {
-    font-size: 28px;
+.buttons-wrapper .slider>li:nth-child(4) .caption h1 {
     text-align: center
 }
 
-body .buttons-wrapper .slider>li:nth-child(4) .caption p {
-    font-size: 1pc;
-    padding: 30px
-}
 
+// @media (max-width:768px) {
 
-@media (max-width:768px) {
-    body .buttons-wrapper .slider>li {
-        -webkit-perspective: 600px;
-        -moz-perspective: 600px;
-        perspective: 600px
-    }
-
-    body .buttons-wrapper .slider>li:nth-child(1) .caption {
-        top: 5%;
-        width: 80%;
-        right: 10%
-    }
-
-    body .buttons-wrapper .slider>li:nth-child(1) .caption h3 {
-        font-size: 20px
-    }
-
-    body .buttons-wrapper .slider>li:nth-child(1) .caption p {
-        font-size: 9pt;
-        margin-top: 0;
-        padding-top: 0
-    }
-
-    body .buttons-wrapper .slider>li:nth-child(2),body .buttons-wrapper .slider>li:nth-child(3) {
-        background-position: 20% center
-    }
-
-    body .buttons-wrapper .slider>li:nth-child(2) .caption,body .buttons-wrapper .slider>li:nth-child(3) .caption {
-        right: 15%;
-        bottom: 25%;
-        width: 80%
-    }
-
-    body .buttons-wrapper .slider>li:nth-child(2) .caption h3,body .buttons-wrapper .slider>li:nth-child(3) .caption h3 {
-        font-size: 20px
-    }
-
-    body .buttons-wrapper .slider>li:nth-child(2) .caption p,body .buttons-wrapper .slider>li:nth-child(3) .caption p {
-        font-size: 9pt;
-        margin-top: 0;
-        padding-top: 0
-    }
-
-    body .buttons-wrapper .slider>li:nth-child(3) .caption {
-        width: 85%
-    }
-
-    body .buttons-wrapper .slider>li:nth-child(4) {
-        background-position: center bottom
-    }
-
-    body .buttons-wrapper .slider>li:nth-child(4) .caption {
-        width: 90%;
-        right: 5%;
-        top: 48%
-    }
-
-    body .buttons-wrapper .slider>li:nth-child(4) .caption h3 {
-        font-size: 20px
-    }
-
-    body .buttons-wrapper .slider>li:nth-child(4) .caption p {
-        font-size: 9pt;
-        margin-top: 0;
-        padding-top: 0
-    }
-}
+// }
