@@ -7,20 +7,16 @@
     grid-template-columns: 1fr;
     justify-items: center;
     overflow: hidden;
-}
 
+    // i know you said you arent super familiar with scss
+    // so look at what i did here, nesting makes this way easier:
+    @media screen and (min-width: 736px) and (max-width: 1366px) {
+      grid-template-columns: 1fr;
+      padding-top: 120px;
+    }
 
-@media screen and (min-width: 736px) and (max-width: 1366px) {
-    .hm-grid {
-        grid-template-columns: 1fr;
-        padding-top: 120px;
+    @media screen and (max-width: 736px) {
+      grid-template-columns: 1fr;
+      padding-top: 0;
     }
 }
-
-@media screen and (max-width: 736px) {
-    .hm-grid {
-        grid-template-columns: 1fr;
-        padding-top: 0;    
-    }
-}
-

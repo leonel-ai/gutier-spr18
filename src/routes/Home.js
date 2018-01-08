@@ -8,6 +8,7 @@ class Home extends Component {
         super(props);
     }
 
+    // is this necessary? should let react-router handle this 
     componentWillMount() {
         this.props.history.push('/');
     }

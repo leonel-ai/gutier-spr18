@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { 
-    Switch, 
-    Route, Link, 
+import {
+    Switch,
+    Route, Link,
     BrowserRouter as Router,
 } from 'react-router-dom';
 import logo from '../assets/logo.png';
@@ -13,9 +13,10 @@ import About from './About';
 import News from './News';
 import Contact from './Contact';
 
-
+// this can probably be a PureComponent instead of a class component.
+// it just needs to return markup, so doesnt need a class.
 class Routes extends Component {
-    render() {        
+    render() {
         return (
              <Router>
                 <div className="App">
@@ -54,5 +55,6 @@ class Routes extends Component {
     }
 }
 
-
+// you should always name your file the same as the component you're exporting
+// for example this should be Routes.js
 export default Routes;

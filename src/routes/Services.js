@@ -18,6 +18,7 @@ import clientGif2 from '../assets/gutier_gifs/clients2.gif';
 class Services extends Component {
     state = {expanded: false}
 
+    // your router should handle this instead of doing a manual history push here 
     componentWillMount() {
         this.props.history.push('/services');
     }
@@ -25,8 +26,8 @@ class Services extends Component {
     render() {
         return (
             <div className="srv-grid">
-                <div className="srv-banner"> 
-                    <h1 className="srv-banner-text">Services</h1> 
+                <div className="srv-banner">
+                    <h1 className="srv-banner-text">Services</h1>
                 </div>
 
                 <div className="srv-box1-desk">
@@ -131,7 +132,7 @@ class Services extends Component {
                         <br/><br/>— Jonathan Thomas, Stampede Land Services</p></div>
                         <div className="quote"><p>"They presented us solutions very well and excuted
                         the project exactly as promised... can't say enough about their professionalism
-                        and how great they are aobut communicating progress. Top notch." 
+                        and how great they are aobut communicating progress. Top notch."
                         <br/><br/>— Ellis Welker, WFMS Inc.</p></div>
                         <div className="quote"><p>"Everything about their operations was extremely
                         professional and informative. They took the time to walk me through our

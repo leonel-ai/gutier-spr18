@@ -4,13 +4,13 @@
 //     height: 400px;
 //     margin-top: 200px;
 //     perspective: 500px; }
-  
+
 // .cube {
 //     width: 400px;
 //     transform-style: preserve-3d;
 //     animation: rotate 15s linear infinite;
 // }
-  
+
 // .cube > div {
 //     width: 400px;
 //     height: 400px;
@@ -166,7 +166,7 @@ body .buttons-wrapper input,body .buttons-wrapper input:nth-child(1):checked~lab
     }
 }
 
-body .buttons-wrapper {
+.buttons-wrapper {
     position: absolute;
     top: 0;
     left: 0;
@@ -179,30 +179,39 @@ body .buttons-wrapper {
     -webkit-animation: anim2 5s forwards;
     -moz-animation: anim2 5s forwards;
     -o-animation: anim2 5s forwards;
-    animation: anim2 5s forwards
-}
+    animation: anim2 5s forwards;
 
-body .buttons-wrapper input:nth-child(1) {
-    top: 10px;
-    left: 75pt
-}
+    input {
+      &:nth-child(1) {
+        top: 10px;
+        left: 75pt;
+      }
 
-body .buttons-wrapper input:nth-child(2) {
-    top: 10px;
-    left: 200px
-}
+      &:nth-child(2) {
+        top: 10px;
+        left: 200px;
+      }
 
-body .buttons-wrapper input:nth-child(3) {
-    top: 10px;
-    left: 300px
-}
+      &:nth-child(3) {
+        top: 10px;
+        left: 300px;
+      }
 
-body .buttons-wrapper input:nth-child(4) {
-    top: 10px;
-    left: 25pc
+      &:nth-child(4) {
+        top: 10px;
+        left: 25pc;
+      }
+    }
+
+    // go ahead and follow this nested pattern.
+    // also consider using a browser auto prefixer npm package
+    // that would be way easier than having to do transform, -moz-transform
+    // i really would recommend changing to 2 space soft tabs too
 }
 
 body .buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(1) {
+  // this is where an autoprefixer will come in handy.
+  // the css file it generates will automatically add the prefixes.
     -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
     -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
     -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
@@ -748,6 +757,9 @@ body .buttons-wrapper .slider>li:nth-child(1) {
     -o-transform-origin: center center -50vh;
     transform-origin: center center -50vh
 }
+
+// i think the transitions are way too slow.
+// This needs to go faster to feel smoother.
 
 body .buttons-wrapper .slider>li:nth-child(1) .caption {
     position: absolute;
