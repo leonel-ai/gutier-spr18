@@ -2,53 +2,24 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Main.css';
 
-
+// Oh man i'd really suggest switching to 2-space soft tabs.
 class Cube extends Component {
     constructor(props) {
         super(props);
     }
 
-
     render() {
         return (
-            // <div className="mainDiv">
-            //     <div className="cube">
-
-            //         <div className="front">
-            //             <p><span className="hm-largeTxt">INNOVATION</span><br/>starts from the top</p>
-            //             <button className="hm-button"><Link to="/services">Services</Link></button>
-            //         </div>
-
-            //         <div className="back">
-            //             <p><span className="hm-largeTxt">EXCELLENCE</span><br/>starts from the top</p>
-            //             <button className="hm-button"><Link to="/news">News</Link></button>                        
-            //         </div>
-
-            //         <div className="right">
-            //             <p><span className="hm-largeTxt">COMMITMENT</span><br/>starts from the top</p>
-            //             <button className="hm-button"><Link to="/contact">Contact</Link></button>                         
-            //         </div>
-
-            //         <div className="left">
-            //             <p><span className="hm-largeTxt">INTEGRITY</span><br/>starts from the top</p>
-            //             <button className="hm-button"><Link to="/about">About Us</Link></button> 
-            //         </div>
-
-            //         <div className="top"></div>
-            //         <div className="bottom"></div>
-            //     </div>
-            // </div>
-
-            <div class="buttons-wrapper">
-
+            <div className="buttons-wrapper">
+                {/* Use className="" instead of class */}
                 <input id="slide1" type="radio" name="slider" checked />
                 <input id="slide2" type="radio" name="slider" />
                 <input id="slide3" type="radio" name="slider" />
                 <input id="slide4" type="radio" name="slider" />
 
-                <ul class="slider">
+                <ul className="slider">
                     <li>
-                        <div class="caption">
+                        <div className="caption">
                             <h3>INNOVATION</h3>
                             <p>
                             starts from the top
@@ -56,7 +27,7 @@ class Cube extends Component {
                         </div>
                     </li>
                     <li>
-                        <div class="caption">
+                        <div className="caption">
                             <h3>INTEGRITY</h3>
                             <p>
                             starts from the top
@@ -64,7 +35,7 @@ class Cube extends Component {
                         </div>
                     </li>
                     <li>
-                        <div class="caption">
+                        <div className="caption">
                             <h3>EXCELLENCE</h3>
                             <p>
                             starts from the top
@@ -72,7 +43,7 @@ class Cube extends Component {
                         </div>
                     </li>
                     <li>
-                        <div class="caption">
+                        <div className="caption">
                             <h3>COMMITMENT</h3>
                             <p>
                             starts from the top
@@ -81,10 +52,20 @@ class Cube extends Component {
                     </li>
                 </ul>
 
-                <label for="slide1"></label>
-                <label for="slide2"></label>
-                <label for="slide3"></label>
-                <label for="slide4"></label>
+                {
+                  /* These should actually be react-router <Link> to render other pages
+                   * This way, when visiting a route, you'd have that page active,
+                   * therefore the state would show the active page.
+                   * You would use react-router active to determine which page is
+                   * currently being shown.
+                   * Also, when using label, you should use htmlFor in react.
+                   * This takes the place of the regular HTML for="" and works the same.
+                  */
+                }
+                <label htmlFor="slide1"></label>
+                <label htmlFor="slide2"></label>
+                <label htmlFor="slide3"></label>
+                <label htmlFor="slide4"></label>
 
             </div>
         )
