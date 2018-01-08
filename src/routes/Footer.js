@@ -17,7 +17,7 @@ class Footer extends Component {
                 </div>
 
                 <div className="ft-contact">
-                    <h3 className="ft-cta">contact us</h3>
+                    <p className="ft-cta">contact us</p>
                     <ul><li>3536 Navigation Blvd.
                        Houston, TX 77003</li>
                         <li>832.532.7823</li>
@@ -26,7 +26,7 @@ class Footer extends Component {
                 </div>
 
                 <div className="ft-social">
-                    <h3 className="ft-cta">follow us</h3>
+                    <p className="ft-cta">follow us</p>
                     <ul>
                         <li><a href="https://www.linkedin.com/company/amagazi/">linkedin</a></li>
                         <li><a href="https://www.facebook.com/amagazi">facebook</a></li>
