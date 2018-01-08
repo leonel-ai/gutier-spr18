@@ -27,7 +27,7 @@ class Contact extends Component {
 					<h1 className="con-banner-text">Contact Us</h1> 
 				</div>  
 							
-				<div className="con-box1-desk">
+				<div className="con-box1-desk" id="contact">
 
 					<div className="con-gif0">
 						<img src={contactGif0} alt="contactGif0" />
@@ -37,8 +37,13 @@ class Contact extends Component {
 						<p><span className="animated fadeInDown con-sub">Gutier Roofing<br/>+ Construction</span></p>
 						<p>3536 Navigation Boulevard <br/>
 						Houston, Texas 77003<br/>
-						PH: 832.532.7823<br/>
+						Ph. 832.532.7823<br/>
 						info@gutier.com<br/>
+						</p>
+						<p>Connect with us:<br/>
+							<a href="https://www.linkedin.com/company/9237937/">linkedin </a>
+							<a href="https://www.facebook.com/gutierconstruction/">| facebook </a>
+							<a href="https://www.medium.com/">| blog</a>
 						</p>
 					</div>
 

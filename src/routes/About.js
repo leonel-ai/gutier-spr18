@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import Footer from './Footer';
 
 import '../styles/Main.css';
@@ -23,6 +24,10 @@ class About extends Component {
 			<div className="ab-grid">
 				<div className="ab-banner"> 
 					<h1 className="ab-banner-text">About Us</h1> 
+				</div>
+
+				<div className="sidenav">
+					<Link to='/contact' className="side-contact">Need a quote?</Link>
 				</div>
 
 				<div className="tenants">
@@ -81,7 +86,7 @@ class About extends Component {
 						</p>
 							<br/><br/><br/><br/><br/><br/><br/>
 						<p>
-							<Link className="ctaTrainLink" to='/contact'><span className="ctaTrain">Learn More</span></Link>
+							<HashLink className="ctaTrainLink" to='/contact#contact'><span className="ctaTrain">Learn More</span></HashLink>
 						</p>
 					</div>
 

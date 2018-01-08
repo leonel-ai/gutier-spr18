@@ -30,6 +30,10 @@ class Services extends Component {
 					</div>
 
 
+					<div className="sidenav">
+						<Link to='/contact' className="side-contact">Need a quote?</Link>
+					</div>
+
 					<div className="srv-box1-desk">
 						<div className="srv-gif1">
 							<img src={serviceGif1} alt="serviceGif1" />

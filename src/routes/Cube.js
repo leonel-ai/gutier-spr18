@@ -20,7 +20,8 @@ class Cube extends Component {
 				<ul className="slider">
 					<li>
 						<div className="caption">
-							<h1>INNOVATION STARTS FROM THE TOP</h1>
+							<h1>COMMITMENT</h1>
+							<p>STARTS FROM THE TOP</p>
 							<button><NavLink to="/services" activeClassName="is-active">Services</NavLink></button>
 						</div>
 					</li>

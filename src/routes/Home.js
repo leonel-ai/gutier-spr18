@@ -17,6 +17,9 @@ class Home extends Component {
 		return (
 			<div className="hm-grid">
 				<Cube />
+				<div className="sidenav">
+					<Link to='/contact' className="side-contact">Need a quote?</Link>
+				</div>
 			</div>
 		)
 	}

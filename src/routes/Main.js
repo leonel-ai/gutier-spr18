@@ -31,10 +31,6 @@ class Routes extends Component {
 						<Link to='/contact'>Contact</Link>
 					</div>
 
-					<div className="sidenav">
-						<Link to='/contact' className="side-contact">Need a quote?</Link>
-					</div>
-
 					<Switch>
 						<Route exact path="/" render={(props) => <Home {...props} />} />
 						<Route exact path="/services" render={(props) => <Services {...props} />} />

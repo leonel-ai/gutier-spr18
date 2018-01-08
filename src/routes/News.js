@@ -7,7 +7,7 @@ import 'animate.css';
 import newsImage1 from '../assets/cnn.png';
 import newsImage2 from '../assets/tel.png';
 import newsImage3 from '../assets/htv.png';
-import mediumImg from '../assets/medium.png';
+import logo from '../assets/logo.png';
 import newsGif1 from '../assets/gutier_gifs/N.gif';
 import newsGif2 from '../assets/gutier_gifs/I.gif';
 
@@ -88,8 +88,8 @@ class News extends Component {
 
 
 				<div className="news-box6-desk">
-					<div className="animated pulse medium-img">
-						<img src={mediumImg} alt="mediumImg"/>
+					<div className="animated pulse logoMedium-img">
+						<img src={logo} alt="logo" />
 					</div>
 
 					<div className="news-text4">
