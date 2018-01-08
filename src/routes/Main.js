@@ -33,6 +33,10 @@ class Routes extends Component {
 
                         </div>
 
+                        <div className="sidenav">
+                            <Link to='/contact' className="side-contact">Need a quote?</Link>
+                        </div>
+
                     <Switch>
 
                     <Route exact path="/" render={(props) => <Home {...props} />} />

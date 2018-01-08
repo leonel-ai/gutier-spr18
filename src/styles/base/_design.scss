@@ -46,6 +46,31 @@ body {
     color: $primary-color;
 }
 
+.sidenav a {
+    text-align: right;
+    position: fixed; 
+    left: -80px; 
+    transition: 0.3s; /* Add transition on hover */
+    padding: 20px; 
+    width: 200px;
+    text-decoration: none;
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+}
+
+.sidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+    color: #4DFF00;
+    padding-right: 50px;
+}
+
+.side-contact {
+    top: 200px;
+    background-color: $accent-color;
+}
+
+
 .top-logo {
     padding-right: 848px;
 }
@@ -78,7 +103,6 @@ button {
     background: transparent;
     border: 1px solid $accent-color;
 }
-
 
 .pg-footer {
     background: $var;

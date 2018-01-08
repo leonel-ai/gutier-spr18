@@ -112,8 +112,8 @@
     grid-template-columns: 1fr auto;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 700px;
-    padding-bottom: 500px;
+    padding-top: 400px;
+    padding-bottom: 400px;
 }
 
 .srv-title2 {
@@ -214,7 +214,7 @@
     grid-template-columns: 1fr;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
 }
 
 .srv-title3 {
@@ -261,6 +261,10 @@
         max-height: 100px;
         z-index: -30;
     }
+
+.srv-img2 {
+    padding-bottom: 260px;
+}
 
 .srv-img2 > img {
     height: 700px;

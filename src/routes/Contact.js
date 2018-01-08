@@ -74,16 +74,17 @@ class Contact extends Component {
                 
 
                 <div className="con-box3-desk">
+
+                    <div className="con-img2">
+                        <img src={contactImage2} alt="contactImage2" />
+                    </div>
+
                     <div className="con-gif2">
                         <img src={contactGif2} alt="contactGif2" />
                     </div>
 
                     <div className="con-title2">
                         <h1 className="animated fadeInRight con-title con-title2">Gutier + SER:<br/>Jobs for Progress</h1>
-                    </div>
-
-                    <div className="con-img2">
-                        <img src={contactImage2} alt="contactImage2" />
                     </div>
 
                     <div className="con-text3">

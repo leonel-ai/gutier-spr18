@@ -22,7 +22,7 @@ class Form extends Component {
                     <label>Message</label>
                     <textarea type="text" name="subject" />
                     <br/>
-                    <button type="submit" value="Send">Submit</button>
+                    <button className="animated pulse" type="submit" value="Send">Submit</button>
                 </form>
             </div>
         )
