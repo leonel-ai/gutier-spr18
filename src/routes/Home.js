@@ -4,22 +4,22 @@ import Cube from './Cube';
 import '../styles/Main.css';
 
 class Home extends Component {
-    constructor(props) {
-        super(props);
-    }
+	constructor(props) {
+		super(props);
+	}
 
-    componentWillMount() {
-        this.props.history.push('/');
-    }
+	componentWillMount() {
+		this.props.history.push('/');
+	}
 
 
-    render() {
-        return (
-            <div className="hm-grid">
-                <Cube />
-            </div>
-        )
-    }
+	render() {
+		return (
+			<div className="hm-grid">
+				<Cube />
+			</div>
+		)
+	}
 }
 
 export default Home;
