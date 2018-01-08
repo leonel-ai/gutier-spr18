@@ -19,6 +19,10 @@ body {
     color: $primary-color;
 }
 
+h3 {
+    color: $second-color;
+}
+
 .App {
     position: relative;
     display: flex;
@@ -46,11 +50,16 @@ body {
     color: $primary-color;
 }
 
+.sidenav {
+    z-index: 20;
+}
+
+
 .sidenav a {
     text-align: right;
     position: fixed; 
     left: -80px; 
-    transition: 0.3s; /* Add transition on hover */
+    transition: 0.3s;
     padding: 20px; 
     width: 200px;
     text-decoration: none;
@@ -60,7 +69,7 @@ body {
 }
 
 .sidenav a:hover {
-    left: 0; /* On mouse-over, make the elements appear as they should */
+    left: 0; 
     color: #4DFF00;
     padding-right: 50px;
 }

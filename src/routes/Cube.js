@@ -6,50 +6,86 @@ import '../styles/Main.css';
 class Cube extends Component {
     constructor(props) {
         super(props);
-
-        this.onClick = this.handleClick.bind(this);
     }
 
-    handleClick(event) {
-        if (document.getElementsByClassName('front')) {
-            var cube = document.getElementsByClassName('cube').classList;
-        } else {
-            console.log('does not match');
-        }
-        // document.getElementsByClassName('front').classList.toggle('turnPage');
-        // document.getElementsByClassName('back').classList.toggle('turnPage');
-        // document.getElementsByClassName('right').classList.toggle('turnPage');
-        // document.getElementsByClassName('left').classList.toggle('turnPage');
-    }
 
     render() {
         return (
-            <div className="mainDiv">
-                <div className="cube">
+            // <div className="mainDiv">
+            //     <div className="cube">
 
-                    <div className="front" onClick={this.handleClick} >
-                        <p><span className="hm-largeTxt">INNOVATION</span><br/>starts from the top</p>
-                        <button className="hm-button"><Link to="/services">Services</Link></button>
-                    </div>
+            //         <div className="front">
+            //             <p><span className="hm-largeTxt">INNOVATION</span><br/>starts from the top</p>
+            //             <button className="hm-button"><Link to="/services">Services</Link></button>
+            //         </div>
 
-                    <div className="back" onClick={this.handleClick} >
-                        <p><span className="hm-largeTxt">EXCELLENCE</span><br/>starts from the top</p>
-                        <button className="hm-button"><Link to="/news">News</Link></button>                        
-                    </div>
+            //         <div className="back">
+            //             <p><span className="hm-largeTxt">EXCELLENCE</span><br/>starts from the top</p>
+            //             <button className="hm-button"><Link to="/news">News</Link></button>                        
+            //         </div>
 
-                    <div className="right" onClick={this.handleClick} >
-                        <p><span className="hm-largeTxt">COMMITMENT</span><br/>starts from the top</p>
-                        <button className="hm-button"><Link to="/contact">Contact</Link></button>                         
-                    </div>
+            //         <div className="right">
+            //             <p><span className="hm-largeTxt">COMMITMENT</span><br/>starts from the top</p>
+            //             <button className="hm-button"><Link to="/contact">Contact</Link></button>                         
+            //         </div>
 
-                    <div className="left" onClick={this.handleClick} >
-                        <p><span className="hm-largeTxt">INTEGRITY</span><br/>starts from the top</p>
-                        <button className="hm-button"><Link to="/about">About Us</Link></button> 
-                    </div>
+            //         <div className="left">
+            //             <p><span className="hm-largeTxt">INTEGRITY</span><br/>starts from the top</p>
+            //             <button className="hm-button"><Link to="/about">About Us</Link></button> 
+            //         </div>
 
-                    <div className="top"></div>
-                    <div className="bottom"></div>
-                </div>
+            //         <div className="top"></div>
+            //         <div className="bottom"></div>
+            //     </div>
+            // </div>
+
+            <div class="buttons-wrapper">
+
+                <input id="slide1" type="radio" name="slider" checked />
+                <input id="slide2" type="radio" name="slider" />
+                <input id="slide3" type="radio" name="slider" />
+                <input id="slide4" type="radio" name="slider" />
+
+                <ul class="slider">
+                    <li>
+                        <div class="caption">
+                            <h3>INNOVATION</h3>
+                            <p>
+                            starts from the top
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="caption">
+                            <h3>INTEGRITY</h3>
+                            <p>
+                            starts from the top
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="caption">
+                            <h3>EXCELLENCE</h3>
+                            <p>
+                            starts from the top
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="caption">
+                            <h3>COMMITMENT</h3>
+                            <p>
+                            starts from the top
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+
             </div>
         )
     }

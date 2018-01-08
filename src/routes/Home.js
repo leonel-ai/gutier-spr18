@@ -6,10 +6,6 @@ import '../styles/Main.css';
 class Home extends Component {
     constructor(props) {
         super(props);
-        
-        this.state = {
-            content: <Cube />
-        };
     }
 
     componentWillMount() {
@@ -20,7 +16,7 @@ class Home extends Component {
     render() {
         return (
             <div className="hm-grid">
-                {this.state.content}
+                <Cube />
             </div>
         )
     }

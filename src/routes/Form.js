@@ -15,11 +15,11 @@ class Form extends Component {
             <div>
                 <form action="https://formspree.io/leonelaguzman1@gmail.com"
                     method="POST">
-                    <label>Name</label>
+                    <label className="form-title">Name</label>
                     <input type="text" name="name" />
-                    <label>Email</label>
+                    <label className="form-title">Email</label>
                     <input type="email" name="_replyto" />
-                    <label>Message</label>
+                    <label className="form-title">Message</label>
                     <textarea type="text" name="subject" />
                     <br/>
                     <button className="animated pulse" type="submit" value="Send">Submit</button>

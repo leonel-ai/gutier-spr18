@@ -21,6 +21,11 @@ ul, li {
     font: 18px $font-body;
 }
 
+h3 {
+    font-size: 34px;
+    margin: 0 0 10px;
+}
+
 .subtitles {
     font: 135% $font-title;
     letter-spacing: 3px;
@@ -119,7 +124,7 @@ ul, li {
 }
 
 /* CONTACT FORM */
-label {
+.form-title {
     display: block;
     font: 24px $font-title;
     font-weight: 700;
