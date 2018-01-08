@@ -69,6 +69,17 @@ a:hover {
     color: $accent-color;
 }
 
+button {
+    background: $accent-color;
+    color: $second-color;
+}
+
+.hm-button {
+    background: transparent;
+    border: 1px solid $accent-color;
+}
+
+
 .pg-footer {
     background: $var;
     color: $primary-color;

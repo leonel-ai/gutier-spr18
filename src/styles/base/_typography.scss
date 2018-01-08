@@ -37,7 +37,7 @@ ul, li {
 }
 
 .cube > div > button {
-    font: 10px $font-body;
+    font: 14px $font-body;
 }
 
 /* ABOUT */
@@ -118,6 +118,22 @@ ul, li {
     font-weight: 700;
 }
 
+/* CONTACT FORM */
+label {
+    display: block;
+    font: 24px $font-title;
+    font-weight: 700;
+}
+
+input[type="text"], input[type="email"], textarea,
+input:not([type]) {
+    font: 14px $font-body;
+    padding: .5rem;
+}
+
+button {
+    font: 18px $font-body;
+}
 
 @media screen and (min-width: 736px) and (max-width: 1366px) {
     /* HOME */

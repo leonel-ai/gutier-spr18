@@ -45,17 +45,24 @@
 /* contact info */
 .con-box1-desk {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 600px;
-    border: 2px solid red;
+    padding-top: 300px;
+}
+
+.con-gif0 {
+    justify-self: start;
+    max-width: 100px;
 }
 
 .con-text1 {
-    align-self: start;
-    justify-self: center;
+    align-self: center;
+    justify-self: start;
+    text-align: right;
+    min-width: 200px;
+    padding-right: 80px;
 }
 
 .con-sub {
@@ -78,7 +85,7 @@
     padding-right: 20px;
     padding-top: 600px;
     padding-bottom: 0px;
-    border: 2px solid blue;
+    // border: 2px solid blue;
 }
 
 .con-gif1 {
@@ -141,7 +148,7 @@
     padding-right: 20px;
     padding-top: 600px;
     padding-bottom: 600px;
-    border: 2px solid blue;
+    // border: 2px solid blue;
 }
 
 .con-gif2 {

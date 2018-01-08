@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Form from './Form';
 import Footer from './Footer';
 
 import '../styles/Main.css';
@@ -7,16 +8,13 @@ import 'animate.css';
 
 import contactImage1 from '../assets/g3.png';
 import contactImage2 from '../assets/SER.png';
+import contactGif0 from '../assets/gutier_gifs/G.gif';
 import contactGif1 from '../assets/gutier_gifs/C.gif';
 import contactGif2 from '../assets/gutier_gifs/E.gif';
 
 
 class Contact extends Component {
     state = {expanded: false}
-
-    componentWillMount() {
-        this.props.history.push('/contact');
-    }
 
     render() {
         return (
@@ -27,17 +25,21 @@ class Contact extends Component {
                 
                 <div className="con-box1-desk">
 
+                    <div className="con-gif0">
+                        <img src={contactGif0} alt="contactGif0" />
+                    </div>
+
                     <div className="con-text1">
-                        <p><span className="animated fadeInDown con-sub">Location</span></p>
-                        <p>3535 Navigation Road. 
-                        address address<br/>
-                        phone number<br/>
-                        email <br/>
+                        <p><span className="animated fadeInDown con-sub">Gutier Roofing<br/>+ Construction</span></p>
+                        <p>3536 Navigation Boulevard <br/>
+                        Houston, Texas 77003<br/>
+                        PH: 832.532.7823<br/>
+                        info@gutier.com<br/>
                         </p>
                     </div>
 
                     <div className="contact-form">
-                    <p>contact form here</p>
+                        <Form />
                     </div>
                 </div>
 
