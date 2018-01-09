@@ -4,12 +4,11 @@ $font-body: 'Open Sans', sans-serif;
 
 
 body {
-    font: 100% $font-title;
+    font: 18px $font-body;
 }
 
 p {
-    font: 24px $font-body;
-    letter-spacing: 0px;
+    font: 18px $font-body;
     line-height: 37.8px;
 }
 
@@ -31,70 +30,42 @@ ul, li {
 }
 
 .ft-cta {
+    font: 18px $font-body;
     font-weight: 700;
 }
 
 .subtitles {
-    font: 135% $font-title;
+    font: 34px $font-title;
 }
 
 .main-footer-grid {
     font: 18px $font-body;
 }
 
-// /* HOME */
-// .cube > div > p {
-//     font: 32px $font-title2;
-//     font-weight: 700;
-// }
+/* HOME */
 
-// .cube > div > button {
-//     font: 14px $font-body;
-// }
 
 /* ABOUT */
-.ab-title {
-    font: 100px $font-title;
-    font-weight: 700;
+.ab-banner-text, .ab-title {
+    font: 75px $font-title;
 }
-
-.ab-banner-text {
-    font: 112px $font-title;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
-
 
 .tenant1, .tenant2, .tenant3 {
-    font: 96px $font-title;
-    font-weight: 400;
-}
-
-/* SERVICES */
-.srv-title {
-    font: 100px $font-title;
-}
-
-.srv-banner-text {
-    font: 112px $font-title;
-    letter-spacing: 2px;
-}
-
-.com-sub {
     font: 34px $font-title;
 }
 
-.ind-sub {
+/* SERVICES */
+.srv-banner-text, .srv-title  {
+    font: 75px $font-title;
+}
+
+.com-sub, .ind-sub {
     font: 34px $font-title;
 }
 
 /* NEWS */
-.news-title {
-    font: 100px $font-title;
-}
-
-.news-banner-text {
-    font: 112px $font-title;
+.news-banner-text, .news-title {
+    font: 75px $font-title;
 }
 
 .news-sub1, .news-sub2, .news-sub3 {
@@ -102,32 +73,23 @@ ul, li {
 }
 
 /* CONTACT */
-.con-title {
-    font: 100px $font-title;
-}
-
-.con-banner-text {
-    font: 112px $font-title;
-    font-weight: 700;
-    letter-spacing: 2px;
+.con-banner-text, .con-title {
+    font: 75px $font-title;
 }
 
 .con-sub {
     font: 34px $font-title;
-    letter-spacing: 3px;
-    font-weight: 700;
 }
 
 /* CONTACT FORM */
 .form-title {
     display: block;
-    font: 24px $font-title;
-    font-weight: 700;
+    font: 34px $font-title;
 }
 
 input[type="text"], input[type="email"], textarea,
 input:not([type]) {
-    font: 14px $font-body;
+    font: 18px $font-body;
     padding: .5rem;
 }
 
@@ -135,68 +97,68 @@ button {
     font: 18px $font-body;
 }
 
-@media screen and (min-width: 736px) and (max-width: 1366px) {
-    /* HOME */
-    .hm-title {
-     font: 344% $font-title;
-     }
+// @media screen and (min-width: 736px) and (max-width: 1366px) {
+//     /* HOME */
+//     .hm-title {
+//      font: 344% $font-title;
+//      }
 
-     .subtitles {
-         font: 125% $font-title;
-         letter-spacing: 1.2px;
-     }
+//      .subtitles {
+//          font: 125% $font-title;
+//          letter-spacing: 1.2px;
+//      }
 
-     .subtitles-mob {
-         font: 125% $font-title;
-         letter-spacing: 1.2px;
-     }
+//      .subtitles-mob {
+//          font: 125% $font-title;
+//          letter-spacing: 1.2px;
+//      }
 
- }
+//  }
 
- @media screen and (max-width: 736px) {
+//  @media screen and (max-width: 736px) {
 
-    p {
-        font: 80% $font-body;
-        letter-spacing: 3px;
-        line-height: 26px;
-    }
+//     p {
+//         font: 80% $font-body;
+//         letter-spacing: 3px;
+//         line-height: 26px;
+//     }
 
-    h1 {
-        font: 120% $font-title;
-        line-height: 30px;
-    }
+//     h1 {
+//         font: 120% $font-title;
+//         line-height: 30px;
+//     }
 
-    .subtitles-mob {
-        font: 110% $font-title;
-        letter-spacing: 1.2px;
-    }
+//     .subtitles-mob {
+//         font: 110% $font-title;
+//         letter-spacing: 1.2px;
+//     }
 
-    /* HOME */
-    .hm-title {
-        font: 200% $font-title;
-    }
+//     /* HOME */
+//     .hm-title {
+//         font: 200% $font-title;
+//     }
 
-    /* ABOUT */
-    .ab-title {
-        font: 200% $font-title;
-        font-weight: bold;
-        letter-spacing: 3px;
-    }
-
-
-    /* SERVICES */
-    .srv-title {
-        font: 200% $font-title;
-        font-weight: bold;
-        letter-spacing: 3px;
-    }
+//     /* ABOUT */
+//     .ab-title {
+//         font: 200% $font-title;
+//         font-weight: bold;
+//         letter-spacing: 3px;
+//     }
 
 
-    /* CONTACT */
-    .con-title {
-        font: 200% $font-title;
-        font-weight: bold;
-        letter-spacing: 3px;
-    }
+//     /* SERVICES */
+//     .srv-title {
+//         font: 200% $font-title;
+//         font-weight: bold;
+//         letter-spacing: 3px;
+//     }
 
-}
+
+//     /* CONTACT */
+//     .con-title {
+//         font: 200% $font-title;
+//         font-weight: bold;
+//         letter-spacing: 3px;
+//     }
+
+// }

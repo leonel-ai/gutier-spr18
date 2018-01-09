@@ -49,7 +49,7 @@
     justify-items: center;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 300px;
+    padding-top: 20px;
 }
 
 .con-gif0 {
@@ -77,7 +77,7 @@
 /* contact form */
 .contact-form {
     align-self: start;
-    justify-self: start;    
+    justify-self: start;
 }
 
 /* careers */
@@ -87,13 +87,13 @@
     justify-items: center;
     padding-left: 0px;
     padding-right: 200px;
-    padding-top: 600px;
-    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .con-gif1 {
     grid-column: 2 / 3;
-    grid-row: 2 / 4; 
+    grid-row: 2 / 4;
     justify-self: center;
     align-self: end;
     max-height: 300px;
@@ -101,10 +101,10 @@
 
 .con-title1 {
     grid-column: 2 / 3;
-    grid-row: 3 / 4; 
+    grid-row: 3 / 4;
     justify-self: end;
     align-self: end;
-    z-index: 100;    
+    z-index: 100;
     position: relative;
     -webkit-transform:  translate(0, 0);
     -webkit-transition: -webkit-transform .2s ease-in-out;
@@ -153,8 +153,8 @@
     justify-items: center;
     padding-left: 60px;
     padding-right: 0px;
-    padding-top: 600px;
-    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .con-img2 {
@@ -184,7 +184,7 @@
     grid-row: 1;
     justify-self: end;
     align-self: center;
-    z-index: 100;    
+    z-index: 100;
     position: relative;
     -webkit-transform:  translate(0, 0);
     -webkit-transition: -webkit-transform .2s ease-in-out;
@@ -211,7 +211,6 @@
     padding-top: 20px;
     padding-left: 60px;
     padding-right: 60px;
-    padding-bottom: 400px;
+    padding-bottom: 20px;
     justify-self: start;
 }
-

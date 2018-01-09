@@ -53,19 +53,19 @@ body {
 
 .sidenav a {
     text-align: right;
-    position: fixed; 
-    left: -80px; 
+    position: fixed;
+    left: -70px;
     transition: 0.3s;
-    padding: 20px; 
+    padding: 20px;
     width: 200px;
     text-decoration: none;
-    font-size: 20px; 
-    color: white; 
-    border-radius: 0 5px 5px 0; 
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
 }
 
 .sidenav a:hover {
-    left: 0; 
+    left: 0;
     color: #4DFF00;
     padding-right: 50px;
 }
@@ -127,7 +127,7 @@ button {
         padding-bottom: 0;
         padding-left: 0;
         padding-right: 0;
-    }  
+    }
 
     .NavBar {
         position: relative;

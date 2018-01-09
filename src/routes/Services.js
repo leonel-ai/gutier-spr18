@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Footer from './Footer';
 
 import '../styles/Main.css';
-import 'animate.css';
 
 import serviceImage1 from '../assets/services_01.jpg';
 import serviceImage2 from '../assets/g4.png';
@@ -25,8 +24,8 @@ class Services extends Component {
 	render() {
 		return (
 				<div className="srv-grid">
-					<div className="srv-banner"> 
-						<h1 className="srv-banner-text">Services</h1> 
+					<div className="srv-banner">
+						<h1 className="srv-banner-text">Services</h1>
 					</div>
 
 
@@ -137,7 +136,7 @@ class Services extends Component {
 							<div className="quote">
 								<p>"They presented us solutions very well and excuted
 								the project exactly as promised... can't say enough about their professionalism
-								and how great they are aobut communicating progress. Top notch." 
+								and how great they are aobut communicating progress. Top notch."
 									<br/><br/>— Ellis Welker, WFMS Inc.</p></div>
 							<div className="quote">
 								<p>"Everything about their operations was extremely

@@ -3,7 +3,6 @@ import Form from './Form';
 import Footer from './Footer';
 
 import '../styles/Main.css';
-import 'animate.css';
 
 
 import contactImage1 from '../assets/g3.png';
@@ -23,10 +22,10 @@ class Contact extends Component {
 	render() {
 		return (
 			<div className="con-grid">
-				<div className="con-banner"> 
-					<h1 className="con-banner-text">Contact Us</h1> 
-				</div>  
-							
+				<div className="con-banner">
+					<h1 className="con-banner-text">Contact Us</h1>
+				</div>
+
 				<div className="con-box1-desk" id="contact">
 
 					<div className="con-gif0">
@@ -67,20 +66,20 @@ class Contact extends Component {
 					</div>
 
 					<div className="con-text2">
-						<p>Our reputation is unmatched, and our work ethic is impeccable. 
-								We’ve built our company on the pillars of integrity, innovation, 
-								community, and a commitment to serve clients all over Texas. 
-								Our robust experience in commercial and industrial roofing, 
-								sheet metal, and waterproofing services has earned us the 
-								privilege to build solid, long-standing relationships with 
-								our clients. We’re trusted for our ability to deliver 
-								high-quality roofing solutions from small local repairs 
-								to large multimillion-dollar projects. Contact us today for 
-								a customized estimate.  
+						<p>Our reputation is unmatched, and our work ethic is impeccable.
+								We’ve built our company on the pillars of integrity, innovation,
+								community, and a commitment to serve clients all over Texas.
+								Our robust experience in commercial and industrial roofing,
+								sheet metal, and waterproofing services has earned us the
+								privilege to build solid, long-standing relationships with
+								our clients. We’re trusted for our ability to deliver
+								high-quality roofing solutions from small local repairs
+								to large multimillion-dollar projects. Contact us today for
+								a customized estimate.
 						</p>
 					</div>
 				</div>
-							
+
 
 				<div className="con-box3-desk">
 
@@ -113,7 +112,7 @@ class Contact extends Component {
 										<li>&#9657; Help connect students who are not hired by Gutier with employment opportunities
 											for similar companies.</li>
 											<br/>
-										<li>&#9657; Ensure accelerated placement in employment or post-secondary education for 
+										<li>&#9657; Ensure accelerated placement in employment or post-secondary education for
 											program participants.</li>
 											<br/>
 										<li>&#9657; Develop employability and academic skills to succeed in training.</li>
@@ -131,7 +130,7 @@ class Contact extends Component {
 
 				<div className="pg-footer">
 					<Footer />
-				</div>  
+				</div>
 			</div>
 		)
 	}

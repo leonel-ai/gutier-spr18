@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Footer from './Footer';
 
 import '../styles/Main.css';
-import 'animate.css';
 
 import newsImage1 from '../assets/cnn.png';
 import newsImage2 from '../assets/tel.png';
@@ -22,8 +21,8 @@ class News extends Component {
 	render() {
 		return (
 			<div className="news-grid">
-				<div className="news-banner"> 
-					<h1 className="news-banner-text">News</h1> 
+				<div className="news-banner">
+					<h1 className="news-banner-text">News</h1>
 				</div>
 
 				<div className="news-box1-desk">
@@ -48,7 +47,7 @@ class News extends Component {
 								<p className="actionLink"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0">
 								See the video  &#9656;</a></p>
 					</div>
-				</div>                    
+				</div>
 
 
 				<div className="news-box3-desk">

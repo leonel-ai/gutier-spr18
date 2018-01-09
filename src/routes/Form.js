@@ -1,13 +1,11 @@
 import React, {Component} from 'react';
 import '../styles/Main.css';
-import 'animate.css';
 
 
 class Form extends Component {
 	constructor(props) {
 		super(props);
 	}
-
 
 	render() {
 		return (

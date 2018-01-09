@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import Cube from './Cube';
 import '../styles/Main.css';
+
 
 class Home extends Component {
 	constructor(props) {
@@ -12,13 +13,12 @@ class Home extends Component {
 		this.props.history.push('/');
 	}
 
-
 	render() {
 		return (
 			<div className="hm-grid">
 				<Cube />
 				<div className="sidenav">
-					<Link to='/contact' className="side-contact">Need a quote?</Link>
+					<HashLink to='/contact#contact' className="side-contact">Need a quote?</HashLink>
 				</div>
 			</div>
 		)
