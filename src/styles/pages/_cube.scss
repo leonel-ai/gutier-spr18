@@ -24,7 +24,7 @@
 
 @-o-keyframes anim {
     0%,10%,100%,20% {
-        line-height: 54pxd
+        line-height: 54px
     }
 
     15%,5% {
@@ -42,7 +42,7 @@
     }
 }
 
-.buttons-wrapper input,.buttons-wrapper input:nth-child(1):checked~label {
+.buttons-wrapper input, #slide1:checked ~ .link1 {
     display: none
 }
 
@@ -93,341 +93,192 @@
     min-height: 100vh;
     width: 100%;
     opacity: 0;
-    -webkit-perspective: 750pt;
-    -moz-perspective: 750pt;
     perspective: 750pt;
-    -webkit-animation: anim2 5s forwards;
-    -moz-animation: anim2 5s forwards;
-    -o-animation: anim2 5s forwards;
     animation: anim2 5s forwards
 }
 
-// .buttons-wrapper input:nth-child(1) {
-//     top: 10px;
-//     left: 75pt
-// }
-
-// .buttons-wrapper input:nth-child(2) {
-//     top: 10px;
-//     left: 200px
-// }
-
-// .buttons-wrapper input:nth-child(3) {
-//     top: 10px;
-//     left: 300px
-// }
-
-// .buttons-wrapper input:nth-child(4) {
-//     top: 10px;
-//     left: 25pc
-// }
-
 input {
-	&:nth-child(1) {
+	#slide1 {
 		top: 10px;
 		left: 75pt;
 	}
 
-	&:nth-child(2) {
+	#slide2 {
 		top: 10px;
 		left: 200px;
 	}
 
-	&:nth-child(3) {
+	#slide3 {
 		top: 10px;
 		left: 300px;
 	}
 
-	&:nth-child(4) {
+	#slide4 {
 		top: 10px;
 		left: 25pc;
 	}
 }
 
-.buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(1) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
+#slide1:checked ~ #hm-side1 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
     z-index: 2
 }
 
-.buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(2) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
+#slide1:checked ~ #hm-side2 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg)
 }
 
-.buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(3) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg);
+#slide1:checked ~ #hm-side3 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg)
 }
 
-.buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(4) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-260deg);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-260deg);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-260deg);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-260deg);
+#slide1:checked ~ #hm-side4 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-260deg)
 }
 
-.buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(1) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
+#slide2:checked ~ #hm-side1 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg)
 }
 
-.buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(2) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
+#slide2:checked ~ #hm-side2 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
     z-index: 2
 }
 
-.buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(3) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
+#slide2:checked ~ #hm-side3 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg)
 }
 
-.buttons-wrapper input:nth-child(2):checked~.slider>li:nth-child(4) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg);
+#slide2:checked ~ #hm-side4 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-180deg)
 }
 
-.buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(1) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg);
+#slide3:checked ~ #hm-side1 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg)
 }
 
-.buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(2) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
+#slide3:checked ~ #hm-side2 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg)
 }
 
-.buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(3) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
+#slide3:checked ~ #hm-side3 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
     z-index: 2
 }
 
-.buttons-wrapper input:nth-child(3):checked~.slider>li:nth-child(4) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg);
+#slide3:checked ~ #hm-side4 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(-90deg)
 }
 
-.buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(1) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(260deg);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(260deg);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(260deg);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(260deg);
+#slide4:checked ~ #hm-side1 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(260deg)
 }
 
-.buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(2) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg);
+#slide4:checked ~ #hm-side2 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(180deg)
 }
 
-.buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(3) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg);
+#slide4:checked ~ #hm-side3 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(90deg)
 }
 
-.buttons-wrapper input:nth-child(4):checked~.slider>li:nth-child(4) {
-    -webkit-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
-    -moz-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
-    -ms-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
-    -o-transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
+#slide4:checked ~ #hm-side4 {
     transform: perspective(100em) translate3d(0,0,-50vh) rotateX(0);
     z-index: 2
 }
 
-.buttons-wrapper input:nth-child(1):checked~.slider li:nth-child(2) .caption {
-    -webkit-transform: rotate(1deg) rotateY(20deg) translate(0,100%);
-    -moz-transform: rotate(1deg) rotateY(20deg) translate(0,100%);
-    -ms-transform: rotate(1deg) rotateY(20deg) translate(0,100%);
-    -o-transform: rotate(1deg) rotateY(20deg) translate(0,100%);
+#slide1:checked ~ .side2 {
     transform: rotate(1deg) rotateY(20deg) translate(0,100%)
 }
 
-.buttons-wrapper input:nth-child(2):checked~.slider li:nth-child(1) .caption {
-    -webkit-transform: rotate(-7deg) translate(0,-100%);
-    -moz-transform: rotate(-7deg) translate(0,-100%);
-    -ms-transform: rotate(-7deg) translate(0,-100%);
-    -o-transform: rotate(-7deg) translate(0,-100%);
+#slide2:checked ~ .side1 {
     transform: rotate(-7deg) translate(0,-100%)
 }
 
-.buttons-wrapper input:nth-child(2):checked~.slider li:nth-child(3) .caption {
-    -webkit-transform: rotate(-1deg) rotateY(40deg) translate(0,100%);
-    -moz-transform: rotate(-1deg) rotateY(40deg) translate(0,100%);
-    -ms-transform: rotate(-1deg) rotateY(40deg) translate(0,100%);
-    -o-transform: rotate(-1deg) rotateY(40deg) translate(0,100%);
+#slide2:checked ~ .side3 {
     transform: rotate(-1deg) rotateY(40deg) translate(0,100%)
 }
 
-.buttons-wrapper input:nth-child(3):checked~.slider li:nth-child(2) .caption {
-    -webkit-transform: rotate(1deg) rotateY(20deg) translate(0,-100%);
-    -moz-transform: rotate(1deg) rotateY(20deg) translate(0,-100%);
-    -ms-transform: rotate(1deg) rotateY(20deg) translate(0,-100%);
-    -o-transform: rotate(1deg) rotateY(20deg) translate(0,-100%);
+#slide3:checked ~ .side2 {
     transform: rotate(1deg) rotateY(20deg) translate(0,-100%)
 }
 
-.buttons-wrapper input:nth-child(3):checked~.slider li:nth-child(4) .caption {
-    -webkit-transform: translate(0,100%) rotateX(20deg);
-    -moz-transform: translate(0,100%) rotateX(20deg);
-    -ms-transform: translate(0,100%) rotateX(20deg);
-    -o-transform: translate(0,100%) rotateX(20deg);
+#slide3:checked ~ .side4 {
     transform: translate(0,100%) rotateX(20deg)
 }
 
-.buttons-wrapper input:nth-child(4):checked~.slider li:nth-child(3) .caption {
-    -webkit-transform: rotate(-1deg) rotateY(40deg) translate(0,-100%);
-    -moz-transform: rotate(-1deg) rotateY(40deg) translate(0,-100%);
-    -ms-transform: rotate(-1deg) rotateY(40deg) translate(0,-100%);
-    -o-transform: rotate(-1deg) rotateY(40deg) translate(0,-100%);
+#slide4:checked ~ .side3 {
     transform: rotate(-1deg) rotateY(40deg) translate(0,-100%)
 }
 
 
-.buttons-wrapper input:nth-child(1):checked~label:nth-of-type(2),.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(3) {
+#slide1:checked ~ a:nth-of-type(2), #slide2:checked ~ .link3 {
     color: #fff;
     text-align: center;
     left: 50%;
     cursor: pointer;
-    -ms-transform-origin: center center;
-    -moz-transform: translate(-50%,0) scale(.8);
-    -o-transform: translate(-50%,0) scale(.8);
+    // -ms-transform-origin: center center;
+    // -moz-transform: translate(-50%,0) scale(.8);
+    // -o-transform: translate(-50%,0) scale(.8);
     bottom: 10%
 }
 
-.buttons-wrapper input:nth-child(1):checked~label:nth-of-type(2) {
+#slide1:checked ~ .link2 {
     display: block;
     line-height: 40px;
     font-size: 20px;
-    -webkit-transform-origin: center center;
-    -moz-transform-origin: center center;
-    -o-transform-origin: center center;
     transform-origin: center center;
-    -webkit-transform: translate(-50%,0) scale(.8);
-    -ms-transform: translate(-50%,0) scale(.8);
     transform: translate(-50%,0) scale(.8);
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -o-transition: .3s;
     transition: .3s;
-    -webkit-animation: anim 3s infinite;
-    -moz-animation: anim 3s infinite;
-    -o-animation: anim 3s infinite;
     animation: anim 3s infinite
 }
 
-.buttons-wrapper input:nth-child(1):checked~label:nth-of-type(2):after {
+#slide1:checked ~ .link2:after {
     content: '↓'
 }
 
-.buttons-wrapper input:nth-child(1):checked~label:nth-of-type(2):hover {
-    -webkit-transform: translate(-50%,0) scale(1);
-    -moz-transform: translate(-50%,0) scale(1);
-    -ms-transform: translate(-50%,0) scale(1);
-    -o-transform: translate(-50%,0) scale(1);
+#slide1:checked ~ .link2:hover {
     transform: translate(-50%,0) scale(1);
     font-size: 30px;
     line-height: 40pt;
-    -webkit-animation: none;
-    -moz-animation: none;
-    -o-animation: none;
     animation: none
 }
 
-.buttons-wrapper input:nth-child(2):checked~label {
+#slide2:checked ~ .link1, .link2, .link4 {
     display: none
 }
 
-.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(3) {
+#slide2:checked ~ .link3 {
     display: block;
     line-height: 40px;
     font-size: 20px;
-    -webkit-transform-origin: center center;
-    -moz-transform-origin: center center;
-    -o-transform-origin: center center;
     transform-origin: center center;
-    -webkit-transform: translate(-50%,0) scale(.8);
-    -ms-transform: translate(-50%,0) scale(.8);
     transform: translate(-50%,0) scale(.8);
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -o-transition: .3s;
     transition: .3s;
-    -webkit-animation: none;
-    -moz-animation: none;
-    -o-animation: none;
     animation: none
 }
 
-.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(3):after {
+#slide2:checked ~ .link3:after {
     content: '↓'
 }
 
-.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1):after,.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(2):after,.buttons-wrapper input:nth-child(4):checked~label:nth-of-type(3):after {
+#slide2:checked ~ .link1:after, #slide3:checked ~ .link2:after, #slide4:checked ~ .link3:after {
     content: '↑'
 }
 
-.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(3):hover {
-    -webkit-transform: translate(-50%,0) scale(1);
-    -moz-transform: translate(-50%,0) scale(1);
-    -ms-transform: translate(-50%,0) scale(1);
-    -o-transform: translate(-50%,0) scale(1);
+#slide2:checked ~ .link3:hover {
     transform: translate(-50%,0) scale(1);
     font-size: 30px;
-    -webkit-animation: none;
-    -moz-animation: none;
-    -o-animation: none;
     animation: none
 }
 
-.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1),.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(4) {
+#slide2:checked ~ .link1, #slide3:checked ~ .link4 {
     border-radius: 50%;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -webkit-animation: none;
-    -moz-animation: none;
-    -o-animation: none;
+    // -webkit-transition: .3s;
+    // -moz-transition: .3s;
+    // -webkit-animation: none;
+    // -moz-animation: none;
+    // -o-animation: none;
     width: 60px;
     height: 60px;
     background: 0 0;
@@ -437,178 +288,113 @@ input {
     color: #fff
 }
 
-.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1) {
+#slide2:checked ~ .link1 {
     display: block;
     line-height: 40px;
     font-size: 20px;
     top: 10%;
-    -webkit-transform-origin: center center;
-    -moz-transform-origin: center center;
-    -ms-transform-origin: center center;
-    -o-transform-origin: center center;
     transform-origin: center center;
-    -webkit-transform: translate(-50%,0) scale(.8);
-    -moz-transform: translate(-50%,0) scale(.8);
-    -ms-transform: translate(-50%,0) scale(.8);
-    -o-transform: translate(-50%,0) scale(.8);
     transform: translate(-50%,0) scale(.8);
-    -o-transition: .3s;
     transition: .3s;
     animation: none
 }
 
-.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1):hover {
-    -webkit-transform: translate(-50%,0) scale(1);
-    -moz-transform: translate(-50%,0) scale(1);
-    -ms-transform: translate(-50%,0) scale(1);
-    -o-transform: translate(-50%,0) scale(1);
+#slide2:checked ~ .link1:hover {
     transform: translate(-50%,0) scale(1);
     font-size: 30px;
     line-height: 40px
 }
 
-.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(1):hover:after {
+#slide2:checked ~ .link1:hover:after {
     display: block;
     margin-top: -10px
 }
 
-.buttons-wrapper input:nth-child(3):checked~label {
+#slide3:checked ~ .link1, .link2, .link3 {
     display: none
 }
 
-.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(4) {
+#slide3:checked ~ .link4 {
     display: block;
     line-height: 40px;
     font-size: 20px;
     bottom: 10%;
-    -webkit-transform-origin: center center;
-    -moz-transform-origin: center center;
-    -ms-transform-origin: center center;
-    -o-transform-origin: center center;
     transform-origin: center center;
-    -webkit-transform: translate(-50%,0) scale(.8);
-    -moz-transform: translate(-50%,0) scale(.8);
-    -ms-transform: translate(-50%,0) scale(.8);
-    -o-transform: translate(-50%,0) scale(.8);
     transform: translate(-50%,0) scale(.8);
-    -o-transition: .3s;
     transition: .3s;
     animation: none
 }
 
-.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(4):after {
+#slide3:checked ~ .link4:after {
     content: '↓'
 }
 
-.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(4):hover {
-    -webkit-transform: translate(-50%,0) scale(1);
-    -moz-transform: translate(-50%,0) scale(1);
-    -ms-transform: translate(-50%,0) scale(1);
-    -o-transform: translate(-50%,0) scale(1);
+#slide3:checked ~ .link4:hover {
     transform: translate(-50%,0) scale(1);
     font-size: 30px;
     line-height: 40pt;
-    -webkit-animation: none;
-    -moz-animation: none;
-    -o-animation: none;
     animation: none
 }
 
-.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(2) {
+#slide3:checked ~ .link2 {
     display: block;
     line-height: 40px;
     font-size: 20px;
     top: 10%;
     left: 50%;
     cursor: pointer;
-    -webkit-transform-origin: center center;
-    -moz-transform-origin: center center;
-    -ms-transform-origin: center center;
-    -o-transform-origin: center center;
     transform-origin: center center;
-    -webkit-transform: translate(-50%,0) scale(.8);
-    -moz-transform: translate(-50%,0) scale(.8);
-    -ms-transform: translate(-50%,0) scale(.8);
-    -o-transform: translate(-50%,0) scale(.8);
     transform: translate(-50%,0) scale(.8);
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -o-transition: .3s;
     transition: .3s;
-    -webkit-animation: none;
-    -moz-animation: none;
-    -o-animation: none;
     animation: none
 }
 
-.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(2):hover {
-    -webkit-transform: translate(-50%,0) scale(1);
-    -moz-transform: translate(-50%,0) scale(1);
-    -ms-transform: translate(-50%,0) scale(1);
-    -o-transform: translate(-50%,0) scale(1);
+#slide3:checked ~ .link2:hover {
     transform: translate(-50%,0) scale(1);
     font-size: 44px;
     line-height: 1px
 }
 
-.buttons-wrapper input:nth-child(3):checked~label:nth-of-type(2):hover:after {
+#slide3:checked ~ .link2:hover:after {
     display: block;
     margin-top: -10px
 }
 
-.buttons-wrapper input:nth-child(4):checked~label {
+#slide4:checked ~ .link1, .link2, .link4 {
     display: none
 }
 
-.buttons-wrapper input:nth-child(4):checked~label:nth-of-type(3) {
+#slide4:checked ~ .link3 {
     display: block;
     line-height: 40px;
     font-size: 20px;
     top: 10%;
     left: 50%;
     cursor: pointer;
-    -webkit-transform-origin: center center;
-    -moz-transform-origin: center center;
-    -ms-transform-origin: center center;
-    -o-transform-origin: center center;
     transform-origin: center center;
-    -webkit-transform: translate(-50%,0) scale(.8);
-    -moz-transform: translate(-50%,0) scale(.8);
-    -ms-transform: translate(-50%,0) scale(.8);
-    -o-transform: translate(-50%,0) scale(.8);
     transform: translate(-50%,0) scale(.8);
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -o-transition: .3s;
     transition: .3s;
-    -webkit-animation: none;
-    -moz-animation: none;
-    -o-animation: none;
     animation: none
 }
 
-.buttons-wrapper .slider>li,.buttons-wrapper .slider>li:nth-child(1) .caption {
-    -webkit-transition: 3s cubic-bezier(.5,0,0,.99);
-    -moz-transition: 3s cubic-bezier(.5,0,0,.99)
-}
+// .buttons-wrapper .slider>li, .side1 {
+//     -webkit-transition: 3s cubic-bezier(.5,0,0,.99);
+//     -moz-transition: 3s cubic-bezier(.5,0,0,.99)
+// }
 
-.buttons-wrapper input:nth-child(4):checked~label:nth-of-type(3):hover {
-    -webkit-transform: translate(-50%,0) scale(1);
-    -moz-transform: translate(-50%,0) scale(1);
-    -ms-transform: translate(-50%,0) scale(1);
-    -o-transform: translate(-50%,0) scale(1);
+#slide4:checked ~ .link3:hover {
     transform: translate(-50%,0) scale(1);
     font-size: 44px;
     line-height: 1px;
     color: #2D3D59
 }
 
-.buttons-wrapper input:nth-child(4):checked~label:nth-of-type(3):hover:after {
+#slide4:checked ~ .link3:hover:after {
     display: block;
     margin-top: -10px
 }
 
-.buttons-wrapper label {
+.link1, .link2, .link3, .link4 {
     display: block;
     width: 40px;
     height: 40px;
@@ -641,69 +427,46 @@ input {
     left: 0;
     width: 100%;
     height: 100%;
-    -o-transition: 3s cubic-bezier(.5,0,0,.99);
     transition: 3s cubic-bezier(.5,0,0,.99);
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-perspective: 750pt;
-    -moz-perspective: 750pt;
     perspective: 750pt
 }
 
-.buttons-wrapper .slider>li:nth-child(1) {
+#hm-side1 {
     background: url('../assets/cube_s01.jpg') center center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    -webkit-transform-origin: center center -50vh;
-    -moz-transform-origin: center center -50vh;
-    -ms-transform-origin: center center -50vh;
-    -o-transform-origin: center center -50vh;
     transform-origin: center center -50vh
 }
 
-.buttons-wrapper .slider>li:nth-child(1) .caption {
+.side1 {
     position: absolute;
     width: 1460px;
     text-align: center;
     color: white;
     right: 6.5%;
     top: 30%;
-    text-shadow: 0 2px 10px #000,0 1px 1px rgba(0,0,0,.5);
-    -o-transition: 3s cubic-bezier(.5,0,0,.99);
     transition: 3s cubic-bezier(.5,0,0,.99)
 }
 
-.buttons-wrapper .slider>li:nth-child(2) .caption,.buttons-wrapper .slider>li:nth-child(3) .caption {
+// .side2 {
+//     color: white;
+//     -webkit-transition: 3s cubic-bezier(.5,0,0,.99);
+//     -moz-transition: 3s cubic-bezier(.5,0,0,.99);
+//     -o-transition: 3s cubic-bezier(.5,0,0,.99);
+//     text-shadow: 0 2px 10px #000,0 1px 1px rgba(0,0,0,.5)
+// }
+
+.side1 a, .side1 h1 {
     color: white;
-    -webkit-transition: 3s cubic-bezier(.5,0,0,.99);
-    -moz-transition: 3s cubic-bezier(.5,0,0,.99);
-    -o-transition: 3s cubic-bezier(.5,0,0,.99);
-    text-shadow: 0 2px 10px #000,0 1px 1px rgba(0,0,0,.5)
 }
 
-.buttons-wrapper .slider>li:nth-child(1) .caption a,.buttons-wrapper .slider>li:nth-child(1) .caption h1 {
-    color: white;
-}
-
-.buttons-wrapper .slider>li:nth-child(2) {
+#hm-side2 {
     background: url('../assets/cube_s02.jpg') center center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    -webkit-transform-origin: center center -50vh;
-    -moz-transform-origin: center center -50vh;
-    -ms-transform-origin: center center -50vh;
-    -o-transform-origin: center center -50vh;
     transform-origin: center center -50vh
 }
 
-.buttons-wrapper .slider>li:nth-child(2) .caption {
+.side2  {
     position: absolute;
     width: 1460px;
     text-align: center;
@@ -713,25 +476,17 @@ input {
     transition: 3s cubic-bezier(.5,0,0,.99)
 }
 
-.buttons-wrapper .slider>li:nth-child(2) .caption a,.buttons-wrapper .slider>li:nth-child(2) .caption h1 {
+.side2 a, .side2 h1 {
     color: white;
 }
 
-.buttons-wrapper .slider>li:nth-child(3) {
+#hm-side3 {
     background: url('../assets/cube_s03.png') bottom center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    -webkit-transform-origin: center center -50vh;
-    -moz-transform-origin: center center -50vh;
-    -ms-transform-origin: center center -50vh;
-    -o-transform-origin: center center -50vh;
     transform-origin: center center -50vh
 }
 
-.buttons-wrapper .slider>li:nth-child(3) .caption {
+ .side3 {
     position: absolute;
     width: 1460px;
     text-align: center;
@@ -741,47 +496,35 @@ input {
     transition: 3s cubic-bezier(.5,0,0,.99)
 }
 
-.buttons-wrapper .slider>li:nth-child(3) .caption a,.buttons-wrapper .slider>li:nth-child(3) .caption h1 {
+ .side3 a, .side3 h1 {
     color: #fff
 }
 
-.buttons-wrapper .slider>li:nth-child(3) .caption h1 {
+ .side3 h1 {
     text-align: center
 }
 
-.buttons-wrapper .slider>li:nth-child(4) {
+#hm-side4 {
     background: url('../assets/cube_s04.jpg') bottom left no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    -webkit-transform-origin: center center -50vh;
-    -moz-transform-origin: center center -50vh;
-    -ms-transform-origin: center center -50vh;
-    -o-transform-origin: center center -50vh;
     transform-origin: center center -50vh
 }
 
-.buttons-wrapper .slider>li:nth-child(4) .caption {
+.side4 {
     position: absolute;
     width: 1460px;
     text-align: center;
     color: white;
     right: 6.5%;
     top: 40%;
-    text-shadow: 0 2px 10px #000,0 1px 1px rgba(0,0,0,.5);
-    -webkit-transition: 3s cubic-bezier(.5,0,0,.99);
-    -moz-transition: 3s cubic-bezier(.5,0,0,.99);
-    -o-transition: 3s cubic-bezier(.5,0,0,.99);
     transition: 3s cubic-bezier(.5,0,0,.99)
 }
 
-.buttons-wrapper .slider>li:nth-child(4) .caption a,.buttons-wrapper .slider>li:nth-child(4) .caption h1 {
+.side4 a, .side4 h1 {
     color: #fff
 }
 
-.buttons-wrapper .slider>li:nth-child(4) .caption h1 {
+.side4 h1 {
     text-align: center
 }
 

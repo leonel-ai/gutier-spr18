@@ -18,12 +18,12 @@ ul, li {
     font: 18px $font-body;
 }
 
-.caption > h1 {
+.side1, .side2, .side3, .side4 > h1 {
     font: 120px $font-title;
     margin: 0 0 8px;
 }
 
-.caption > p {
+.side1, .side2, .side3, .side4 > p {
     font: 75px $font-title;
     line-height: 10px;
     margin-top: 0;
