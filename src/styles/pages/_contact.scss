@@ -16,18 +16,19 @@
 
 .con-banner {
     background-image: url('../assets/contactBanner.png');
-    height: 840px;
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -100;
 }
 
 .con-banner-text {
     color:white;
     text-align: center;
     position: absolute;
-    top: 8%;
+    top: 4.5%;
     left: 50%;
     -webkit-transform:  translate(-50%, -50%);
     -webkit-transition: -webkit-transform .2s ease-in-out;

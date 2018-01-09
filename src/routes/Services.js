@@ -17,10 +17,6 @@ import clientGif2 from '../assets/gutier_gifs/clients2.gif';
 class Services extends Component {
 	state = {expanded: false}
 
-	componentWillMount() {
-		this.props.history.push('/services');
-	}
-
 	render() {
 		return (
 				<div className="srv-grid">

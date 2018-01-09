@@ -4,7 +4,6 @@ import Footer from './Footer';
 
 import '../styles/Main.css';
 
-
 import contactImage1 from '../assets/g3.png';
 import contactImage2 from '../assets/SER.png';
 import contactGif0 from '../assets/gutier_gifs/G.gif';
@@ -14,10 +13,6 @@ import contactGif2 from '../assets/gutier_gifs/E.gif';
 
 class Contact extends Component {
 	state = {expanded: false}
-
-	componentWillMount() {
-		this.props.history.push('/contact');
-	}
 
 	render() {
 		return (

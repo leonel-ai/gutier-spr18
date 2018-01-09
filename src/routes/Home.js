@@ -9,10 +9,6 @@ class Home extends Component {
 		super(props);
 	}
 
-	componentWillMount() {
-		this.props.history.push('/');
-	}
-
 	render() {
 		return (
 			<div className="hm-grid">

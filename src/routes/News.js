@@ -14,10 +14,6 @@ import newsGif2 from '../assets/gutier_gifs/I.gif';
 class News extends Component {
 	state = {expanded: false}
 
-	componentWillMount() {
-		this.props.history.push('/news');
-	}
-
 	render() {
 		return (
 			<div className="news-grid">

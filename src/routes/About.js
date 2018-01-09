@@ -14,10 +14,6 @@ import aboutGif2 from '../assets/gutier_gifs/C.gif';
 class About extends Component {
 	state = {expanded: false}
 
-	componentWillMount() {
-		this.props.history.push('/about');
-	}
-
 	render() {
 		return (
 			<div className="ab-grid">
@@ -30,9 +26,9 @@ class About extends Component {
 				</div>
 
 				<div className="tenants">
-					<span className="animated fadeInLeft tenant1">Safety</span>
-					<span className="animated fadeInLeft tenant2">Accountability</span>
-					<span className="animated fadeInLeft tenant3">Quality</span>
+					<span className="animated fadeInLeft tenant1">Safety &#9670;</span>
+					<span className="animated fadeInLeft tenant2">Accountability &#9670;</span>
+					<span className="animated fadeInLeft tenant3">Quality &#9670;</span>
 				</div>
 
 				<div className="ab-box1-desk">
