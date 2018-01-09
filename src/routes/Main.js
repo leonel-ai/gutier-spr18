@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { 
-	Switch, 
-	Route, Link, 
+import React, { PureComponent } from 'react';
+import {
+	Switch,
+	Route, Link,
 	BrowserRouter as Router,
 } from 'react-router-dom';
 import logo from '../assets/logo.png';
@@ -14,8 +14,8 @@ import News from './News';
 import Contact from './Contact';
 
 
-class Routes extends Component {
-	render() {        
+class Routes extends PureComponent {
+	render() {
 		return (
 			<Router>
 				<div className="App">

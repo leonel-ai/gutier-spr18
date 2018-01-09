@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React, { PureComponent } from 'react';
 import '../styles/Main.css';
 
 
-class Form extends Component {
+class Form extends PureComponent {
 	constructor(props) {
 		super(props);
 	}

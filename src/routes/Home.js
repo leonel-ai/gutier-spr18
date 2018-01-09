@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import Cube from './Cube';
 import '../styles/Main.css';
 
 
-class Home extends Component {
+class Home extends PureComponent {
 	constructor(props) {
 		super(props);
 	}

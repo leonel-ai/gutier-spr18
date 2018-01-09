@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../styles/Main.css';
 
 
-class Cube extends Component {
+class Cube extends PureComponent {
 	constructor(props) {
 		super(props);
 	}

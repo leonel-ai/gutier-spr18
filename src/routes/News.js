@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { PureComponent } from 'react';
 import Footer from './Footer';
 
 import '../styles/Main.css';
@@ -11,7 +11,7 @@ import newsGif1 from '../assets/gutier_gifs/N.gif';
 import newsGif2 from '../assets/gutier_gifs/I.gif';
 
 
-class News extends Component {
+class News extends PureComponent {
 	state = {expanded: false}
 
 	render() {

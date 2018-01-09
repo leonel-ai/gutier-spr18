@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { PureComponent } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
 
@@ -14,7 +14,7 @@ import clientGif1 from '../assets/gutier_gifs/clients1.gif';
 import clientGif2 from '../assets/gutier_gifs/clients2.gif';
 
 
-class Services extends Component {
+class Services extends PureComponent {
 	state = {expanded: false}
 
 	render() {
@@ -65,14 +65,14 @@ class Services extends Component {
 								<div className="com-block1">
 										<p><span className="animated fadeInDown com-sub">Commercial</span>
 											<ul>
-												<li>—  Office</li>
-												<li>—  Healthcare</li>
-												<li>—  Education</li>
-												<li>—  Multi-family</li>
-												<li>—  Mixed-use</li>
-												<li>—  Hospitality</li>
-												<li>—  Warehouse</li>
-												<li>—  Retail</li>
+												<li>Office</li>
+												<li>Healthcare</li>
+												<li>Education</li>
+												<li>Multi-family</li>
+												<li>Mixed-use</li>
+												<li>Hospitality</li>
+												<li>Warehouse</li>
+												<li>Retail</li>
 											</ul>
 										</p></div>
 								<div className="com-block2">

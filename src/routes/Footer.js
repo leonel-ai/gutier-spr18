@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React, { PureComponent } from 'react';
 import '../styles/Main.scss';
 import logo from '../assets/logo.png';
 
 // import certifications to footer
 
-class Footer extends Component {
+class Footer extends PureComponent {
 	state = {expanded: false}
 
 	render(){

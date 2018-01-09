@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { PureComponent } from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import Footer from './Footer';
@@ -11,7 +11,7 @@ import aboutGif1 from '../assets/gutier_gifs/W.gif';
 import aboutGif2 from '../assets/gutier_gifs/C.gif';
 
 
-class About extends Component {
+class About extends PureComponent {
 	state = {expanded: false}
 
 	render() {
@@ -23,12 +23,6 @@ class About extends Component {
 
 				<div className="sidenav">
 					<Link to='/contact' className="side-contact">Need a quote?</Link>
-				</div>
-
-				<div className="tenants">
-					<span className="animated fadeInLeft tenant1">Safety &#9670;</span>
-					<span className="animated fadeInLeft tenant2">Accountability &#9670;</span>
-					<span className="animated fadeInLeft tenant3">Quality &#9670;</span>
 				</div>
 
 				<div className="ab-box1-desk">
@@ -45,6 +39,11 @@ class About extends Component {
 					</div>
 
 					<div className="ab-text1">
+						<p className="animated fadeInDown tenants">
+								Safety &#9670;
+								Accountability &#9670;
+								Quality
+						</p>
 						<p>Our reputation is unmatched, and our work ethic is impeccable.
 							We’ve built our company on the pillars of integrity, innovation,
 							community, and a commitment to serve clients all over Texas.

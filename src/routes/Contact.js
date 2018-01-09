@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { PureComponent } from 'react';
 import Form from './Form';
 import Footer from './Footer';
 
@@ -11,7 +11,7 @@ import contactGif1 from '../assets/gutier_gifs/C.gif';
 import contactGif2 from '../assets/gutier_gifs/E.gif';
 
 
-class Contact extends Component {
+class Contact extends PureComponent {
 	state = {expanded: false}
 
 	render() {

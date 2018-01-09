@@ -44,46 +44,6 @@
     transform: translate3d(-50%, -70%, 0);
 }
 
-/* tenants */
-.tenants {
-    justify-self: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    -webkit-transform:  translate(0, 0);
-    -webkit-transition: -webkit-transform .2s ease-in-out;
-    -moz-transform:  translate(0, 0);
-    -moz-transition: -webkit-transform .2s ease-in-out;
-    transform: translate(0, 0);
-    transition-property: all;
-    transition-property: transform .2s ease-in-out;
-}
-
-.tenants:hover {
-    transform: translate3d(0, -20px, 0);
-}
-
-.tenant1, .tenant2, .tenant3 {
-    grid-column: 1 / 2;
-    justify-self: end;
-    padding-right: 66px;
-}
-
-.tenant1 {
-    animation-duration: 3s;
-    animation-delay: 2s;
-}
-
-.tenant2 {
-    animation-duration: 3s;
-    animation-delay: 3s;
-}
-
-.tenant3 {
-    animation-duration: 3s;
-    animation-delay: 4s;
-}
-
 /* why gutier */
 
 .ab-box1-desk {
@@ -92,7 +52,18 @@
     justify-items: center;
     padding-left: 100px;
     padding-right: 200px;
-    padding-top: 200px;
+    padding-top: 20px;
+}
+
+.tenants {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tenants {
+    animation-duration: 5s;
+    animation-delay: 3s;
 }
 
 .ab-gif1 {
@@ -127,7 +98,6 @@
     animation-delay: 5s;
 }
 
-
 .ab-text1 {
     justify-self: start;
     padding-top: 200px;
@@ -155,8 +125,8 @@
     justify-items: center;
     padding-left: 28px;
     padding-right: 20px;
-    padding-top: 700px;
-    padding-bottom: 1000px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .ab-title2 {
@@ -243,20 +213,20 @@
 
 
 
-@media screen and (min-width: 736px) and (max-width: 1366px) {
-    .ab-grid {
-        grid-template-columns: 1fr auto;
-        grid-auto-rows: minmax(44px, auto);
-    }
+// @media screen and (min-width: 736px) and (max-width: 1366px) {
+//     .ab-grid {
+//         grid-template-columns: 1fr auto;
+//         grid-auto-rows: minmax(44px, auto);
+//     }
 
-}
+// }
 
 
-@media screen and (max-width: 736px) {
-    .ab-grid {
-        grid-template-columns: 1fr auto;
-        grid-auto-rows: minmax(44px, auto);
-        grid-gap: 12px;
-        padding-top: 0;
-    }
-}
+// @media screen and (max-width: 736px) {
+//     .ab-grid {
+//         grid-template-columns: 1fr auto;
+//         grid-auto-rows: minmax(44px, auto);
+//         grid-gap: 12px;
+//         padding-top: 0;
+//     }
+// }
