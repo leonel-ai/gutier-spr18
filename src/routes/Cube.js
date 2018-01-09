@@ -27,19 +27,22 @@ class Cube extends PureComponent {
 					</li>
 					<li>
 						<div className="caption">
-							<h1>INTEGRITY STARTS FROM THE TOP</h1>
+							<h1>INTEGRITY</h1>
+							<p>STARTS FROM THE TOP</p>
 							<button><NavLink to="/about" activeClassName="is-active">About</NavLink></button>
 						</div>
 					</li>
 					<li>
 						<div className="caption">
-							<h1>EXCELLENCE STARTS FROM THE TOP</h1>
+							<h1>EXCELLENCE</h1>
+							<p>STARTS FROM THE TOP</p>
 							<button><NavLink to="/news" activeClassName="is-active">News</NavLink></button>
 						</div>
 					</li>
 					<li>
 						<div className="caption">
-							<h1>COMMITMENT STARTS FROM THE TOP</h1>
+							<h1>COMMITMENT</h1>
+							<p>STARTS FROM THE TOP</p>
 							<button><NavLink to="/contact" activeClassName="is-active">Contact</NavLink></button>
 						</div>
 					</li>
