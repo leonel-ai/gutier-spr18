@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import Cube from './Cube';
-import '../styles/Main.css';
+import '../styles/Routes.css';
 
 
 class Home extends PureComponent {

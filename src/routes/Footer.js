@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import '../styles/Main.scss';
+import '../styles/Routes.scss';
 import logo from '../assets/logo.png';
 
 // import certifications to footer

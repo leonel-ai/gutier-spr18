@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import Footer from './Footer';
 
-import '../styles/Main.css';
+import '../styles/Routes.css';
 
 import aboutImage1 from '../assets/g1.png';
 import aboutImage2 from '../assets/about_us_02.jpg';

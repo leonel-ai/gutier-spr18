@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import Form from './Form';
 import Footer from './Footer';
 
-import '../styles/Main.css';
+import '../styles/Routes.css';
 
 import contactImage1 from '../assets/g3.png';
 import contactImage2 from '../assets/SER.png';

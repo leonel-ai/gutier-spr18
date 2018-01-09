@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import Footer from './Footer';
 
-import '../styles/Main.css';
+import '../styles/Routes.css';
 
 import newsImage1 from '../assets/cnn.png';
 import newsImage2 from '../assets/tel.png';

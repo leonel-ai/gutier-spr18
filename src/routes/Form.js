@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import '../styles/Main.css';
+import '../styles/Routes.css';
 
 
 class Form extends PureComponent {

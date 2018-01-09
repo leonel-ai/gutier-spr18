@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { NavLink } from 'react-router-dom';
-import '../styles/Main.css';
+import '../styles/Routes.css';
 
 
 class Cube extends PureComponent {
@@ -20,7 +20,7 @@ class Cube extends PureComponent {
 				<ul className="slider">
 					<li>
 						<div className="caption">
-							<h1>COMMITMENT</h1>
+							<h1>INNOVATION</h1>
 							<p>STARTS FROM THE TOP</p>
 							<button><NavLink to="/services" activeClassName="is-active">Services</NavLink></button>
 						</div>

@@ -2,14 +2,14 @@ import React, { PureComponent } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
 
-import '../styles/Main.css';
+import '../styles/Routes.css';
 
 import serviceImage1 from '../assets/services_01.jpg';
 import serviceImage2 from '../assets/g4.png';
 import serviceGif1 from '../assets/gutier_gifs/E.gif';
 import serviceGif2 from '../assets/gutier_gifs/M.gif';
-import serviceGif3 from '../assets/gutier_gifs/I.gif';
-import serviceGif4 from '../assets/gutier_gifs/I.gif';
+import quoteOpen from '../assets/gutier_gifs/quote1.gif';
+import quoteClose from '../assets/gutier_gifs/quote2.gif';
 import clientGif1 from '../assets/gutier_gifs/clients1.gif';
 import clientGif2 from '../assets/gutier_gifs/clients2.gif';
 
@@ -115,11 +115,11 @@ class Services extends PureComponent {
 
 						<div className="quotations">
 							<div className="srv-gif3">
-								<img src={serviceGif3} alt="serviceGif3" />
+								<img src={quoteOpen} alt="quoteOpen" />
 							</div>
 
 							<div className="srv-gif4">
-								<img src={serviceGif4} alt="serviceGif4" />
+								<img src={quoteClose} alt="quoteClose" />
 							</div>
 						</div>
 

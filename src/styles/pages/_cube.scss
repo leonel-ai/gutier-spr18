@@ -102,24 +102,46 @@
     animation: anim2 5s forwards
 }
 
-.buttons-wrapper input:nth-child(1) {
-    top: 10px;
-    left: 75pt
-}
+// .buttons-wrapper input:nth-child(1) {
+//     top: 10px;
+//     left: 75pt
+// }
 
-.buttons-wrapper input:nth-child(2) {
-    top: 10px;
-    left: 200px
-}
+// .buttons-wrapper input:nth-child(2) {
+//     top: 10px;
+//     left: 200px
+// }
 
-.buttons-wrapper input:nth-child(3) {
-    top: 10px;
-    left: 300px
-}
+// .buttons-wrapper input:nth-child(3) {
+//     top: 10px;
+//     left: 300px
+// }
 
-.buttons-wrapper input:nth-child(4) {
-    top: 10px;
-    left: 25pc
+// .buttons-wrapper input:nth-child(4) {
+//     top: 10px;
+//     left: 25pc
+// }
+
+input {
+	&:nth-child(1) {
+		top: 10px;
+		left: 75pt;
+	}
+
+	&:nth-child(2) {
+		top: 10px;
+		left: 200px;
+	}
+
+	&:nth-child(3) {
+		top: 10px;
+		left: 300px;
+	}
+
+	&:nth-child(4) {
+		top: 10px;
+		left: 25pc;
+	}
 }
 
 .buttons-wrapper input:nth-child(1):checked~.slider>li:nth-child(1) {
@@ -301,6 +323,7 @@
     -o-transform: rotate(-1deg) rotateY(40deg) translate(0,-100%);
     transform: rotate(-1deg) rotateY(40deg) translate(0,-100%)
 }
+
 
 .buttons-wrapper input:nth-child(1):checked~label:nth-of-type(2),.buttons-wrapper input:nth-child(2):checked~label:nth-of-type(3) {
     color: #fff;
