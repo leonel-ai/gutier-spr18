@@ -41,7 +41,7 @@ class News extends PureComponent {
 						<div className="animated fadeInRight news-sub1"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0">
 							Immigrants, the workforce to rebuild Houston</a></div>
 								<p className="actionLink"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0">
-								See the video  &#9656;</a></p>
+								Watch the Interview &#9656;</a></p>
 					</div>
 				</div>
 
@@ -50,7 +50,7 @@ class News extends PureComponent {
 					<div className="news-text2">
 						<div className="animated fadeInLeft news-sub2"><a href="http://www.telemundo.com/">
 							Gutier headline tbd on Telemundo</a></div>
-							<p>Gutier on Telemundo (Air Date: 2018)</p>
+							<p>Gutier Boasts Solid Impact in Houston</p>
 						</div>
 
 						<div className="news-img2">
@@ -66,7 +66,7 @@ class News extends PureComponent {
 					<div className="news-text3">
 					<div className="animated fadeInRight news-sub3"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0">
 						Insights to Opportunity</a></div>
-						<p>HTV Houston Television</p>
+						<p>Gutier Reveals Big Projects in Texas</p>
 					</div>
 				</div>
 

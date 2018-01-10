@@ -38,14 +38,23 @@ class Services extends PureComponent {
 						</div>
 
 						<div className="srv-text1">
-							<p>
+							<p><span className="srv-type">Roofing Construction</span><br/>
 								Re-Roofing<br/>
-								New Roof Construction<br/>
-								Roof Maintenance<br/>
+								New Construction<br/>
+								Roof Maintenance + Repairs<br/>
+								</p>
+								<br/>
+							<p><span className="srv-type">Roof System Installation</span><br/>
+								Built-up (BUR)<br/>
+								Modified Bitumen<br/>
+								Single-Ply<br/>
+								Liquid Applied<br/>
+								Specialty<br/>
+								Insulation<br/>
+								Asphalt Shingles<br/>
 								Sheet Metal<br/>
-								Waterproofing<br/>
-								Roof Coatings and Restoration
-							</p>
+								Waterproofing
+								</p>
 						</div>
 					</div>
 
@@ -63,18 +72,17 @@ class Services extends PureComponent {
 						<div className="srv-market1">
 							<div className="commercial">
 								<div className="com-block1">
-										<p><span className="animated fadeInDown com-sub">Commercial</span>
-											<ul>
-												<li>Office</li>
-												<li>Healthcare</li>
-												<li>Education</li>
-												<li>Multi-family</li>
-												<li>Mixed-use</li>
-												<li>Hospitality</li>
-												<li>Warehouse</li>
-												<li>Retail</li>
-											</ul>
-										</p></div>
+										<p><span className="animated fadeInDown com-sub">Commercial</span><br/>
+											Office<br/>
+											Healthcare<br/>
+											Education<br/>
+											Multi-family<br/>
+											Mixed-use<br/>
+											Hospitality<br/>
+											Warehouse<br/>
+											Retail
+										</p>
+										</div>
 								<div className="com-block2">
 										<img src={clientGif1} alt="clientGif1" />
 								</div>
@@ -84,18 +92,17 @@ class Services extends PureComponent {
 						<div className="srv-market2">
 							<div className="industrial">
 								<div className="ind-block1">
-									<p><span className="animated fadeInDown ind-sub">Industrial</span>
-										<ul>
-											<li>Power</li>
-											<li>Distribution + Storage</li>
-											<li>Production Facilities</li>
-											<li>Refineries</li>
-											<li>Chemical</li>
-											<li>Processing Plants</li>
-											<li>Manufacturing</li>
-											<li>Pharmaceutical + Biotech</li>
-										</ul>
-									</p></div>
+									<p><span className="animated fadeInDown ind-sub">Industrial</span><br/>
+										Power<br/>
+										Distribution + Storage<br/>
+										Production Facilities<br/>
+										Refineries<br/>
+										Chemical<br/>
+										Processing Plants<br/>
+										Manufacturing<br/>
+										Pharmaceutical + Biotech
+									</p>
+									</div>
 								<div className="ind-block2">
 									<img src={clientGif2} alt="clientGif2" />
 								</div>
