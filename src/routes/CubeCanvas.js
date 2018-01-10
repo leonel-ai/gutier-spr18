@@ -1,48 +1,48 @@
-import React, { Component } from 'react';
-import * as three from 'three';
-import '../styles/Routes.css';
+// import React, { Component } from 'react';
+// import * as three from 'three';
+// import '../styles/Routes.css';
 
-class Cube extends Component {
+// class Cube extends Component {
 
 
-  componentDidMount(){
-    const { width, height } = this.props;
+//   componentDidMount(){
+//     const { width, height } = this.props;
 
-    const scene = new three.Scene(),
-          camera = new three.PerspectiveCamera( 75, width/height, 0.1, 1 +1000),
-          renderer = new three.WebGLRenderer();
+//     const scene = new three.Scene(),
+//           camera = new three.PerspectiveCamera( 75, width/height, 0.1, 1 +1000),
+//           renderer = new three.WebGLRenderer();
 
-          renderer.setSize(width, height);
-          this.refs.anchor.appendChild(renderer.domElement);
+//           renderer.setSize(width, height);
+//           this.refs.anchor.appendChild(renderer.domElement);
 
-          const geometry = new three.BoxGeometry(1, 1, 1),
-                material = new three.MeshBasicMaterial({ color: 0x00ff00 }),
-                cube = new three.Mesh(geometry, material);
+//           const geometry = new three.BoxGeometry(1, 1, 1),
+//                 material = new three.MeshBasicMaterial({ color: 0x386890 }),
+//                 cube = new three.Mesh(geometry, material);
 
-                scene.add(cube);
+//                 scene.add(cube);
 
-                camera.position.z = 5;
+//                 camera.position.z = 5;
 
-                function gameLoop() {
-                  requestAnimationFrame(gameLoop);
+//                 function gameLoop() {
+//                   requestAnimationFrame(gameLoop);
 
-                  cube.rotation.x += 0.03;
-                  cube.rotation.y += 0.03;
+//                   cube.rotation.x += 0.03;
+//                   cube.rotation.y += 0.03;
 
-                  renderer.render(scene, camera);
-                }
+//                   renderer.render(scene, camera);
+//                 }
 
-                gameLoop();
+//                 gameLoop();
 
-  }
+//   }
 
-  render() {
-    const { width, height } = this.props;
+//   render() {
+//     const { width, height } = this.props;
 
-    return (
-      <div ref="anchor" style={{ width, height }} />
-    )
-  }
-}
+//     return (
+//       <div ref="anchor" style={{ width, height }} />
+//     )
+//   }
+// }
 
-export default Cube;
+// export default Cube;

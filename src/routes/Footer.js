@@ -2,10 +2,10 @@ import React, { PureComponent } from 'react';
 import '../styles/Routes.scss';
 
 
-import logo1 from '../assets/cert-dbe.png';
-import logo2 from '../assets/cert-mbe.png';
-import logo3 from '../assets/cert-sb.png';
-import logo4 from '../assets/cert-txh.png';
+import logo1 from '../assets/cert_01.png';
+import logo2 from '../assets/cert_02.png';
+import logo3 from '../assets/cert_03.png';
+import logo4 from '../assets/cert_04.png';
 
 
 class Footer extends PureComponent {
