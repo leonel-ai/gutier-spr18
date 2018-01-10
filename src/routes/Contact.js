@@ -7,7 +7,6 @@ import '../styles/Routes.css';
 import contactImage1 from '../assets/g3.png';
 import contactImage2 from '../assets/SER.png';
 import contactGif0 from '../assets/gutier_gifs/G.gif';
-import contactGif1 from '../assets/gutier_gifs/C.gif';
 import contactGif2 from '../assets/gutier_gifs/S.gif';
 import contactGif3 from '../assets/gutier_gifs/E.gif';
 import contactGif4 from '../assets/gutier_gifs/R.gif';

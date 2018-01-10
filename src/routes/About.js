@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import Footer from './Footer';
 
@@ -88,7 +87,7 @@ class About extends PureComponent {
 				</div>
 
 				<div className="sidenav">
-					<Link to='/contact' className="side-contact">Need a Quote?</Link>
+					<HashLink to='/contact#contact' className="side-contact">Need a Quote?</HashLink>
 				</div>
 
 				<div className="pg-footer">

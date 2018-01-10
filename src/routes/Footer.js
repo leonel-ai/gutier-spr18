@@ -1,8 +1,12 @@
 import React, { PureComponent } from 'react';
 import '../styles/Routes.scss';
-import logo from '../assets/logo.png';
 
-// import certifications to footer
+
+import logo1 from '../assets/cert-dbe.png';
+import logo2 from '../assets/cert-mbe.png';
+import logo3 from '../assets/cert-sb.png';
+import logo4 from '../assets/cert-txh.png';
+
 
 class Footer extends PureComponent {
 	state = {expanded: false}
@@ -11,9 +15,10 @@ class Footer extends PureComponent {
 		return (
 			<div className="main-footer-grid">
 				<div className="ft-logo">
-					<a href="http://www.amagazi.com">
-						<img className="ft-logo-img" src={logo} alt="footer-logo"/>
-					</a>
+						<img className="ft-logo-img" src={logo1} alt="footer-logo"/>
+						<img className="ft-logo-img" src={logo2} alt="footer-logo"/>
+						<img className="ft-logo-img" src={logo3} alt="footer-logo"/>
+						<img className="ft-logo-img" src={logo4} alt="footer-logo"/>
 				</div>
 
 				<div className="ft-contact">
@@ -28,8 +33,8 @@ class Footer extends PureComponent {
 				<div className="ft-social">
 					<p className="ft-cta">follow us</p>
 					<ul>
-						<li><a href="https://www.linkedin.com/company/amagazi/">linkedin</a></li>
-						<li><a href="https://www.facebook.com/amagazi">facebook</a></li>
+						<li><a href="https://www.linkedin.com/company/9237937/">linkedin</a></li>
+						<li><a href="https://www.facebook.com/gutierconstruction/">facebook</a></li>
 						<li><a href="https://www.medium.com/">blog</a></li>
 					</ul>
 				</div>
