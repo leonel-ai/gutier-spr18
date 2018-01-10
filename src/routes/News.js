@@ -40,6 +40,7 @@ class News extends PureComponent {
 					<div className="news-text1">
 						<div className="animated fadeInRight news-sub1"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0">
 							Immigrants, the workforce to rebuild Houston</a></div>
+								<p>Gutier Helps Rebuild After Hurricane Harvey</p>
 								<p className="actionLink"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0">
 								Watch the Interview &#9656;</a></p>
 					</div>
@@ -49,8 +50,8 @@ class News extends PureComponent {
 				<div className="news-box3-desk">
 					<div className="news-text2">
 						<div className="animated fadeInLeft news-sub2"><a href="http://www.telemundo.com/">
-							Gutier headline tbd on Telemundo</a></div>
-							<p>Gutier Boasts Solid Impact in Houston</p>
+						Gutier Discusses Role in the Hispanic Workforce</a></div>
+							<p>Gutier Boasts Solid Impact In Houston With Telemundo</p>
 						</div>
 
 						<div className="news-img2">
@@ -66,7 +67,7 @@ class News extends PureComponent {
 					<div className="news-text3">
 					<div className="animated fadeInRight news-sub3"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0">
 						Insights to Opportunity</a></div>
-						<p>Gutier Reveals Big Projects in Texas</p>
+						<p>Gutier Reveals Big Projects In Texas With HTV</p>
 					</div>
 
 					<div className="news-gif2">
@@ -82,7 +83,7 @@ class News extends PureComponent {
 					<div className="news-text4">
 						<p>Interested in more?<br/>Check out our latest insights, recommendations, and industry trends
 							at Medium.com.</p>
-						<p className="actionLink"><a href="http://www.medium.com/">Join the community and follow us!  &#9656;</a></p>
+						<p className="actionLink"><a href="http://www.medium.com/">Join the community and follow us.  &#9656;</a></p>
 					</div>
 				</div>
 

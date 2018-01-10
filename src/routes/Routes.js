@@ -4,7 +4,7 @@ import {
 	Route, Link,
 	BrowserRouter as Router,
 } from 'react-router-dom';
-import logo from '../assets/logo.png';
+import logoWhite from '../assets/logo_white.png';
 
 
 import Home from './Home';
@@ -22,7 +22,7 @@ class Routes extends PureComponent {
 
 					<div className="NavBar">
 						<div className="top-logo">
-							<Link to='/'><img src={logo} className="logo" alt="logo"/></Link>
+							<Link to='/'><img src={logoWhite} className="logo" alt="logo"/></Link>
 						</div>
 
 						<Link to='/services'>Services</Link>

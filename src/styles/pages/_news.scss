@@ -245,20 +245,21 @@
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   padding-left: 0px;
-  padding-right: 200px;
+  padding-right: 100px;
   padding-top: 100px;
   padding-bottom: 300px;
 }
 
 .logoMedium-img {
   justify-self: center;
-  padding-left: 60px;
+  align-self: center;
+  padding-left: 80px;
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
 .logoMedium-img > img {
-  height: 200px;
+  height: 120px;
 }
 
 .news-text4 {
