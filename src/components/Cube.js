@@ -67,11 +67,11 @@ class Cube extends Component {
     });
 
 		return (
-			<div className="cube-wrapper">
-				<div className="slider faces-container">
+      <div className="cube-wrapper">
+        <div className="slider faces-container">
           {faces}
-				</div>
-			</div>
+        </div>
+      </div>
 		)
 	}
 }
