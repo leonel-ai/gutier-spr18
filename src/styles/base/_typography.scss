@@ -116,7 +116,8 @@ ul, li {
 /* CONTACT FORM */
 .form-title {
     display: block;
-    font: 34px $font-title;
+    font: 18px $font-title;
+    color: $primary-color;
 }
 
 input[type="text"], input[type="email"], textarea,

@@ -15,7 +15,7 @@ class Form extends PureComponent {
 					<label className="form-title">Message</label>
 					<textarea type="text" name="subject" />
 						<br/>
-					<button className="animated pulse" type="submit" value="Send">Submit</button>
+					<button className="submit" type="submit" value="Send">Submit</button>
 				</form>
 			</div>
 		)

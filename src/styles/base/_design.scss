@@ -112,6 +112,7 @@ button, .ctaTrain {
 
 button:hover, button a:hover, .slider a:hover, .ctaTrain:hover {
     color: $seahawk-color;
+    border: 1px solid $accent-color;
     border-color: $accent-color;
     background-color: transparent;
 }

@@ -10,7 +10,6 @@
 }
 
 /* banner */
-
 .ab-banner {
     grid-column: 1;
 }
@@ -45,12 +44,6 @@
     top: 6%;
 		left: 50%;
     transform: translate(-50%, -50%);
-    transition-property: all;
-    transition-property: transform .2s ease-in-out;
-}
-
-.ab-banner-text:hover {
-    transform: translate3d(-50%, -70%, 0);
 }
 
 /* why gutier */

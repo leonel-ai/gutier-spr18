@@ -6,9 +6,11 @@ import '../styles/Routes.css';
 
 import contactImage1 from '../assets/g3.png';
 import contactImage2 from '../assets/SER.png';
-import contactGif0 from '../assets/gutier_gifs/G-big.gif';
+import contactGif0 from '../assets/gutier_gifs/G.gif';
 import contactGif1 from '../assets/gutier_gifs/C.gif';
-import contactGif2 from '../assets/gutier_gifs/E.gif';
+import contactGif2 from '../assets/gutier_gifs/S.gif';
+import contactGif3 from '../assets/gutier_gifs/E.gif';
+import contactGif4 from '../assets/gutier_gifs/R.gif';
 
 
 class Contact extends PureComponent {
@@ -28,13 +30,13 @@ class Contact extends PureComponent {
 					</div>
 
 					<div className="con-text1">
-						<p><span className="animated fadeInDown con-sub">Gutier Roofing<br/>+ Construction</span></p>
+						<p><span className="animated fadeInDown con-sub">Gutier Roofing + Construction</span></p>
 						<p>3536 Navigation Boulevard <br/>
 						Houston, Texas 77003<br/>
 						Ph. 832.532.7823<br/>
 						info@gutier.com<br/>
 						</p>
-						<p>Connect with us:<br/>
+						<p><b>Connect with us:</b><br/>
 							<a href="https://www.linkedin.com/company/9237937/">linkedin </a>
 							<a href="https://www.facebook.com/gutierconstruction/">| facebook </a>
 							<a href="https://www.medium.com/">| blog</a>
@@ -48,12 +50,9 @@ class Contact extends PureComponent {
 
 
 				<div className="con-box2-desk">
-					<div className="con-gif1">
-						<img src={contactGif1} alt="contactGif1" />
-					</div>
 
 					<div className="con-title1">
-						<h1 className="animated fadeInLeft con-title con-title1">Careers</h1>
+						<h1 className="animated fadeInRight con-title con-title1">Careers</h1>
 					</div>
 
 					<div className="con-img1">
@@ -67,10 +66,13 @@ class Contact extends PureComponent {
 								Our robust experience in commercial and industrial roofing,
 								sheet metal, and waterproofing services has earned us the
 								privilege to build solid, long-standing relationships with
-								our clients. We’re trusted for our ability to deliver
+								our clients.
+								<br/><br/>
+								We’re trusted for our ability to deliver
 								high-quality roofing solutions from small local repairs
-								to large multimillion-dollar projects. Contact us today for
-								a customized estimate.
+								to large multimillion-dollar projects.
+								<br/><br/>
+								Contact us today for a customized estimate.
 						</p>
 					</div>
 				</div>
@@ -78,16 +80,19 @@ class Contact extends PureComponent {
 
 				<div className="con-box3-desk">
 
-					<div className="con-img2">
-						<img src={contactImage2} alt="contactImage2" />
-					</div>
-
 					<div className="con-gif2">
 						<img src={contactGif2} alt="contactGif2" />
+						<img src={contactGif3} alt="contactGif3" />
+						<img src={contactGif4} alt="contactGif4" />
 					</div>
 
 					<div className="con-title2">
-						<h1 className="animated fadeInRight con-title con-title2">Gutier + SER:<br/>Jobs for Progress</h1>
+						<h1 className="animated fadeInLeft con-title con-title2">Gutier + SER:<br/>Jobs for Progress</h1>
+						<p className="subtitles">To apply,<br/>please email your resume to <a href="mailto:info@gutier.com?subject=Hello, Gutier + SER">info@gutier.com</a>.</p>
+					</div>
+
+					<div className="con-img2">
+						<img src={contactImage2} alt="contactImage2" />
 					</div>
 
 					<div className="con-text3">
@@ -117,9 +122,8 @@ class Contact extends PureComponent {
 											<br/>
 										<li>&#9657; Provide work-based learning opportunities, such as internships and apprenticeships.</li>
 									</ul>
-								<br/><br/>
-								To apply, please email your resume to info@gutier.com.
-							</p>
+								<br/>
+								</p>
 						</div>
 				</div>
 

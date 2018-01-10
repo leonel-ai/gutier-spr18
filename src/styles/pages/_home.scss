@@ -1,26 +1,25 @@
 /* home page */
 
 .hm-grid {
-    display: grid;
-    box-sizing: border-box;
-    max-width: 1680px;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    overflow: hidden;
+  display: grid;
+  box-sizing: border-box;
+  max-width: 1680px;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  overflow: hidden;
 }
 
 
 @media screen and (min-width: 736px) and (max-width: 1366px) {
-    .hm-grid {
-        grid-template-columns: 1fr;
-        padding-top: 120px;
-    }
+  .hm-grid {
+    grid-template-columns: 1fr;
+    padding-top: 120px;
+}
 }
 
 @media screen and (max-width: 736px) {
-    .hm-grid {
-        grid-template-columns: 1fr;
-        padding-top: 0;    
-    }
+  .hm-grid {
+    grid-template-columns: 1fr;
+    padding-top: 0;
+  }
 }
-

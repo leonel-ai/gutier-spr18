@@ -141,7 +141,7 @@ class Services extends PureComponent {
 							<div className="quote">
 								<p><b>"They presented us solutions very well and excuted
 								the project exactly as promised... can't say enough about their professionalism
-								and how great they are aobut communicating progress. Top notch."</b>
+								and how great they are about communicating progress. Top notch."</b>
 									<br/><br/>— Ellis Welker, WFMS Inc.</p></div>
 							<div className="quote">
 								<p><b>"Everything about their operations was extremely
