@@ -5,14 +5,11 @@ import {
 	BrowserRouter as Router,
 } from 'react-router-dom';
 import logo from '../assets/logo.png';
-
-
 import Home from './Home';
 import Services from './Services';
 import About from './About';
 import News from './News';
 import Contact from './Contact';
-
 
 class Routes extends PureComponent {
 	render() {
@@ -45,5 +42,19 @@ class Routes extends PureComponent {
 	}
 }
 
-
 export default Routes;
+
+// was thinking something like this to just basically just say 'isActive'
+// whenever that route is loaded show page/cube face active for that route.
+
+// export default (
+//   <Route component={AppLayout} path="/">
+//     <IndexRoute component={Home} />
+//
+//     { /* Pages */ }
+//     <Route component={Page} path="/services" />
+//     <Route component={Page} path="/about" />
+//     <Route component={Page} path="/contact" />
+//     <Route component={Page} path="/news" />
+//   </Route>
+// );

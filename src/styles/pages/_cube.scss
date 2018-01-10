@@ -104,23 +104,25 @@
 	animation: anim2 5s forwards
 }
 
+// the ampersand means it would be like: input#slide1
+// if theres no ampersand a child is like a space(child element): input #slide1
 input {
-	#slide1 {
+	&#slide1 {
 		top: 10px;
 		left: 75pt;
 	}
 
-	#slide2 {
+	&#slide2 {
 		top: 10px;
 		left: 200px;
 	}
 
-	#slide3 {
+	&#slide3 {
 		top: 10px;
 		left: 300px;
 	}
 
-	#slide4 {
+	&#slide4 {
 		top: 10px;
 		left: 25pc;
 	}
@@ -218,7 +220,23 @@ input {
 	transform: rotate(-1deg) rotateY(40deg) translate(0,-100%)
 }
 
-ß
+// basically 1 dont use IDs unless you really need to
+// 2 you can abstract this a bit to just use the .active class
+// the "pure CSS" thing is a hack and uses label + checkbox to handle "clicks"
+// and is very buggy
+// you could use the .active as a way to replace :checked.
+
+// you could alternatively have something like:
+.slide {
+  // initial properties of slide here
+  // width: 100vw; ... etc
+
+  //then handle the active one:
+  &.active {
+    // handle any active properties for a slide
+    z-index: 1000;
+  }
+}
 #slide1:checked ~ label .link2, #slide2:checked ~ label .link3 {
 	color: #fff;
 	text-align: center;
