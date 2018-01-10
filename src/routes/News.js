@@ -74,15 +74,6 @@ class News extends PureComponent {
 					</div>
 				</div>
 
-
-				<div className="news-box5-desk">
-
-					<div className="news-title1">
-						<h1 className="animated fadeInRight news-title news-title2">Insights</h1>
-					</div>
-				</div>
-
-
 				<div className="news-box6-desk">
 					<div className="animated pulse logoMedium-img">
 						<img src={logo} alt="logo" />
