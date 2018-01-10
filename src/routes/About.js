@@ -37,8 +37,8 @@ class About extends PureComponent {
 
 					<div className="ab-text1">
 						<p className="animated fadeInDown tenants">
-								Safety &#9670;
-								Accountability &#9670;
+								Safety &#9679;
+								Accountability &#9679;
 								Quality
 						</p>
 						<p>Our reputation is unmatched, and our work ethic is impeccable.
@@ -49,8 +49,8 @@ class About extends PureComponent {
 							privilege to build solid, long-standing relationships with
 							our clients. We’re trusted for our ability to deliver
 							high-quality roofing solutions from small local repairs
-							to large multimillion-dollar projects. Contact us today for
-							a customized estimate.
+							to large multimillion-dollar projects.
+							<br/><br/>Contact us today for a customized estimate.
 						</p>
 					</div>
 				</div>
@@ -67,13 +67,13 @@ class About extends PureComponent {
 					</div>
 
 					<div className="ab-text2">
-						<p>Community is a key part of our identity at Gutier. We are
+						<p>Giving back to the is a key part of our identity at Gutier. We are
 							committed to using our resources and expertise to drive change
 							in the community and impact the lives of others. One of Gutier’s
-							flagship partnerships is with <b>SER Jobs for Progress</b> where we
-							administer a collaborative vocational training program for young
-							adults in need of career mentorship and life guidance. Learn more
-							about how we are making a difference.
+							flagship partnerships is with <b>SER Jobs for Progress</b> (Service Employment
+							Redevelopment) where we administer a collaborative vocational training program for young
+							adults in need of career mentorship and life guidance.
+							<br/><br/>Learn more about how we are making a difference.
 						</p>
 							<br/><br/>
 						<p>
@@ -88,7 +88,7 @@ class About extends PureComponent {
 				</div>
 
 				<div className="sidenav">
-					<Link to='/contact' className="side-contact">Need a quote?</Link>
+					<Link to='/contact' className="side-contact">Need a Quote?</Link>
 				</div>
 
 				<div className="pg-footer">

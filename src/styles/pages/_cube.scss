@@ -46,6 +46,13 @@
     display: none
 }
 
+.slider a {
+    border: 1px solid $accent-color;
+    background-color: $accent-color;
+    padding: 20px;
+    border-radius: 0 5px 5px 0;
+}
+
 @-webkit-keyframes anim2 {
     0%,50% {
         opacity: 0
@@ -433,9 +440,22 @@ input {
 }
 
 #hm-side1 {
-    background: url('../assets/cube_s01.jpg') center center no-repeat;
+    background: url('../assets/servicesBanner.jpg') center center no-repeat;
     background-size: cover;
     transform-origin: center center -50vh
+}
+
+#hm-side1:after {
+    content: '';
+	background:rgba(0, 0, 0, 0.25);
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
 }
 
 .side1 {
@@ -461,9 +481,22 @@ input {
 }
 
 #hm-side2 {
-    background: url('../assets/cube_s02.jpg') center center no-repeat;
+    background: url('../assets/aboutBanner.png') center center no-repeat;
     background-size: cover;
     transform-origin: center center -50vh
+}
+
+#hm-side2:after {
+    content: '';
+	background:rgba(0, 0, 0, 0.25);
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
 }
 
 .side2  {
@@ -486,6 +519,19 @@ input {
     transform-origin: center center -50vh
 }
 
+#hm-side3:after {
+    content: '';
+	background:rgba(0, 0, 0, 0.25);
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
  .side3 {
     position: absolute;
     width: 1460px;
@@ -505,9 +551,22 @@ input {
 }
 
 #hm-side4 {
-    background: url('../assets/cube_s04.jpg') bottom left no-repeat;
+    background: url('../assets/contactBanner.png') bottom left no-repeat;
     background-size: cover;
     transform-origin: center center -50vh
+}
+
+#hm-side4:after {
+    content: '';
+	background:rgba(0, 0, 0, 0.25);
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
 }
 
 .side4 {

@@ -22,7 +22,7 @@ class Routes extends PureComponent {
 
 					<div className="NavBar">
 						<div className="top-logo">
-							<Link to='/'><img src={logo} className="logo" /></Link>
+							<Link to='/'><img src={logo} className="logo" alt="logo"/></Link>
 						</div>
 
 						<Link to='/services'>Services</Link>

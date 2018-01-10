@@ -5,7 +5,6 @@ import Footer from './Footer';
 import '../styles/Routes.css';
 
 import serviceImage1 from '../assets/g2.png';
-import serviceImage2 from '../assets/g4.png';
 import serviceGif1 from '../assets/gutier_gifs/E.gif';
 import serviceGif2 from '../assets/gutier_gifs/M.gif';
 import quoteOpen from '../assets/gutier_gifs/quote1.gif';
@@ -124,27 +123,30 @@ class Services extends PureComponent {
 
 
 						<div className="srv-trust">
+							<p className="animated fadeInDown trustSub">
+								What Our Clients Say About Us
+							</p>
 							<div className="quote">
-								<p>"From the beginning, they were very timely with
+								<p><b>"From the beginning, they were very timely with
 								scheduling meetings, estimates, and completing our roof. They kept a clean
-								site and didn't interrupt our operations at all. Excellent group to work with!"
+								site and didn't interrupt our operations at all. Excellent group to work with!"</b>
 									<br/><br/>— Jonathan Thomas, Stampede Land Services</p></div>
 							<div className="quote">
-								<p>"They presented us solutions very well and excuted
+								<p><b>"They presented us solutions very well and excuted
 								the project exactly as promised... can't say enough about their professionalism
-								and how great they are aobut communicating progress. Top notch."
+								and how great they are aobut communicating progress. Top notch."</b>
 									<br/><br/>— Ellis Welker, WFMS Inc.</p></div>
 							<div className="quote">
-								<p>"Everything about their operations was extremely
+								<p><b>"Everything about their operations was extremely
 								professional and informative. They took the time to walk me through our
 								problem areas and discussed solutions for us to consider... they had our interests
-								in mind."
+								in mind."</b>
 									<br/><br/>— Ross Summers, Texas Auto</p></div>
 						</div>
 					</div>
 
 					<div className="sidenav">
-						<Link to='/contact' className="side-contact">Need a quote?</Link>
+						<Link to='/contact' className="side-contact">Need a Quote?</Link>
 					</div>
 
 					<div className="pg-footer">

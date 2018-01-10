@@ -59,12 +59,12 @@ body {
 .sidenav a {
     text-align: right;
     position: fixed;
-    left: -70px;
+    left: -80px;
     transition: 0.3s;
     padding: 20px;
     width: 200px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     border-radius: 0 5px 5px 0;
 }
@@ -104,14 +104,16 @@ a:hover {
     color: $accent-color;
 }
 
-button {
+button, .ctaTrain {
     background: $accent-color;
     color: $second-color;
+    border-radius: 0 5px 5px 0;
 }
 
-.hm-button {
-    background: transparent;
-    border: 1px solid $accent-color;
+button:hover, button a:hover, .slider a:hover, .ctaTrain:hover {
+    color: $seahawk-color;
+    border-color: $accent-color;
+    background-color: transparent;
 }
 
 .pg-footer {

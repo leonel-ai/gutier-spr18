@@ -46,6 +46,7 @@ ul, li {
     font: 75px $font-title;
     line-height: 10px;
     margin-top: 0;
+    padding-bottom: 20px;
 }
 
 /* ABOUT */
@@ -74,7 +75,11 @@ ul, li {
     font: 75px $font-title;
 }
 
-.com-sub, .ind-sub {
+.com-sub, .ind-sub, .trustSub {
+    font: 34px $font-title;
+}
+
+.srv-text1 > p {
     font: 34px $font-title;
 }
 
@@ -120,7 +125,7 @@ input:not([type]) {
     padding: .5rem;
 }
 
-button {
+button, .ctaTrain {
     font: 18px $font-body;
 }
 

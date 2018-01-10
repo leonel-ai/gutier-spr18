@@ -3,9 +3,6 @@ import '../styles/Routes.css';
 
 
 class Form extends PureComponent {
-	constructor(props) {
-		super(props);
-	}
 
 	render() {
 		return (

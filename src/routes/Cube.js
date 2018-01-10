@@ -5,9 +5,6 @@ import '../styles/Routes.css';
 
 
 class Cube extends PureComponent {
-	constructor(props) {
-		super(props);
-	}
 
 	render() {
 
@@ -25,7 +22,7 @@ class Cube extends PureComponent {
 						<div className="side1">
 							<h1>INNOVATION</h1>
 							<p>STARTS FROM THE TOP</p>
-							<button><Link to="/services">Services</Link></button>
+							<Link to="/services" name="button">Services</Link>
 						</div>
 					</li>
 
@@ -33,7 +30,7 @@ class Cube extends PureComponent {
 						<div className="side2">
 							<h1>INTEGRITY</h1>
 							<p>STARTS FROM THE TOP</p>
-							<button><Link to="/about">About</Link></button>
+							<Link to="/about" name="button">About</Link>
 						</div>
 					</li>
 
@@ -41,7 +38,7 @@ class Cube extends PureComponent {
 						<div className="side3">
 							<h1>EXCELLENCE</h1>
 							<p>STARTS FROM THE TOP</p>
-							<button><Link to="/news">News</Link></button>
+							<Link to="/news" name="button">News</Link>
 						</div>
 					</li>
 
@@ -49,7 +46,7 @@ class Cube extends PureComponent {
 						<div className="side4">
 							<h1>COMMITMENT</h1>
 							<p>STARTS FROM THE TOP</p>
-							<button><Link to="/contact">Contact</Link></button>
+							<Link to="/contact" name="button">Contact</Link>
 						</div>
 					</li>
 
