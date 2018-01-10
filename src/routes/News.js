@@ -68,16 +68,17 @@ class News extends PureComponent {
 						Insights to Opportunity</a></div>
 						<p>Gutier Reveals Big Projects in Texas</p>
 					</div>
+
+					<div className="news-gif2">
+						<img src={newsGif2} alt="newsGif2" />
+					</div>
 				</div>
 
 
 				<div className="news-box5-desk">
-					<div className="news-gif2">
-						<img src={newsGif2} alt="newsGif2" />
-					</div>
 
 					<div className="news-title1">
-						<h1 className="animated fadeInRight news-title news-title1">Insights</h1>
+						<h1 className="animated fadeInRight news-title news-title2">Insights</h1>
 					</div>
 				</div>
 
@@ -88,7 +89,7 @@ class News extends PureComponent {
 					</div>
 
 					<div className="news-text4">
-						<p>Interested in more? Check out our latest insights, recommendations, and industry trends
+						<p>Interested in more?<br/>Check out our latest insights, recommendations, and industry trends
 							at Medium.com.</p>
 						<p className="actionLink"><a href="http://www.medium.com/">Join the community and follow us!  &#9656;</a></p>
 					</div>
