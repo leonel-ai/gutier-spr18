@@ -42,6 +42,14 @@ class Cube extends Component {
     });
   }
 
+  changePage = (e, page) => {
+    // this isnt actually the best way to do this,
+    // propbably using react router to handle the active class should be better
+    this.setState({
+      activePage: page.url
+    });
+  }
+
 	render() {
     // this is same as saying: const activePage = this.state.activePage
     const { activePage } = this.state;
@@ -59,20 +67,28 @@ class Cube extends Component {
     });
 
     const links = pagesArray.map(page => {
+      const className = (page.url === activePage) ? 'active' : '';
       return (
         <Link key={page.id}
-              active={page.url === activePage}
-              to={page.url} />
+              active="active"
+              className={className}
+              onClick={(e) => this.changePage(e, page)}
+              to={page.url}>
+          {page.name.toUpperCase()}
+        </Link>
       );
     });
 
 		return (
       <div className="cube-wrapper">
+        <div className="navigation-container">
+          {links}
+        </div>
         <div className="slider faces-container">
           {faces}
         </div>
       </div>
-		)
+		);
 	}
 }
 
