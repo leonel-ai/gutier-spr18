@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 import '../styles/Routes.css';
 
 
@@ -11,10 +10,10 @@ class Cube extends PureComponent {
 		return (
 			<div className="buttons-wrapper">
 
-				<input id="slide1" type="radio" name="slider" checked />
-				<input id="slide2" type="radio" name="slider" />
-				<input id="slide3" type="radio" name="slider" />
-				<input id="slide4" type="radio" name="slider" />
+				<input id="slide1" type="radio" name="slider" checked/>
+				<input id="slide2" type="radio" name="slider"/>
+				<input id="slide3" type="radio" name="slider"/>
+				<input id="slide4" type="radio" name="slider"/>
 
 				<ul className="slider">
 
@@ -52,10 +51,10 @@ class Cube extends PureComponent {
 
 				</ul>
 
-				<HashLink className="link1" htmlFor="slide1" to="/#hm-side1"></HashLink>
-				<HashLink className="link2" htmlFor="slide2" to="/#hm-side2"></HashLink>
-				<HashLink className="link3" htmlFor="slide3" to="/#hm-side3"></HashLink>
-				<HashLink className="link4" htmlFor="slide4" to="/#hm-side4"></HashLink>
+				<label className="link1" htmlFor="slide1"></label>
+				<label className="link2" htmlFor="slide2"></label>
+				<label className="link3" htmlFor="slide3"></label>
+				<label className="link4" htmlFor="slide4"></label>
 
 			</div>
 		)
