@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 import '../styles/Routes.css';
 
-import serviceImage1 from '../assets/services_01.jpg';
+import serviceImage1 from '../assets/g2.png';
 import serviceImage2 from '../assets/g4.png';
 import serviceGif1 from '../assets/gutier_gifs/E.gif';
 import serviceGif2 from '../assets/gutier_gifs/M.gif';
@@ -24,12 +24,8 @@ class Services extends PureComponent {
 						<h1 className="srv-banner-text">Services</h1>
 					</div>
 
-
-					<div className="sidenav">
-						<Link to='/contact' className="side-contact">Need a quote?</Link>
-					</div>
-
 					<div className="srv-box1-desk">
+
 						<div className="srv-gif1">
 							<img src={serviceGif1} alt="serviceGif1" />
 						</div>
@@ -56,6 +52,11 @@ class Services extends PureComponent {
 
 
 					<div className="srv-box2-desk">
+
+						<div className="srv-gif2">
+							<img src={serviceGif2} alt="serviceGif2" />
+						</div>
+
 						<div className="srv-title2">
 							<h1 className="animated fadeInRight srv-title srv-title2">Markets</h1>
 						</div>
@@ -101,13 +102,11 @@ class Services extends PureComponent {
 								</div>
 							</div>
 						</div>
+
 					</div>
 
 
 					<div className="srv-box3-desk">
-						<div className="srv-img2">
-							<img src={serviceImage2} alt="serviceImage2" />
-						</div>
 
 						<div className="srv-title3">
 							<h1 className="animated fadeInLeft srv-title srv-title3">Trust</h1>
@@ -122,6 +121,7 @@ class Services extends PureComponent {
 								<img src={quoteClose} alt="quoteClose" />
 							</div>
 						</div>
+
 
 						<div className="srv-trust">
 							<div className="quote">
@@ -143,6 +143,9 @@ class Services extends PureComponent {
 						</div>
 					</div>
 
+					<div className="sidenav">
+						<Link to='/contact' className="side-contact">Need a quote?</Link>
+					</div>
 
 					<div className="pg-footer">
 						<Footer />

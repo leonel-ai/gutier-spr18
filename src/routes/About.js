@@ -6,7 +6,7 @@ import Footer from './Footer';
 import '../styles/Routes.css';
 
 import aboutImage1 from '../assets/g1.png';
-import aboutImage2 from '../assets/about_us_02.jpg';
+import aboutImage2 from '../assets/g5.png';
 import aboutGif1 from '../assets/gutier_gifs/W.gif';
 import aboutGif2 from '../assets/gutier_gifs/C.gif';
 
@@ -21,11 +21,8 @@ class About extends PureComponent {
 					<h1 className="ab-banner-text">About Us</h1>
 				</div>
 
-				<div className="sidenav">
-					<Link to='/contact' className="side-contact">Need a quote?</Link>
-				</div>
-
 				<div className="ab-box1-desk">
+
 					<div className="ab-gif1">
 						<img src={aboutGif1} alt="aboutGif1" />
 					</div>
@@ -61,12 +58,12 @@ class About extends PureComponent {
 
 				<div className="ab-box2-desk">
 
-					<div className="ab-title2">
-						<h1 className="animated fadeInRight ab-title ab-title2">Community</h1>
+					<div className="ab-gif2">
+						<img src={aboutGif2} alt="aboutGif2" />
 					</div>
 
-					<div className="ab-img2">
-						<img src={aboutImage2} alt="aboutImage2" />
+					<div className="ab-title2">
+						<h1 className="animated fadeInRight ab-title ab-title2">Community</h1>
 					</div>
 
 					<div className="ab-text2">
@@ -78,15 +75,20 @@ class About extends PureComponent {
 							adults in need of career mentorship and life guidance. Learn more
 							about how we are making a difference.
 						</p>
-							<br/><br/><br/><br/><br/><br/><br/>
+							<br/><br/>
 						<p>
 							<HashLink className="ctaTrainLink" to='/contact#contact'><span className="ctaTrain">Learn More</span></HashLink>
 						</p>
 					</div>
 
-					<div className="ab-gif2">
-						<img src={aboutGif2} alt="aboutGif2" />
+					<div className="ab-img2">
+						<img src={aboutImage2} alt="aboutImage2" />
 					</div>
+
+				</div>
+
+				<div className="sidenav">
+					<Link to='/contact' className="side-contact">Need a quote?</Link>
 				</div>
 
 				<div className="pg-footer">

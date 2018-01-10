@@ -18,6 +18,25 @@ ul, li {
     font: 18px $font-body;
 }
 
+.subtitles {
+    font: 34px $font-title;
+}
+
+.NavBar a {
+    font: 18px $font-body;
+}
+
+.main-footer-grid {
+    font: 18px $font-body;
+}
+
+.ft-cta {
+    font: 18px $font-body;
+    font-weight: 700;
+}
+
+/* HOME */
+
 .side1, .side2, .side3, .side4 > h1 {
     font: 120px $font-title;
     margin: 0 0 8px;
@@ -29,24 +48,14 @@ ul, li {
     margin-top: 0;
 }
 
-.ft-cta {
-    font: 18px $font-body;
-    font-weight: 700;
-}
-
-.subtitles {
-    font: 34px $font-title;
-}
-
-.main-footer-grid {
-    font: 18px $font-body;
-}
-
-/* HOME */
-
-
 /* ABOUT */
-.ab-banner-text, .ab-title {
+.ab-banner {
+    font: 48px $font-title;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.ab-title {
     font: 75px $font-title;
 }
 
@@ -55,7 +64,13 @@ ul, li {
 }
 
 /* SERVICES */
-.srv-banner-text, .srv-title  {
+.srv-banner {
+    font: 48px $font-title;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.srv-title {
     font: 75px $font-title;
 }
 
@@ -64,7 +79,13 @@ ul, li {
 }
 
 /* NEWS */
-.news-banner-text, .news-title {
+.news-banner {
+    font: 48px $font-title;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.news-title {
     font: 75px $font-title;
 }
 
@@ -73,7 +94,13 @@ ul, li {
 }
 
 /* CONTACT */
-.con-banner-text, .con-title {
+.con-banner{
+    font: 48px $font-title;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.con-title {
     font: 75px $font-title;
 }
 

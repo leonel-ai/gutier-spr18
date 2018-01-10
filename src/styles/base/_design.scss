@@ -5,6 +5,7 @@ $second-color: white;
 $var2: black;
 
 $accent-color: #17468f;
+$seahawk-color: #4DFF00;
 
 
 html, body, #root {
@@ -43,11 +44,16 @@ body {
 .NavBar a {
     margin-right: 62px;
     text-decoration: none;
-    color: $primary-color;
+    color: $second-color;
+}
+
+.NavBar a:hover {
+    color: $seahawk-color;
 }
 
 .sidenav {
     z-index: 20;
+    max-height: 0px;
 }
 
 .sidenav a {
