@@ -5,7 +5,7 @@
   left:0;
   position:fixed;
   right:0;
-  top:0
+  top:0;
 }
 
 .a-body {
@@ -13,7 +13,7 @@
   margin:0;
   overflow:hidden;
   padding:0;
-  width:100%
+  width:100%;
 }
 
 :-webkit-full-screen {
@@ -51,7 +51,7 @@ a-scene.fullscreen .a-canvas {
   left:0!important;
   right:0!important;
   bottom:0!important;
-  z-index:999999!important;
+  // z-index:999999!important;
   position:fixed!important
 }
 

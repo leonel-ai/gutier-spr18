@@ -17,8 +17,31 @@ class About extends PureComponent {
 		return (
 			<div className="ab-grid">
 				<div className="ab-banner">
-					<h1 className="ab-banner-text">About Us</h1>
-				</div>
+					<svg viewBox="0 0 800 400">
+						<symbol id="s-text">
+							<text text-anchor="middle"
+										x="50%"
+										y="35%"
+										className="text--line"
+										>
+									ABOUT US
+							</text>
+						</symbol>
+
+						<g className="g-ants">
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+						</g>
+					</svg>
+							</div>
 
 				<div className="ab-box1-desk">
 
@@ -36,8 +59,8 @@ class About extends PureComponent {
 
 					<div className="ab-text1">
 						<p className="animated fadeInDown tenants">
-								Safety &#9679;
-								Accountability &#9679;
+								Safety |
+								Accountability |
 								Quality
 						</p>
 						<p>Our reputation is unmatched, and our work ethic is impeccable.

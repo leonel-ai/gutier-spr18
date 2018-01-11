@@ -38,7 +38,7 @@ body {
     height: 62px;
     padding: 0;
     padding-top: 20px;
-    z-index: 1000;
+    z-index: 20;
 }
 
 .NavBar a {
@@ -75,6 +75,7 @@ body {
     padding-right: 50px;
 }
 
+
 .side-contact {
     top: 200px;
     background-color: $accent-color;
@@ -94,10 +95,39 @@ body {
     padding-bottom: 0;
 }
 
-.pg-footer {
-    background: $var2;
-    color: $second-color;
-}
+svg {
+    position: relative;
+    width: 100%;
+      top: 0%;
+      left: 0%;
+    }
+
+      $max: 5;
+      $stroke-step: 1%;
+      .text-copy {
+          fill: none;
+          stroke: white;
+          stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
+          stroke-width: .75px;
+
+    animation: stroke-offset 6s;
+
+    @for $item from 1 through $max {
+      $stroke-color: white;
+
+      &:nth-child(#{$item}) {
+        stroke: $stroke-color;
+        stroke-dashoffset: $stroke-step * $item;
+        }
+      }
+    }
+
+  @keyframes stroke-offset {
+    50% {
+      stroke-dashoffset: $stroke-step * $max;
+      stroke-dasharray: 0 $stroke-step * $max * 2.5;
+    }
+  }
 
 a {
     color: $primary-color;

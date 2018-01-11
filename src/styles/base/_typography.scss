@@ -2,6 +2,8 @@
 $font-title: 'Ramabhadra', sans-serif;
 $font-body: 'Open Sans', sans-serif;
 
+$font-titleVR: 200px 'Ramabhadra', sans-serif;
+
 
 body {
     font: 18px $font-body;
@@ -35,19 +37,6 @@ ul, li {
     font-weight: 700;
 }
 
-/* HOME */
-
-.side1, .side2, .side3, .side4 > h1 {
-    font: 120px $font-title;
-    margin: 0 0 8px;
-}
-
-.side1, .side2, .side3, .side4 > p {
-    font: 75px $font-title;
-    line-height: 10px;
-    margin-top: 0;
-    padding-bottom: 20px;
-}
 
 /* ABOUT */
 .ab-banner {
@@ -107,6 +96,10 @@ ul, li {
 
 .con-title {
     font: 75px $font-title;
+}
+
+.con-title2 {
+    line-height: 82px;
 }
 
 .con-sub {

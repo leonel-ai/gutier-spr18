@@ -18,7 +18,30 @@ class News extends PureComponent {
 		return (
 			<div className="news-grid">
 				<div className="news-banner">
-					<h1 className="news-banner-text">News</h1>
+					<svg viewBox="0 0 800 400">
+						<symbol id="s-text">
+							<text text-anchor="middle"
+										x="50%"
+										y="35%"
+										className="text--line"
+										>
+									NEWS
+							</text>
+						</symbol>
+
+						<g className="g-ants">
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+						</g>
+					</svg>
 				</div>
 
 				<div className="news-box1-desk">

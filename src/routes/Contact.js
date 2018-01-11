@@ -19,7 +19,30 @@ class Contact extends PureComponent {
 		return (
 			<div className="con-grid">
 				<div className="con-banner">
-					<h1 className="con-banner-text">Contact Us</h1>
+					<svg viewBox="0 0 800 400">
+						<symbol id="s-text">
+							<text text-anchor="middle"
+										x="50%"
+										y="35%"
+										className="text--line"
+										>
+									CONTACT US
+							</text>
+						</symbol>
+
+						<g className="g-ants">
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+						</g>
+					</svg>
 				</div>
 
 				<div className="con-box1-desk" id="contact">
@@ -36,9 +59,9 @@ class Contact extends PureComponent {
 						info@gutier.com<br/>
 						</p>
 						<p><b>Connect with us:</b><br/>
-							<a href="https://www.linkedin.com/company/9237937/">linkedin </a>
-							<a href="https://www.facebook.com/gutierconstruction/">| facebook </a>
-							<a href="https://www.medium.com/">| blog</a>
+							<a href="https://www.linkedin.com/company/9237937/" target="_blank">linkedin </a>
+							<a href="https://www.facebook.com/gutierconstruction/" target="_blank">| facebook </a>
+							<a href="https://www.medium.com/" target="_blank">| blog</a>
 						</p>
 					</div>
 
@@ -86,7 +109,7 @@ class Contact extends PureComponent {
 					</div>
 
 					<div className="con-title2">
-						<h1 className="animated fadeInLeft con-title con-title2">Gutier + SER:<br/>Jobs for Progress</h1>
+						<h1 className="animated fadeInLeft con-title con-title2">Gutier + SER<br/>Jobs for Progress</h1>
 						<p className="subtitles">To apply,<br/>please email your resume to <a href="mailto:info@gutier.com?subject=Hello, Gutier + SER">info@gutier.com</a>.</p>
 					</div>
 
