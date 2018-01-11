@@ -11,6 +11,8 @@ import homeService from '../assets/servicesBanner.jpg';
 import homeAbout from '../assets/aboutBanner.png';
 import homeNews from '../assets/cube_s03.png';
 import homeContact from '../assets/contactBanner.png';
+import testSky from '../assets/testSky.png';
+import testFloor from '../assets/floor.jpg';
 
 
 class Cube extends Component {
@@ -30,8 +32,8 @@ class Cube extends Component {
     return (
       <Scene>
         <a-assets>
-          <img id="groundTexture" src={homeContact}/>
-          <img id="skyTexture" src={homeNews}/>
+          <img id="groundTexture" src={testFloor}/>
+          <img id="skyTexture" src={testSky}/>
         </a-assets>
 
         <Entity primitive="a-plane" src="#groundTexture" rotation="-90 0 0" height="100" width="100"/>
