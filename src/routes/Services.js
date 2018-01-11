@@ -22,14 +22,14 @@ class Services extends PureComponent {
 					<div className="srv-banner">
 						{/* <h1 className="srv-banner-text">Services</h1> */}
 
-						<svg viewBox="0 0 800 600">
+						<svg viewBox="0 0 800 400">
 							<symbol id="s-text">
 								<text text-anchor="middle"
 											x="50%"
 											y="35%"
 											class="text--line"
 											>
-									Services
+										Services
 								</text>
 							</symbol>
 
