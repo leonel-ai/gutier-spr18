@@ -49,6 +49,10 @@ button {
 @media screen and (max-width: 736px) {
     input[type="text"], input[type="email"], textarea,
     input:not([type]) {
-        width: 386px;
+        width: 320px;
+    }
+
+    textarea {
+        height: 140px;
     }
 }

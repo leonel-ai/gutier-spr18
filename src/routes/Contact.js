@@ -60,7 +60,7 @@ class Contact extends PureComponent {
 						info@gutier.com<br/>
 						</p>
 						<form method="get" rel="noopener" target="_blank" action={brochure}>
-							<button type="submit">Download Our Brochure</button>
+							<button type="submit">Download Brochure</button>
 						</form>
 						<p><b>Connect with us:</b><br/>
 							<a href="https://www.linkedin.com/company/9237937/" rel="noopener" target="_blank">linkedin </a>
