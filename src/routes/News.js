@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import { HashLink } from 'react-router-hash-link';
 import Footer from './Footer';
 
 import '../styles/Routes.css';
@@ -43,6 +44,10 @@ class News extends PureComponent {
 						</g>
 					</svg>
 				</div>
+
+					<div className="sidenav-mob">
+						<HashLink to='/contact#contact' className="side-contact">Need a Quote</HashLink>
+					</div>
 
 				<div className="news-box1-desk">
 					<div className="news-gif1">

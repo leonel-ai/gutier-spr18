@@ -6,211 +6,222 @@ $font-titleVR: 200px 'Ramabhadra', sans-serif;
 
 
 body {
-    font: 18px $font-body;
+	font: 18px $font-body;
 }
 
 p {
-    font: 18px $font-body;
-    line-height: 37.8px;
+	font: 18px $font-body;
+	line-height: 37.8px;
 }
 
 ul, li {
-    text-decoration: none;
-    list-style: none;
-    font: 18px $font-body;
+	text-decoration: none;
+	list-style: none;
+	font: 18px $font-body;
 }
 
 .subtitles {
-    font: 34px $font-title;
+	font: 34px $font-title;
 }
 
 .NavBar a {
-    font: 18px $font-body;
+	font: 18px $font-body;
 }
 
 .main-footer-grid {
-    font: 18px $font-body;
+	font: 18px $font-body;
 }
 
 .ft-cta {
-    font: 18px $font-body;
-    font-weight: 700;
+	font: 18px $font-body;
+	font-weight: 700;
 }
 
 
 /* ABOUT */
 .ab-banner {
-    font: 48px $font-title;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+	font: 48px $font-title;
+	text-transform: uppercase;
+	letter-spacing: 3px;
 }
 
 .ab-title {
-    font: 75px $font-title;
+	font: 75px $font-title;
 }
 
 .tenants {
-    font: 34px $font-title;
+	font: 34px $font-title;
 }
 
 /* SERVICES */
 .srv-banner {
-    font: 48px $font-title;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+	font: 48px $font-title;
+	text-transform: uppercase;
+	letter-spacing: 3px;
 }
 
 .srv-title {
-    font: 75px $font-title;
+	font: 75px $font-title;
 }
 
 .com-sub, .ind-sub, .trustSub {
-    font: 34px $font-title;
+	font: 34px $font-title;
 }
 
 .srv-type {
-    font: 34px $font-title;
+	font: 34px $font-title;
 }
 
 /* NEWS */
 .news-banner {
-    font: 48px $font-title;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+	font: 48px $font-title;
+	text-transform: uppercase;
+	letter-spacing: 3px;
 }
 
 .news-title {
-    font: 75px $font-title;
+	font: 75px $font-title;
 }
 
 .news-sub1, .news-sub2, .news-sub3 {
-    font: 34px $font-title;
+	font: 34px $font-title;
 }
 
 /* CONTACT */
 .con-banner{
-    font: 48px $font-title;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+	font: 48px $font-title;
+	text-transform: uppercase;
+	letter-spacing: 3px;
 }
 
 .con-title {
-    font: 75px $font-title;
+	font: 75px $font-title;
 }
 
 .con-title2 {
-    line-height: 96px;
+	line-height: 96px;
 }
 
 .con-sub, .con-sub-ser {
-    font: 34px $font-title;
+	font: 34px $font-title;
 }
 
 .con-sub-ser {
-    line-height: 52px;
+	line-height: 52px;
 }
 
 /* CONTACT FORM */
 .form-title {
-    display: block;
-    font: 18px $font-title;
-    color: $primary-color;
+	display: block;
+	font: 18px $font-title;
+	color: $primary-color;
 }
 
 input[type="text"], input[type="email"], textarea,
 input:not([type]) {
-    font: 18px $font-body;
-    padding: .5rem;
+	font: 18px $font-body;
+	padding: .5rem;
 }
 
 button, .ctaTrain {
-    font: 18px $font-body;
+	font: 18px $font-body;
 }
 
 @media screen and (min-width: 736px) and (max-width: 1366px) {
 
-    /* ABOUT */
+	/* ABOUT */
 
-    .tenants {
-        font: 28px $font-title;
-    }
+	.tenants {
+			font: 28px $font-title;
+	}
 
-    .news-sub1, .news-sub2, .news-sub3 {
-        font: 28px $font-title;
-        line-height: 42px;
-    }
+	.news-sub1, .news-sub2, .news-sub3 {
+			font: 28px $font-title;
+			line-height: 42px;
+	}
 
-    /* CONTACT */
+	/* CONTACT */
 
-    .con-title2 {
-        line-height: 84px;
-    }
+	.con-title2 {
+			line-height: 84px;
+	}
 
-    .con-sub, .con-sub-ser {
-        font: 28px $font-title;
-    }
+	.con-sub, .con-sub-ser {
+			font: 28px $font-title;
+	}
 
-    .con-sub-ser {
-        line-height: 48px;
-    }
+	.con-sub-ser {
+			line-height: 48px;
+	}
 
- }
+}
 
- @media screen and (max-width: 736px) {
+@media screen and (max-width: 736px) {
 
-    p, body {
-        font: 18px $font-body;
-        line-height: 28px;
-    }
+	p, body {
+			font: 18px $font-body;
+			line-height: 28px;
+	}
 
-    ul, li {
-        font: 18px $font-body;
-    }
+	ul, li {
+			font: 18px $font-body;
+	}
 
-    .subtitles {
-        font: 24px $font-title;
-    }
+	.subtitles {
+			font: 24px $font-title;
+	}
 
-    .ft-cta {
-        font: 18px $font-body;
-        font-weight: 700;
-    }
+	.ft-cta {
+			font: 18px $font-body;
+			font-weight: 700;
+	}
 
-    /* ABOUT */
-    .ab-banner {
-        font: 64px $font-title;
-    }
+	/* ABOUT */
+	.ab-banner {
+			font: 64px $font-title;
+	}
 
-    .ab-title {
-        font: 48px $font-title;
-    }
+	.ab-title {
+			font: 48px $font-title;
+	}
 
-    .tenants {
-        font: 24px $font-title;
-    }
-
-
-   /* SERVICES */
-    .srv-banner {
-        font: 64px $font-title;
-    }
-
-    .srv-title {
-        font: 48px $font-title;
-    }
-
-    .com-sub, .ind-sub, .trustSub {
-        font: 24px $font-title;
-    }
-
-    .com-block1 p, .ind-block1 p {
-        font: 14px $font-body;
-    }
-
-    .srv-type {
-        font: 18px $font-title;
-    }
+	.tenants {
+			font: 24px $font-title;
+	}
 
 
+	/* SERVICES */
+	.srv-banner {
+			font: 64px $font-title;
+	}
+
+	.srv-title {
+			font: 48px $font-title;
+	}
+
+	.com-sub, .ind-sub, .trustSub {
+			font: 24px $font-title;
+	}
+
+	.com-block1 p, .ind-block1 p {
+			font: 14px $font-body;
+	}
+
+	.srv-type {
+			font: 18px $font-title;
+	}
+
+	/* NEWS */
+	.news-banner {
+			font: 64px $font-title;
+	}
+
+	.news-title {
+			font: 48px $font-title;
+	}
+
+	.news-sub1, .news-sub2, .news-sub3 {
+			font: 18px $font-title;
+	}
 
 }

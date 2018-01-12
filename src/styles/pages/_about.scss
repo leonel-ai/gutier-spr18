@@ -354,9 +354,10 @@
 
 	.ab-text1 {
 		grid-column: 1;
-		justify-self: start;
+		justify-self: center;
 		padding: 0;
 		padding-top: 10px;
+		width: 360px;
 	}
 
 	.ab-img1 {
@@ -371,14 +372,6 @@
 		opacity: 1;
 		width: 320px;
 		padding: 0;
-	}
-
-	.ab-text1 {
-		grid-column: 1;
-		justify-self: center;
-		padding: 0;
-		padding-top: 10px;
-		width: 360px;
 	}
 
 	/* community */
@@ -414,10 +407,10 @@
 
 	.ab-text2 {
 		grid-column: 1;
-		justify-self: start;
+		justify-self: center;
 		align-self: center;
 		padding-right: 0px;
-		padding-left: 20px;
+		padding-left: 0px;
 		padding-bottom: 20px;
 		padding-top: 10px;
 		text-align: left;
