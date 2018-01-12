@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 import '../styles/Routes.css';
 
-import serviceImage1 from '../assets/g2.png';
+import serviceImage1 from '../assets/exp.png';
 import serviceGif1 from '../assets/gutier_gifs/E.gif';
 import serviceGif2 from '../assets/gutier_gifs/M.gif';
 import quoteOpen from '../assets/gutier_gifs/quote1.gif';
@@ -66,7 +66,6 @@ class Services extends PureComponent {
 								New Construction<br/>
 								Roof Maintenance + Repairs<br/>
 								</p>
-								<br/>
 							<p><span className="srv-type">Roof System Installation</span><br/>
 								Built-up (BUR)<br/>
 								Modified Bitumen<br/>

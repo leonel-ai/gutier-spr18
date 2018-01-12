@@ -37,3 +37,18 @@ button {
         margin-left: 1rem;
     }
 }
+
+@media screen and (min-width: 736px) and (max-width: 1366px) {
+    input[type="text"], input[type="email"], textarea,
+    input:not([type]) {
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width: 736px) {
+    input[type="text"], input[type="email"], textarea,
+    input:not([type]) {
+        width: 386px;
+    }
+}

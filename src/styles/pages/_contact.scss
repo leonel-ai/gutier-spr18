@@ -27,24 +27,15 @@
 
 .con-banner:after {
 content: '';
-background:rgba(0, 0, 0, 0.25);
-width: 100%;
-height: 500px;
-position: absolute;
-z-index: -1;
-top: 0;
-right: 0;
-left: 0;
-bottom: 0;
-}
-
-.con-banner-text {
-	color:white;
-	text-align: center;
+	background:rgba(0, 0, 0, 0.25);
+	width: 100%;
+	height: 500px;
 	position: absolute;
-	top: 4.5%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	z-index: -1;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
 }
 
 /* contact info */
@@ -215,6 +206,10 @@ bottom: 0;
 	animation-delay: 8.25s;
 }
 
+.con-sub-ser {
+	padding-right: 60px;
+}
+
 .con-text3 {
 	grid-column: 1 / 3;
 	grid-row: 2;
@@ -224,4 +219,116 @@ bottom: 0;
 	padding-right: 60px;
 	padding-bottom: 40px;
 	justify-self: start;
+}
+
+@media screen and (min-width: 736px) and (max-width: 1366px) {
+	.con-grid {
+		grid-template-columns: 1fr;
+    grid-auto-rows: minmax(44px, auto);
+	}
+
+	/* banner */
+
+	.con-banner {
+		height: 400px;
+	}
+
+	.con-banner:after {
+		height: 400px;
+	}
+
+	/* contact info */
+
+	.con-box1-desk {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		padding-left: 0px;
+		padding-right: 40px;
+		padding-top: 20px;
+	}
+
+	.con-gif0 {
+		grid-column: 1;
+	}
+
+	.con-gif0 img {
+		width: 1000px;
+	}
+
+	.con-text1 {
+		grid-column: 1;
+		grid-row: 1;
+		align-self: center;
+		justify-self: center;
+		text-align: right;
+		padding-right: 20px;
+	}
+
+	/* contact form */
+
+	.contact-form {
+		align-self: center;
+		justify-self: center;
+	}
+
+	/* careers */
+
+	.con-box2-desk {
+		padding-right: 0px;
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+
+	.con-text2 {
+		padding-top: 60px;
+		padding-left: 60px;
+		padding-right: 20px;
+	}
+
+	.con-img1 {
+		grid-column: 1;
+		justify-self: start;
+	}
+
+	.con-img1 img{
+		width: 800px;
+	}
+
+	/* SER */
+	.con-box3-desk {
+		padding-top: 60px;
+		padding-left: 0;
+		padding-bottom: 200px;
+	}
+
+	.con-img2 img {
+		width: 800px;
+	}
+
+	.con-gif2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-column: 1 / 2;
+		justify-self: center;
+		max-height: 200px;
+		max-width: 500px;
+		opacity: .4;
+		z-index: -100;
+	}
+
+	.con-gif2 img {
+		width: 432px;
+	}
+
+	.con-text3 {
+		grid-column: 1 / 3;
+		grid-row: 2;
+		width: 1080px;
+		padding-top: 0px;
+		padding-left: 100px;
+		padding-right: 60px;
+		padding-bottom: 40px;
+		justify-self: start;
+	}
+
 }

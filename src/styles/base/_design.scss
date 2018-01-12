@@ -164,15 +164,9 @@ button:hover, button a:hover, .slider a:hover, .ctaTrain:hover {
 
 @media screen and (max-width: 736px) {
 
-    .hm-grid, .ab-grid, .srv-grid, .news-grid, .con-grid {
-        padding-top: 0px;
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
     .NavBar {
-        position: relative;
+        flex-flow: row wrap;
+        line-height: 38px;
     }
 
     .NavBar a {
@@ -182,6 +176,20 @@ button:hover, button a:hover, .slider a:hover, .ctaTrain:hover {
     }
 
     .top-logo {
-        padding-right: 10px;
+        padding-right: 0px;
+        padding-left: 80px;
     }
+
+    .sidenav a {
+        left: -100px;
+        padding: 16px;
+        width: 178px;
+        font-size: 12px;
+    }
+
+    .side-contact {
+        top: 20 0px;
+        background-color: $accent-color;
+    }
+
 }

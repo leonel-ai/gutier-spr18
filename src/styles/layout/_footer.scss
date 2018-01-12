@@ -6,6 +6,7 @@
 	min-height: 300px;
 	align-content: start;
 	z-index: -50;
+	max-width: 1680px;
 }
 
 .ft-logo {
@@ -67,17 +68,28 @@
 
 @media screen and (min-width: 736px) and (max-width: 1366px) {
 	.main-footer-grid {
-			min-height: 250px;
+			min-height: 198px;
+			width: 1366px;
 	}
 
 	.ft-logo {
-			padding-left: 100px;
+			padding-left: 40px;
 	}
 
 	.ft-logo-img {
-			max-width: 220px;
+			max-width: 146px;
+	}
+
+	.ft-contact {
+		justify-self: end;
+	}
+
+	.ft-social {
+		justify-self: end;
+		padding-right: 40px;
 	}
 }
+
 
 @media screen and (max-width: 736px) {
 	.main-footer-grid {

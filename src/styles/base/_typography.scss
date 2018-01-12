@@ -99,11 +99,15 @@ ul, li {
 }
 
 .con-title2 {
-    line-height: 82px;
+    line-height: 96px;
 }
 
-.con-sub {
+.con-sub, .con-sub-ser {
     font: 34px $font-title;
+}
+
+.con-sub-ser {
+    line-height: 52px;
 }
 
 /* CONTACT FORM */
@@ -123,23 +127,35 @@ button, .ctaTrain {
     font: 18px $font-body;
 }
 
-// @media screen and (min-width: 736px) and (max-width: 1366px) {
-//     /* HOME */
-//     .hm-title {
-//      font: 344% $font-title;
-//      }
+@media screen and (min-width: 736px) and (max-width: 1366px) {
+    /* HOME */
 
-//      .subtitles {
-//          font: 125% $font-title;
-//          letter-spacing: 1.2px;
-//      }
+    /* ABOUT */
 
-//      .subtitles-mob {
-//          font: 125% $font-title;
-//          letter-spacing: 1.2px;
-//      }
+    .tenants {
+        font: 28px $font-title;
+    }
 
-//  }
+    .news-sub1, .news-sub2, .news-sub3 {
+        font: 28px $font-title;
+        line-height: 42px;
+    }
+
+    /* CONTACT */
+
+    .con-title2 {
+        line-height: 84px;
+    }
+
+    .con-sub, .con-sub-ser {
+        font: 28px $font-title;
+    }
+
+    .con-sub-ser {
+        line-height: 48px;
+    }
+
+ }
 
 //  @media screen and (max-width: 736px) {
 

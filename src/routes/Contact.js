@@ -58,10 +58,13 @@ class Contact extends PureComponent {
 						Ph. 832.532.7823<br/>
 						info@gutier.com<br/>
 						</p>
+						<form method="get" action="file.doc">
+							<button type="submit">Download Our Brochure</button>
+						</form>
 						<p><b>Connect with us:</b><br/>
-							<a href="https://www.linkedin.com/company/9237937/" target="_blank">linkedin </a>
-							<a href="https://www.facebook.com/gutierconstruction/" target="_blank">| facebook </a>
-							<a href="https://www.medium.com/" target="_blank">| blog</a>
+							<a href="https://www.linkedin.com/company/9237937/" rel="noopener" target="_blank">linkedin </a>
+							<a href="https://www.facebook.com/gutierconstruction/" rel="noopener" target="_blank">| facebook </a>
+							<a href="https://www.medium.com/" rel="noopener" target="_blank">| blog</a>
 						</p>
 					</div>
 
@@ -89,7 +92,7 @@ class Contact extends PureComponent {
 								sheet metal, and waterproofing services has earned us the
 								privilege to build solid, long-standing relationships with
 								our clients.
-								<br/><br/>
+								<br/>
 								We’re trusted for our ability to deliver
 								high-quality roofing solutions from small local repairs
 								to large multimillion-dollar projects.
@@ -110,7 +113,7 @@ class Contact extends PureComponent {
 
 					<div className="con-title2">
 						<h1 className="animated fadeInLeft con-title con-title2">Gutier + SER<br/>Jobs for Progress</h1>
-						<p className="subtitles">To apply,<br/>please email your resume to <a href="mailto:info@gutier.com?subject=Hello, Gutier + SER">info@gutier.com</a>.</p>
+						<p className="con-sub-ser">To apply,<br/>please email your resume to <a href="mailto:info@gutier.com?subject=Hello, Gutier + SER">info@gutier.com</a>.</p>
 					</div>
 
 					<div className="con-img2">

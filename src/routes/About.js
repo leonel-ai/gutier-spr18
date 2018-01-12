@@ -41,7 +41,7 @@ class About extends PureComponent {
 								className="text-copy"></use>
 						</g>
 					</svg>
-							</div>
+				</div>
 
 				<div className="ab-box1-desk">
 

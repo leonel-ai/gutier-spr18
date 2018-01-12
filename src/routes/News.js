@@ -73,7 +73,7 @@ class News extends PureComponent {
 				<div className="news-box3-desk">
 					<div className="news-text2">
 						<div className="animated fadeInLeft news-sub2"><a href="http://www.telemundo.com/">
-						Gutier Discusses Role in the Hispanic Workforce</a></div>
+						Hispanic impact in construction industry</a></div>
 							<p>Gutier Boasts Solid Impact In Houston With Telemundo</p>
 						</div>
 
@@ -89,7 +89,7 @@ class News extends PureComponent {
 					</div>
 					<div className="news-text3">
 					<div className="animated fadeInRight news-sub3"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0">
-						Insights to Opportunity</a></div>
+						Insights to opportunity</a></div>
 						<p>Gutier Reveals Big Projects In Texas With HTV</p>
 					</div>
 
