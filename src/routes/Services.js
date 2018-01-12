@@ -46,6 +46,10 @@ class Services extends PureComponent {
 						</svg>
 					</div>
 
+					<div className="sidenav-mob">
+						<HashLink to='/contact#contact' className="side-contact">Need a Quote</HashLink>
+					</div>
+
 					<div className="srv-box1-desk">
 
 						<div className="srv-gif1">
@@ -151,6 +155,43 @@ class Services extends PureComponent {
 						</div>
 
 
+						<div className="srv-market-mob">
+
+								<div className="com-block1">
+										<p><span className="animated fadeInDown com-sub">Commercial</span><br/>
+											Office<br/>
+											Healthcare<br/>
+											Education<br/>
+											Multi-family<br/>
+											Mixed-use<br/>
+											Hospitality<br/>
+											Warehouse<br/>
+											Retail
+										</p>
+										</div>
+
+									<div className="ind-block1">
+									<p><span className="animated fadeInDown ind-sub">Industrial</span><br/>
+										Power<br/>
+										Distribution + Storage<br/>
+										Production Facilities<br/>
+										Refineries<br/>
+										Chemical<br/>
+										Processing Plants<br/>
+										Manufacturing<br/>
+										Pharmaceutical + Biotech
+									</p>
+									</div>
+
+								<div className="com-block2">
+										<img src={clientGif1} alt="clientGif1" />
+								</div>
+
+								<div className="ind-block2">
+									<img src={clientGif2} alt="clientGif2" />
+								</div>
+							</div>
+
 						<div className="srv-trust">
 							<p className="animated fadeInDown trustSub">
 								What Our Clients Say About Us
@@ -175,7 +216,7 @@ class Services extends PureComponent {
 					</div>
 
 					<div className="sidenav">
-						<HashLink to='/contact#contact' className="side-contact">Need a Quote?</HashLink>
+						<HashLink to='/contact#contact' className="side-contact">Need a Quote</HashLink>
 					</div>
 
 					<div className="pg-footer">

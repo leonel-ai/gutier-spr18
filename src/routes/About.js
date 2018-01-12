@@ -43,6 +43,11 @@ class About extends PureComponent {
 					</svg>
 				</div>
 
+
+				<div className="sidenav-mob">
+					<HashLink to='/contact#contact' className="side-contact">Need a Quote</HashLink>
+				</div>
+
 				<div className="ab-box1-desk">
 
 					<div className="ab-gif1">
@@ -97,7 +102,7 @@ class About extends PureComponent {
 							adults in need of career mentorship and life guidance.
 							<br/><br/>Learn more about how we are making a difference.
 						</p>
-							<br/><br/>
+							<br/>
 						<p>
 							<HashLink className="ctaTrainLink" to='/contact#contact'><span className="ctaTrain">Learn More</span></HashLink>
 						</p>
@@ -110,7 +115,7 @@ class About extends PureComponent {
 				</div>
 
 				<div className="sidenav">
-					<HashLink to='/contact#contact' className="side-contact">Need a Quote?</HashLink>
+					<HashLink to='/contact#contact' className="side-contact">Need a Quote</HashLink>
 				</div>
 
 				<div className="pg-footer">

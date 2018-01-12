@@ -10,6 +10,7 @@ import contactGif0 from '../assets/gutier_gifs/G.gif';
 import contactGif2 from '../assets/gutier_gifs/S.gif';
 import contactGif3 from '../assets/gutier_gifs/E.gif';
 import contactGif4 from '../assets/gutier_gifs/R.gif';
+import brochure from '../assets/Gutier_Brochure-2.pdf';
 
 
 class Contact extends PureComponent {
@@ -58,13 +59,13 @@ class Contact extends PureComponent {
 						Ph. 832.532.7823<br/>
 						info@gutier.com<br/>
 						</p>
-						<form method="get" action="file.doc">
+						<form method="get" rel="noopener" target="_blank" action={brochure}>
 							<button type="submit">Download Our Brochure</button>
 						</form>
 						<p><b>Connect with us:</b><br/>
 							<a href="https://www.linkedin.com/company/9237937/" rel="noopener" target="_blank">linkedin </a>
 							<a href="https://www.facebook.com/gutierconstruction/" rel="noopener" target="_blank">| facebook </a>
-							<a href="https://www.medium.com/" rel="noopener" target="_blank">| blog</a>
+							<a href="https://www.medium.com/@gutier" rel="noopener" target="_blank">| blog</a>
 						</p>
 					</div>
 
