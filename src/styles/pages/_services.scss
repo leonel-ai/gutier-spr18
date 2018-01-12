@@ -79,8 +79,8 @@
 }
 
 .srv-title1 {
-	animation-duration: 5s;
-	animation-delay: 3s;
+	animation-duration: 3s;
+	animation-delay: 1s;
 }
 
 .srv-text1 {
@@ -146,8 +146,8 @@
 }
 
 .srv-title2 {
-	animation-duration: 3s;
-	animation-delay: 8.25s;
+	animation-duration: 5s;
+	animation-delay: 3s;
 }
 
 .srv-market1  {
@@ -166,8 +166,8 @@
 	}
 
 		.com-sub {
-			animation-duration: 5s;
-			animation-delay: 8s;
+			animation-duration: 3s;
+			animation-delay: 4.5s;
 		}
 
 				.com-block1 {
@@ -198,8 +198,8 @@
 	}
 
 		.ind-sub {
-			animation-duration: 5s;
-			animation-delay: 9s;
+			animation-duration: 3s;
+			animation-delay: 6s;
 		}
 
 		.ind-block1 {
@@ -248,7 +248,7 @@
 
 .srv-title3 {
 	animation-duration: 5s;
-	animation-delay: 12s;
+	animation-delay: 7s;
 }
 
 .trustSub {
@@ -440,6 +440,8 @@
 			max-height: 144px;
 			max-width: 400px;
 			padding-left: 20px;
+			animation-duration: 3s;
+			animation-delay: 1s;
 		}
 
 		.srv-img1 img{
@@ -486,6 +488,8 @@
 		max-height: 100px;
 		max-width: 400px;
 		padding-left: 70.4px;
+		animation-duration: 3s;
+		animation-delay: 1.9s;
 	}
 
 	.srv-market1, .srv-market2 {
@@ -553,6 +557,13 @@
 	.com-sub {
 		justify-self: right;
 		padding-right: 60px;
+		animation-duration: 5s;
+		animation-delay: 2.6s;
+	}
+
+	.ind-sub {
+		animation-duration: 5s;
+		animation-delay: 2.6s;
 	}
 
 
@@ -571,6 +582,8 @@
 			min-height: 100px;
 			align-self: end;
 			justify-self: center;
+			animation-duration: 3s;
+			animation-delay: 3.25s;
 		}
 
 		.quotations {

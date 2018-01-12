@@ -68,8 +68,8 @@ content: '';
 }
 
 .con-sub {
-	animation-duration: 5s;
-	animation-delay: 3s;
+	animation-duration: 3s;
+	animation-delay: 1s;
 }
 
 /* contact form */
@@ -112,7 +112,7 @@ content: '';
 
 .con-title1 {
 	animation-duration: 3s;
-	animation-delay: 5s;
+	animation-delay: 2.5s;
 }
 
 .con-text2 {
@@ -386,6 +386,11 @@ content: '';
 		width: 360px;
 	}
 
+	.con-sub {
+		animation-duration: 3s;
+		animation-delay: 1s;
+	}
+
 	/* contact form */
 	.contact-form {
 		grid-column: 1;
@@ -411,6 +416,8 @@ content: '';
 		max-height: 144px;
 		max-width: 400px;
 		padding-left: 86px;
+		animation-duration: 3s;
+		animation-delay: 3s;
 	}
 
 	.con-text2 {
@@ -465,7 +472,7 @@ content: '';
 		max-width: 0px;
 		max-height: 120px;
 		padding: 0;
-		opacity: .5;
+		opacity: 1;
 	}
 
 	.con-gif2 img {
