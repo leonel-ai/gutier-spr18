@@ -22,7 +22,7 @@ class Contact extends PureComponent {
 				<div className="con-banner">
 					<svg viewBox="0 0 800 400">
 						<symbol id="s-text">
-							<text text-anchor="middle"
+							<text textAnchor="middle"
 										x="50%"
 										y="35%"
 										className="text--line"

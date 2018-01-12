@@ -21,7 +21,7 @@ class News extends PureComponent {
 				<div className="news-banner">
 					<svg viewBox="0 0 800 400">
 						<symbol id="s-text">
-							<text text-anchor="middle"
+							<text textAnchor="middle"
 										x="50%"
 										y="35%"
 										className="text--line"

@@ -7,7 +7,7 @@ class Form extends PureComponent {
 	render() {
 		return (
 			<div>
-				<form action="https://formspree.io/leonelaguzman1@gmail.com" method="POST">
+				<form action="https://formspree.io/info@gutier.com" method="POST">
 					<label className="form-title">Name</label>
 					<input type="text" name="name" />
 					<label className="form-title">Email</label>
