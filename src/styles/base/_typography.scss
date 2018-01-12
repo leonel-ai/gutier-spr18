@@ -128,7 +128,6 @@ button, .ctaTrain {
 }
 
 @media screen and (min-width: 736px) and (max-width: 1366px) {
-    /* HOME */
 
     /* ABOUT */
 
@@ -157,50 +156,57 @@ button, .ctaTrain {
 
  }
 
-//  @media screen and (max-width: 736px) {
+ @media screen and (max-width: 736px) {
 
-//     p {
-//         font: 80% $font-body;
-//         letter-spacing: 3px;
-//         line-height: 26px;
-//     }
+    p, body {
+        font: 18px $font-body;
+        line-height: 28px;
+    }
 
-//     h1 {
-//         font: 120% $font-title;
-//         line-height: 30px;
-//     }
+    ul, li {
+        font: 18px $font-body;
+    }
 
-//     .subtitles-mob {
-//         font: 110% $font-title;
-//         letter-spacing: 1.2px;
-//     }
+    .subtitles {
+        font: 24px $font-title;
+    }
 
-//     /* HOME */
-//     .hm-title {
-//         font: 200% $font-title;
-//     }
+    .ft-cta {
+        font: 18px $font-body;
+        font-weight: 700;
+    }
 
-//     /* ABOUT */
-//     .ab-title {
-//         font: 200% $font-title;
-//         font-weight: bold;
-//         letter-spacing: 3px;
-//     }
+    /* ABOUT */
+    .ab-banner {
+        font: 64px $font-title;
+    }
 
+    .ab-title {
+        font: 48px $font-title;
+    }
 
-//     /* SERVICES */
-//     .srv-title {
-//         font: 200% $font-title;
-//         font-weight: bold;
-//         letter-spacing: 3px;
-//     }
+    .tenants {
+        font: 24px $font-title;
+    }
 
 
-//     /* CONTACT */
-//     .con-title {
-//         font: 200% $font-title;
-//         font-weight: bold;
-//         letter-spacing: 3px;
-//     }
+   /* SERVICES */
+    .srv-banner {
+        font: 64px $font-title;
+    }
 
-// }
+    .srv-title {
+        font: 48px $font-title;
+    }
+
+    .com-sub, .ind-sub, .trustSub {
+        font: 24px $font-title;
+    }
+
+    .srv-type {
+        font: 18px $font-title;
+    }
+
+
+
+}

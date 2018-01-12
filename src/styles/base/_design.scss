@@ -9,187 +9,225 @@ $seahawk-color: #4DFF00;
 
 
 html, body, #root {
-    height: 100%;
-    width: 100%;
+	height: 100%;
+	width: 100%;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background: $var;
-    color: $primary-color;
+	margin: 0;
+	padding: 0;
+	background: $var;
+	color: $primary-color;
 }
 
 .App {
-    position: relative;
-    display: flex;
-    flex-flow: column;
+	position: relative;
+	display: flex;
+	flex-flow: column;
 }
 
 .NavBar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%;
-    height: 62px;
-    padding: 0;
-    padding-top: 20px;
-    z-index: 20;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%;
+	height: 62px;
+	padding: 0;
+	padding-top: 20px;
+	z-index: 20;
 }
 
 .NavBar a {
-    margin-right: 62px;
-    text-decoration: none;
-    color: $second-color;
+	margin-right: 62px;
+	text-decoration: none;
+	color: $second-color;
 }
 
 .NavBar a:hover {
-    color: $seahawk-color;
+	color: $seahawk-color;
 }
 
 .sidenav {
-    z-index: 20;
-    max-height: 0px;
+	z-index: 20;
+	max-height: 0px;
 }
 
 .sidenav a {
-    text-align: right;
-    position: fixed;
-    left: -80px;
-    transition: 0.3s;
-    padding: 20px;
-    width: 200px;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    border-radius: 0 5px 5px 0;
+	text-align: right;
+	position: fixed;
+	left: -80px;
+	transition: 0.3s;
+	padding: 20px;
+	width: 200px;
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	border-radius: 0 5px 5px 0;
 }
 
 .sidenav a:hover {
-    left: 0;
-    color: #4DFF00;
-    padding-right: 50px;
+	left: 0;
+	color: #4DFF00;
+	padding-right: 50px;
 }
 
 
 .side-contact {
-    top: 200px;
-    background-color: $accent-color;
+	top: 200px;
+	background-color: $accent-color;
 }
 
 .top-logo {
-    padding-right: 848px;
-    padding-top: 20px;
+	padding-right: 848px;
+	padding-top: 20px;
 }
 
 .top-logo img {
-    width: 200px;
+	width: 200px;
 }
 
 .hm-grid, .ab-grid, .srv-grid, .news-grid, .con-grid {
-    padding-top: 0;
-    padding-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 svg {
-    position: relative;
-    width: 100%;
-      top: 0%;
-      left: 0%;
-    }
+	position: relative;
+	width: 100%;
+	top: 0%;
+	left: 0%;
+}
 
-      $max: 5;
-      $stroke-step: 1%;
-      .text-copy {
-          fill: none;
-          stroke: white;
-          stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
-          stroke-width: .75px;
+	$max: 5;
+	$stroke-step: 1%;
+	.text-copy {
+		fill: none;
+		stroke: white;
+		stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
+		stroke-width: .75px;
 
-    animation: stroke-offset 6s;
+	animation: stroke-offset 6s;
 
-    @for $item from 1 through $max {
-      $stroke-color: white;
+	@for $item from 1 through $max {
+		$stroke-color: white;
 
-      &:nth-child(#{$item}) {
-        stroke: $stroke-color;
-        stroke-dashoffset: $stroke-step * $item;
-        }
-      }
-    }
+		&:nth-child(#{$item}) {
+			stroke: $stroke-color;
+			stroke-dashoffset: $stroke-step * $item;
+		}
+	}
+}
 
-  @keyframes stroke-offset {
-    50% {
-      stroke-dashoffset: $stroke-step * $max;
-      stroke-dasharray: 0 $stroke-step * $max * 2.5;
-    }
-  }
+@keyframes stroke-offset {
+	50% {
+		stroke-dashoffset: $stroke-step * $max;
+		stroke-dasharray: 0 $stroke-step * $max * 2.5;
+	}
+}
 
 a {
-    color: $primary-color;
-    text-decoration: none;
+	color: $primary-color;
+	text-decoration: none;
 }
 
 a:hover {
-    color: $accent-color;
+	color: $accent-color;
 }
 
 button, .ctaTrain {
-    background: $accent-color;
-    color: $second-color;
-    border-radius: 0 5px 5px 0;
+	background: $accent-color;
+	color: $second-color;
+	border-radius: 0 5px 5px 0;
 }
 
 button:hover, button a:hover, .slider a:hover, .ctaTrain:hover {
-    color: $seahawk-color;
-    border: 1px solid $accent-color;
-    border-color: $accent-color;
-    background-color: transparent;
+	color: $seahawk-color;
+	border: 1px solid $accent-color;
+	border-color: $accent-color;
+	background-color: transparent;
 }
 
 .pg-footer {
-    background: $var;
-    color: $primary-color;
+	background: $var;
+	color: $primary-color;
 }
 
 @media screen and (min-width: 736px) and (max-width: 1366px) {
-    .top-logo {
-        padding-right: 580px;
-    }
+	.top-logo {
+		padding-right: 580px;
+	}
 }
 
 @media screen and (max-width: 736px) {
 
-    .NavBar {
-        flex-flow: row wrap;
-        line-height: 38px;
-    }
+	.NavBar {
+		flex-flow: row wrap;
+		line-height: 42px;
+	}
 
-    .NavBar a {
-        margin-right: 30px;
-        text-decoration: none;
-        color: $second-color;
-    }
+	.NavBar a {
+		margin-right: 30px;
+		text-decoration: none;
+		color: $second-color;
+	}
 
-    .top-logo {
-        padding-right: 0px;
-        padding-left: 80px;
-    }
+	.top-logo {
+		padding-right: 0px;
+		padding-left: 80px;
+	}
 
-    .sidenav a {
-        left: -100px;
-        padding: 16px;
-        width: 178px;
-        font-size: 12px;
-    }
+	.sidenav a {
+		left: -155px;
+		word-spacing: 2px;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		padding-right: 6px;
+		width: 178px;
+		font-size: 12px;
+	}
 
-    .side-contact {
-        top: 174px;
-        background-color: $accent-color;
-    }
+	.side-contact {
+		top: 214px;
+		background-color: $accent-color;
+	}
+
+
+	svg {
+		position: relative;
+		width: 100%;
+		top: 53%;
+		left: 21%;
+	}
+
+		$max: 5;
+		$stroke-step: 1%;
+		.text-copy {
+			fill: none;
+			stroke: white;
+			stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
+			stroke-width: 1px;
+
+	animation: stroke-offset 6s;
+
+	@for $item from 1 through $max {
+		$stroke-color: white;
+
+		&:nth-child(#{$item}) {
+			stroke: $stroke-color;
+			stroke-dashoffset: $stroke-step * $item;
+			}
+		}
+	}
+
+	@keyframes stroke-offset {
+		50% {
+			stroke-dashoffset: $stroke-step * $max;
+			stroke-dasharray: 0 $stroke-step * $max * 2.5;
+		}
+	}
 
 }
