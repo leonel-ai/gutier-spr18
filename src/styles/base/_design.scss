@@ -185,14 +185,18 @@ button:hover, button a:hover, .slider a:hover, .ctaTrain:hover {
 	}
 
 	.sidenav-mob a {
-		text-align: center;
+		text-align: right;
+		left: -70px;
 		position: absolute;
-		padding: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 20px;
+		padding-left: 0px;
 		text-decoration: none;
 		text-transform: uppercase;
 		font-size: 18px;
 		color: white;
-		width: 380px;
+		width: 200px;
 	}
 	.sidenav-mob a:hover {
 		color: #4DFF00;
@@ -239,7 +243,7 @@ button:hover, button a:hover, .slider a:hover, .ctaTrain:hover {
 		position: relative;
 		width: 100%;
 		top: 53%;
-		left: 21%;
+		left: 20%;
 	}
 
 		$max: 5;
@@ -271,7 +275,7 @@ button:hover, button a:hover, .slider a:hover, .ctaTrain:hover {
 
 	.news-banner > svg {
 		top: 51%;
-		left: 26%;
+		left: 25%;
 	}
 
 	.con-banner > svg {

@@ -47,7 +47,7 @@ class Services extends PureComponent {
 					</div>
 
 					<div className="sidenav-mob">
-						<HashLink to='/contact#contact' className="side-contact">Need a Quote</HashLink>
+						<HashLink to='/contact#contact' className="side-contact">Get a Quote</HashLink>
 					</div>
 
 					<div className="srv-box1-desk">

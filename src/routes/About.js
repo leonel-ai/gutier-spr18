@@ -45,7 +45,7 @@ class About extends PureComponent {
 
 
 				<div className="sidenav-mob">
-					<HashLink to='/contact#contact' className="side-contact">Need a Quote</HashLink>
+					<HashLink to='/contact#contact' className="side-contact">Get a Quote</HashLink>
 				</div>
 
 				<div className="ab-box1-desk">
