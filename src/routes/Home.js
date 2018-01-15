@@ -11,7 +11,7 @@ class Home extends PureComponent {
 			<div className="hm-grid">
 				<Cube />
 				<div className="sidenav">
-					<HashLink to='/contact#contact' className="side-contact">Need a Quote</HashLink>
+					<HashLink to='/contact#contact' className="side-contact">Get a Quote</HashLink>
 				</div>
 
 				<div className="sidenav-hm-mob">
