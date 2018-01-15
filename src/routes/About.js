@@ -65,8 +65,8 @@ class About extends PureComponent {
 					<div className="ab-text1">
 						<p className="animated fadeInDown tenants">
 								Safety |
-								Accountability |
-								Quality
+								Quality |
+								Accountability
 						</p>
 						<p>Our reputation is unmatched, and our work ethic is impeccable.
 							We’ve built our company on the pillars of integrity, innovation,

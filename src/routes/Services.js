@@ -65,20 +65,18 @@ class Services extends PureComponent {
 						</div>
 
 						<div className="srv-text1">
-							<p><span className="srv-type">Roofing Construction</span><br/>
-								Re-Roofing<br/>
+							<p><span className="srv-type">Roofing Services</span><br/>
 								New Construction<br/>
+								Re-Roofing<br/>
 								Roof Maintenance + Repairs<br/>
 								</p>
 							<p><span className="srv-type">Roof System Installation</span><br/>
 								Built-up (BUR)<br/>
-								Modified Bitumen<br/>
-								Single-Ply<br/>
 								Liquid Applied<br/>
-								Specialty<br/>
-								Insulation<br/>
-								Asphalt Shingles<br/>
+								Modified Bitumen<br/>
 								Sheet Metal<br/>
+								Single-Ply<br/>
+								Specialty<br/>
 								Waterproofing
 								</p>
 						</div>

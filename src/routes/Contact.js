@@ -53,7 +53,7 @@ class Contact extends PureComponent {
 					</div>
 
 					<div className="con-text1">
-						<p><span className="animated fadeInDown con-sub">Gutier Roofing + Construction</span></p>
+						<p><span className="animated fadeInDown con-sub">Gutier Roofing + Sheet Metal</span></p>
 						<p>3536 Navigation Boulevard <br/>
 						Houston, Texas 77003<br/>
 						Ph. 832.532.7823<br/>
