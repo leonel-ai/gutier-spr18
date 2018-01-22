@@ -33,9 +33,9 @@ class Footer extends PureComponent {
 				<div className="ft-social">
 					<p className="ft-cta">follow us</p>
 					<ul>
-						<li><a href="https://www.linkedin.com/company/9237937/" rel="noopener" target="_blank" >linkedin</a></li>
-						<li><a href="https://www.facebook.com/gutierconstruction/" rel="noopener" target="_blank" >facebook</a></li>
-						<li><a href="https://www.medium.com/@gutier" rel="noopener" target="_blank" >blog</a></li>
+						<li><a href="https://www.linkedin.com/company/9237937/" rel="noopener noreferrer" target="_blank" >linkedin</a></li>
+						<li><a href="https://www.facebook.com/gutierconstruction/" rel="noopener noreferrer" target="_blank" >facebook</a></li>
+						<li><a href="https://www.medium.com/@gutier" rel="noopener noreferrer" target="_blank" >blog</a></li>
 					</ul>
 				</div>
 

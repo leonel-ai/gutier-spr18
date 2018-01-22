@@ -20,7 +20,8 @@ class Contact extends PureComponent {
 		return (
 			<div className="con-grid">
 				<div className="con-banner">
-					<svg viewBox="0 0 800 400">
+
+					<svg viewBox="0 0 800 400" className="svg-con-desktop">
 						<symbol id="s-text">
 							<text textAnchor="middle"
 										x="50%"
@@ -44,6 +45,32 @@ class Contact extends PureComponent {
 								className="text-copy"></use>
 						</g>
 					</svg>
+
+					<svg viewBox="86 0 620 240" className="svg-news-mobile">
+						<symbol id="s-text">
+							<text textAnchor="middle"
+										x="0%"
+										y="5%"
+										className="text--line"
+										>
+									CONTACT US
+							</text>
+						</symbol>
+
+						<g className="g-ants">
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+						</g>
+					</svg>
+
 				</div>
 
 				<div className="con-box1-desk" id="contact">
@@ -63,9 +90,9 @@ class Contact extends PureComponent {
 							<button type="submit">Download Brochure</button>
 						</form>
 						<p><b>Connect with us:</b><br/>
-							<a href="https://www.linkedin.com/company/9237937/" rel="noopener" target="_blank">linkedin </a>
-							<a href="https://www.facebook.com/gutierconstruction/" rel="noopener" target="_blank">| facebook </a>
-							<a href="https://www.medium.com/@gutier" rel="noopener" target="_blank">| blog</a>
+							<a href="https://www.linkedin.com/company/9237937/" rel="noopener noreferrer" target="_blank">linkedin </a>
+							<a href="https://www.facebook.com/gutierconstruction/" rel="noopener noreferrer" target="_blank">| facebook </a>
+							<a href="https://www.medium.com/@gutier" rel="noopener noreferrer" target="_blank">| blog</a>
 						</p>
 					</div>
 
@@ -131,23 +158,21 @@ class Contact extends PureComponent {
 								<br/><br/>
 								Together, we are committed to achieving the following:
 								<br/><br/>
-									<ul>
-										<li>&#9657; Hire qualitifed young adults who successfully complete the training program
+										<li>&nbsp;&#9657; Hire qualitifed young adults who successfully complete the training program
 											and meet job requirements for permanent jobs (when available).</li>
 											<br/>
-										<li>&#9657; Help connect students who are not hired by Gutier with employment opportunities
+										<li>&nbsp;&#9657; Help connect students who are not hired by Gutier with employment opportunities
 											for similar companies.</li>
 											<br/>
-										<li>&#9657; Ensure accelerated placement in employment or post-secondary education for
+										<li>&nbsp;&#9657; Ensure accelerated placement in employment or post-secondary education for
 											program participants.</li>
 											<br/>
-										<li>&#9657; Develop employability and academic skills to succeed in training.</li>
+										<li>&nbsp;&#9657; Develop employability and academic skills to succeed in training.</li>
 											<br/>
-										<li>&#9657; Deliver NCCER Level I Core Training for entry level positions and other
+										<li>&nbsp;&#9657; Deliver NCCER Level I Core Training for entry level positions and other
 											vocational trainings for career advancement and/or mid-level skill jobs.</li>
 											<br/>
-										<li>&#9657; Provide work-based learning opportunities, such as internships and apprenticeships.</li>
-									</ul>
+										<li>&nbsp;&#9657; Provide work-based learning opportunities, such as internships and apprenticeships.</li>
 								<br/>
 								</p>
 						</div>

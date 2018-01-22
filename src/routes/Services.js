@@ -20,7 +20,8 @@ class Services extends PureComponent {
 		return (
 				<div className="srv-grid">
 					<div className="srv-banner">
-						<svg viewBox="0 0 800 400">
+
+						<svg viewBox="0 0 800 400" className="svg-srv-desktop">
 							<symbol id="s-text">
 								<text textAnchor="middle"
 											x="50%"
@@ -44,6 +45,33 @@ class Services extends PureComponent {
 									className="text-copy"></use>
 							</g>
 						</svg>
+
+
+						<svg viewBox="130 0 620 240" className="svg-srv-mobile">
+							<symbol id="s-text">
+								<text textAnchor="middle"
+											x="30%"
+											y="35%"
+											className="text--line"
+											>
+										SERVICES
+								</text>
+							</symbol>
+
+							<g className="g-ants">
+								<use xlinkHref="#s-text"
+									className="text-copy"></use>
+								<use xlinkHref="#s-text"
+									className="text-copy"></use>
+								<use xlinkHref="#s-text"
+									className="text-copy"></use>
+								<use xlinkHref="#s-text"
+									className="text-copy"></use>
+								<use xlinkHref="#s-text"
+									className="text-copy"></use>
+							</g>
+						</svg>
+
 					</div>
 
 					<div className="sidenav-mob">

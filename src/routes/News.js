@@ -19,11 +19,37 @@ class News extends PureComponent {
 		return (
 			<div className="news-grid">
 				<div className="news-banner">
-					<svg viewBox="0 0 800 400">
+
+					<svg viewBox="0 0 800 400" className="svg-news-desktop">
 						<symbol id="s-text">
 							<text textAnchor="middle"
 										x="50%"
 										y="35%"
+										className="text--line"
+										>
+									NEWS
+							</text>
+						</symbol>
+
+						<g className="g-ants">
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+						</g>
+					</svg>
+
+					<svg viewBox="176 0 620 240" className="svg-news-mobile">
+						<symbol id="s-text">
+							<text textAnchor="middle"
+										x="20%"
+										y="25%"
 										className="text--line"
 										>
 									NEWS
@@ -66,10 +92,10 @@ class News extends PureComponent {
 					</div>
 
 					<div className="news-text1">
-						<div className="animated fadeInRight news-sub1"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0" rel="noopener" target="_blank" >
+						<div className="animated fadeInRight news-sub1"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0" rel="noopener noreferrer" target="_blank" >
 							Immigrants, the workforce to rebuild Houston</a></div>
 								<p>Gutier Helps Rebuild After Hurricane Harvey</p>
-								<p className="actionLink"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0" rel="noopener" target="_blank" >
+								<p className="actionLink"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0" rel="noopener noreferrer" target="_blank" >
 								Watch the Interview &#9656;</a></p>
 					</div>
 				</div>
@@ -77,7 +103,7 @@ class News extends PureComponent {
 
 				<div className="news-box3-desk">
 					<div className="news-text2">
-						<div className="animated fadeInLeft news-sub2"><a href="http://www.telemundo.com/" rel="noopener" target="_blank" >
+						<div className="animated fadeInLeft news-sub2"><a href="http://www.telemundo.com/" rel="noopener noreferrer" target="_blank" >
 						Hispanic impact in construction industry</a></div>
 							<p>Gutier Boasts Solid Impact In Houston With Telemundo</p>
 						</div>
@@ -93,7 +119,7 @@ class News extends PureComponent {
 						<img src={newsImage3} alt="newsImage3" />
 					</div>
 					<div className="news-text3">
-					<div className="animated fadeInRight news-sub3"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0" rel="noopener" target="_blank" >
+					<div className="animated fadeInRight news-sub3"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0" rel="noopener noreferrer" target="_blank" >
 						Insights to opportunity</a></div>
 						<p>Gutier Reveals Big Projects In Texas With HTV</p>
 					</div>
@@ -111,7 +137,7 @@ class News extends PureComponent {
 					<div className="news-text4">
 						<p>Interested in more?<br/>Check out our latest insights, recommendations, and industry trends
 							at Medium.com.</p>
-						<p className="actionLink"><a href="http://www.medium.com/@gutier" rel="noopener" target="_blank" >Join the community and follow us.  &#9656;</a></p>
+						<p className="actionLink"><a href="http://www.medium.com/@gutier" rel="noopener noreferrer" target="_blank" >Join the community and follow us.  &#9656;</a></p>
 					</div>
 				</div>
 

@@ -17,7 +17,8 @@ class About extends PureComponent {
 		return (
 			<div className="ab-grid">
 				<div className="ab-banner">
-					<svg viewBox="0 0 800 400">
+
+					<svg viewBox="0 0 800 400" className="svg-ab-desktop">
 						<symbol id="s-text">
 							<text textAnchor="middle"
 										x="50%"
@@ -41,6 +42,32 @@ class About extends PureComponent {
 								className="text-copy"></use>
 						</g>
 					</svg>
+
+				<svg viewBox="134 0 620 240" className="svg-ab-mobile">
+						<symbol id="s-text">
+							<text textAnchor="middle"
+										x="30%"
+										y="35%"
+										className="text--line"
+										>
+									ABOUT US
+							</text>
+						</symbol>
+
+						<g className="g-ants">
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+							<use xlinkHref="#s-text"
+								className="text-copy"></use>
+						</g>
+					</svg>
+
 				</div>
 
 

@@ -25,10 +25,13 @@ class Routes extends PureComponent {
 							<Link to='/'><img src={logoWhite} className="logo" alt="logo"/></Link>
 						</div>
 
+						<div className="menu-pgs">
 						<Link to='/services'>Services</Link>
 						<Link to='/about'>About</Link>
 						<Link to='/news'>News</Link>
 						<Link to='/contact'>Contact</Link>
+						</div>
+
 					</div>
 
 					<Switch>
