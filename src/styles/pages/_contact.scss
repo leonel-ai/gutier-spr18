@@ -28,18 +28,6 @@
 	z-index: -100;
 }
 
-.con-banner:after {
-content: '';
-	background:rgba(0, 0, 0, 0.25);
-	height: 500px;
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	right: 0;
-	left: 0;
-	bottom: 0;
-}
-
 .svg-con-mobile {display: none}
 
 /* contact info */
@@ -237,10 +225,6 @@ content: '';
 		height: 400px;
 	}
 
-	.con-banner:after {
-		height: 400px;
-	}
-
 	/* contact info */
 
 	.con-box1-desk {
@@ -348,11 +332,6 @@ content: '';
 
 	/* banner */
 	.con-banner {
-		height: 200px;
-	}
-
-	.con-banner:after {
-		background:rgba(0, 0, 0, 0.65);
 		height: 200px;
 	}
 

@@ -28,18 +28,6 @@
 		z-index: -100;
 }
 
-.ab-banner:after {
-	content: '';
-	background:rgba(0, 0, 0, 0.25);
-	height: 500px;
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	right: 0;
-	left: 0;
-	bottom: 0;
-}
-
 .svg-ab-mobile {display: none}
 
 /* why gutier */
@@ -223,10 +211,6 @@
 		height: 400px;
 	}
 
-	.ab-banner:after {
-		height: 400px;
-	}
-
 	/* why gutier */
 
 	.ab-box1-desk {
@@ -302,11 +286,6 @@
 
 	/* banner */
 	.ab-banner {
-		height: 200px;
-	}
-
-	.ab-banner:after {
-		background:rgba(0, 0, 0, 0.65);
 		height: 200px;
 	}
 
@@ -414,7 +393,7 @@
 		max-width: 400px;
 		justify-self: start;
 		align-self: end;
-		z-index: 100;
+		z-index: 10;
 		padding-left: 20px;
 		animation-duration: 5s;
 		animation-delay: 2.6s;

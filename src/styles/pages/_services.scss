@@ -26,18 +26,6 @@
 	z-index: -100;
 }
 
-.srv-banner:after {
-	content: '';
-	background:rgba(0, 0, 0, 0.25);
-	height: 500px;
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	right: 0;
-	left: 0;
-	bottom: 0;
-}
-
 .svg-srv-mobile {display: none}
 
 /* expertise */
@@ -133,7 +121,7 @@
 	grid-row: 1;
 	justify-self: start;
 	align-self: end;
-	z-index: 100;
+	z-index: 10;
 	padding-left: 100px;
 	position: relative;
 	-webkit-transform:  translate(-50%, -50%);
@@ -346,10 +334,6 @@
 		height: 400px;
 	}
 
-	.srv-banner:after {
-		height: 400px;
-	}
-
 	/* expertise */
 
 	.srv-box1-desk {
@@ -408,11 +392,6 @@
 
 		/* banner */
 		.srv-banner {
-			height: 200px;
-		}
-
-		.srv-banner:after {
-			background:rgba(0, 0, 0, 0.65);
 			height: 200px;
 		}
 
