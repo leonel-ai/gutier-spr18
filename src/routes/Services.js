@@ -166,6 +166,7 @@ class Services extends PureComponent {
 
 					<div className="srv-box3-desk">
 
+						<div className="srv-trust-desk">
 						<div className="srv-title3">
 							<h1 className="animated fadeInLeft srv-title srv-title3">Trust</h1>
 						</div>
@@ -178,6 +179,7 @@ class Services extends PureComponent {
 							<div className="srv-gif4">
 								<img src={quoteClose} alt="quoteClose" />
 							</div>
+						</div>
 						</div>
 
 
@@ -217,6 +219,23 @@ class Services extends PureComponent {
 									<img src={clientGif2} alt="clientGif2" />
 								</div>
 							</div>
+
+					<div className="srv-box3-mobile">
+
+						<div className="srv-title3">
+							<h1 className="animated fadeInLeft srv-title srv-title3">Trust</h1>
+						</div>
+
+						<div className="quotations">
+							<div className="srv-gif3">
+								<img src={quoteOpen} alt="quoteOpen" />
+							</div>
+
+							<div className="srv-gif4">
+								<img src={quoteClose} alt="quoteClose" />
+							</div>
+						</div>
+					</div>
 
 						<div className="srv-trust">
 							<p className="animated fadeInDown trustSub">

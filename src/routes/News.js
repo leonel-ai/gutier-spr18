@@ -119,7 +119,7 @@ class News extends PureComponent {
 						<img src={newsImage3} alt="newsImage3" />
 					</div>
 					<div className="news-text3">
-					<div className="animated fadeInRight news-sub3"><a href="https://cnnespanol.cnn.com/video/cnnee-pkg-gustavo-valdes-la-resconstruccion-despues-de-harvey/#0" rel="noopener noreferrer" target="_blank" >
+					<div className="animated fadeInRight news-sub3"><a href="http://www.houstontx.gov/htv/insights-to-opportunity.html" rel="noopener noreferrer" target="_blank" >
 						Insights to opportunity</a></div>
 						<p>Gutier Reveals Big Projects In Texas With HTV</p>
 					</div>
