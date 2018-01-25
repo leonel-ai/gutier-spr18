@@ -113,19 +113,11 @@ class Contact extends PureComponent {
 					</div>
 
 					<div className="con-text2">
-						<p>Our reputation is unmatched, and our work ethic is impeccable.
-								We’ve built our company on the pillars of integrity, innovation,
-								community, and a commitment to serve clients all over Texas.
-								Our robust experience in commercial and industrial roofing,
-								sheet metal, and waterproofing services has earned us the
-								privilege to build solid, long-standing relationships with
-								our clients.
-								<br/>
-								We’re trusted for our ability to deliver
-								high-quality roofing solutions from small local repairs
-								to large multimillion-dollar projects.
+						<p>Join our family of roofing experts who value safety,
+							quality, and accountability above all. A career with Gutier
+							will help you rise to the top in your expertise.
 								<br/><br/>
-								Contact us today for a customized estimate.
+								Contact us today to apply.
 						</p>
 					</div>
 				</div>

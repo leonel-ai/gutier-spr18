@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import {
 	Switch,
-	Route, Link,
+	Route, Link, NavLink,
 	BrowserRouter as Router,
 } from 'react-router-dom';
 import logoWhite from '../assets/logo_white.png';
@@ -26,12 +26,25 @@ class Routes extends PureComponent {
 						</div>
 
 						<div className="menu-pgs">
-						<Link to='/services'>Services</Link>
-						<Link to='/about'>About</Link>
-						<Link to='/news'>News</Link>
-						<Link to='/contact'>Contact</Link>
+						<NavLink activeStyle={{ color: '#4DFF00' }} to='/services'>Services</NavLink>
+						<NavLink activeStyle={{ color: '#4DFF00' }} to='/about'>About</NavLink>
+						<NavLink activeStyle={{ color: '#4DFF00' }} to='/news'>News</NavLink>
+						<NavLink activeStyle={{ color: '#4DFF00' }} to='/contact'>Contact</NavLink>
 						</div>
 
+					</div>
+
+					<div className="NavBar-mobile">
+						<div className="NavBar-menu">
+							<Link className="menu-item" to='/services'>Services</Link>
+							<Link className="menu-item" to='/about'>About</Link>
+							<Link className="menu-item" to='/news'>News</Link>
+							<Link className="menu-item" to='/contact'>Contact</Link>
+						</div>
+
+						<div className="NavBar-logo">
+							<img src={logoWhite} className="logo" alt="logo"/>
+						</div>
 					</div>
 
 					<Switch>

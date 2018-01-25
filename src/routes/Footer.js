@@ -40,7 +40,7 @@ class Footer extends PureComponent {
 				</div>
 
 				<div className="ft-privacy">
-					<p className="copyright-footer">copyright ©2018 <a href="http://www.amagazi.com/" rel="noopener noreferrer" target="_blank">gutier</a></p>
+					<p className="copyright-footer">copyright ©2018 <a href="http://www.amagazi.com/" rel="noopener noreferrer" target="_blank">gutier roofing</a></p>
 				</div>
 
 			</div>
