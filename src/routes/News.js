@@ -72,7 +72,8 @@ class News extends PureComponent {
 				</div>
 
 					<div className="sidenav-mob">
-						<HashLink to='/contact#contact' className="side-contact">Get a Quote</HashLink>
+						<HashLink to='/contact#contact' className="side-contact">
+							Get a Quote</HashLink>
 					</div>
 
 				<div className="news-box1-desk">
@@ -121,7 +122,7 @@ class News extends PureComponent {
 					<div className="news-text3">
 					<div className="animated fadeInRight news-sub3"><a href="http://www.houstontx.gov/htv/insights-to-opportunity.html" rel="noopener noreferrer" target="_blank" >
 						Insights to opportunity</a></div>
-						<p>Gutier Reveals Big Projects In Texas With HTV</p>
+						<p>Gutier Reveals Big Projects In Texas With HTV Houston Television</p>
 					</div>
 
 					<div className="news-gif2">

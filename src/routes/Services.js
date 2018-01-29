@@ -12,7 +12,6 @@ import quoteClose from '../assets/gutier_gifs/quote2.gif';
 import clientGif1 from '../assets/gutier_gifs/clients1.gif';
 import clientGif2 from '../assets/gutier_gifs/clients2.gif';
 
-
 class Services extends PureComponent {
 	state = {expanded: false}
 
@@ -75,7 +74,8 @@ class Services extends PureComponent {
 					</div>
 
 					<div className="sidenav-mob">
-						<HashLink to='/contact#contact' className="side-contact">Get a Quote</HashLink>
+					<HashLink to='/contact#contact' className="side-contact">
+						Get a Quote</HashLink>
 					</div>
 
 					<div className="srv-box1-desk">
@@ -261,7 +261,8 @@ class Services extends PureComponent {
 					</div>
 
 					<div className="sidenav">
-						<HashLink to='/contact#contact' className="side-contact">Get a Quote</HashLink>
+						<HashLink to='/contact#contact' className="side-contact">
+							Get a Quote</HashLink>
 					</div>
 
 					<div className="pg-footer">

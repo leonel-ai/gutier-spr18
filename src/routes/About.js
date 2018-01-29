@@ -43,7 +43,7 @@ class About extends PureComponent {
 						</g>
 					</svg>
 
-				<svg viewBox="134 0 620 240" className="svg-ab-mobile">
+				<svg viewBox="144 0 640 140" className="svg-ab-mobile">
 						<symbol id="s-text">
 							<text textAnchor="middle"
 										x="30%"
@@ -72,7 +72,8 @@ class About extends PureComponent {
 
 
 				<div className="sidenav-mob">
-					<HashLink to='/contact#contact' className="side-contact">Get a Quote</HashLink>
+					<HashLink to='/contact#contact' className="side-contact">
+							Get a Quote</HashLink>
 				</div>
 
 				<div className="ab-box1-desk">
@@ -121,13 +122,13 @@ class About extends PureComponent {
 					</div>
 
 					<div className="ab-text2">
-						<p>Giving back to the is a key part of our identity at Gutier. We are
-							committed to using our resources and expertise to drive change
-							in the community and impact the lives of others. One of Gutier’s
-							flagship partnerships is with <b>SER Jobs for Progress</b> (Service Employment
-							Redevelopment) where we administer a collaborative vocational training program for young
-							adults in need of career mentorship and life guidance.
-							<br/><br/>Learn more about how we are making a difference.
+						<p>Giving back is a key part of our identity at Gutier. We are committed
+							to using our resources and expertise to drive change in the community
+							and impact the lives of others. One of Gutier’s flagship partnerships
+							is with <b><a href="http://www.serhouston.org/">Service Employment Redevelopment (SER) Jobs for Progress</a></b>.
+							This collaborative vocational training program provides an avenue for
+							young adults to receive career mentorship and financial empowerment.
+							<br/><br/>Together, we are making a difference.
 						</p>
 							<br/>
 						<p>

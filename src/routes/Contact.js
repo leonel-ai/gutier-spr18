@@ -133,7 +133,7 @@ class Contact extends PureComponent {
 
 					<div className="con-title2">
 						<h1 className="animated fadeInLeft con-title con-title2">Gutier + SER<br/>Jobs for Progress</h1>
-						<p className="con-sub-ser">To apply,<br/>please email your resume to <a href="mailto:info@gutier.com?subject=Hello, Gutier + SER">info@gutier.com</a>.</p>
+						<p className="con-sub-ser">To apply,<br/>please email your resume to <a href="mailto:info@gutier.com?subject=Hello, Gutier + SER">info@gutier.com</a></p>
 					</div>
 
 					<div className="con-img2">

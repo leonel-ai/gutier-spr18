@@ -15,37 +15,37 @@ import Contact from './Contact';
 
 
 class Routes extends PureComponent {
+
+	burgerToggle() {
+		let linksEl = document.querySelector('.narrowLinks');
+		if (linksEl.style.display === 'block') {
+							linksEl.style.display = 'none';
+					} else {
+							linksEl.style.display = 'block';
+					}
+	}
+
 	render() {
 		return (
 			<Router>
 				<div className="App">
 
-					<div className="NavBar">
-						<div className="top-logo">
-							<Link to='/'><img src={logoWhite} className="logo" alt="logo"/></Link>
-						</div>
+					<nav className="navBar">
+						<nav className="wrapper">
+							<div className="logo">
+							<Link to='/'><img src={logoWhite} alt="logo"/></Link>
+							</div>
+								<input type="checkbox" id="menu-toggle" />
+								<label htmlFor="menu-toggle" className="label-toggle"></label>
+							<ul>
+								<li><NavLink activeStyle={{ color: '#4DFF00' }} onClick={this.burgerToggle} to='/services'>Services</NavLink></li>
+								<li><NavLink activeStyle={{ color: '#4DFF00' }} onClick={this.burgerToggle} to='/about'>About</NavLink></li>
+								<li><NavLink activeStyle={{ color: '#4DFF00' }} onClick={this.burgerToggle} to='/news'>News</NavLink></li>
+								<li><NavLink activeStyle={{ color: '#4DFF00' }} onClick={this.burgerToggle} to='/contact'>Contact</NavLink></li>
+							</ul>
+						</nav>
+					</nav>
 
-						<div className="menu-pgs">
-						<NavLink activeStyle={{ color: '#4DFF00' }} to='/services'>Services</NavLink>
-						<NavLink activeStyle={{ color: '#4DFF00' }} to='/about'>About</NavLink>
-						<NavLink activeStyle={{ color: '#4DFF00' }} to='/news'>News</NavLink>
-						<NavLink activeStyle={{ color: '#4DFF00' }} to='/contact'>Contact</NavLink>
-						</div>
-
-					</div>
-
-					<div className="NavBar-mobile">
-						<div className="NavBar-menu">
-							<Link className="menu-item" to='/services'>Services</Link>
-							<Link className="menu-item" to='/about'>About</Link>
-							<Link className="menu-item" to='/news'>News</Link>
-							<Link className="menu-item" to='/contact'>Contact</Link>
-						</div>
-
-						<div className="NavBar-logo">
-							<img src={logoWhite} className="logo" alt="logo"/>
-						</div>
-					</div>
 
 					<Switch>
 						<Route exact path="/" render={(props) => <Home {...props} />} />

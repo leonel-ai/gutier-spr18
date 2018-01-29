@@ -5,8 +5,7 @@
     margin-bottom: .5rem;
 }
 
-input[type="text"], input[type="email"], textarea,
-input:not([type]) {
+input[type="text"], input[type="email"], textarea {
     border: none;
     border-bottom: 1px solid rgb(0, 0, 0);
     width: 560px;
@@ -39,16 +38,14 @@ button {
 }
 
 @media screen and (min-width: 736px) and (max-width: 1366px) {
-    input[type="text"], input[type="email"], textarea,
-    input:not([type]) {
+    input[type="text"], input[type="email"], textarea {
         width: 500px;
     }
 }
 
 
 @media screen and (max-width: 736px) {
-    input[type="text"], input[type="email"], textarea,
-    input:not([type]) {
+    input[type="text"], input[type="email"], textarea {
         width: 320px;
     }
 
