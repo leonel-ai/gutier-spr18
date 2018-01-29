@@ -338,6 +338,8 @@
 	/* banner */
 	.con-banner {
 		height: 200px;
+		background-position: inherit;
+		background-size: 480px 270px;
 	}
 
 	.con-banner > svg {

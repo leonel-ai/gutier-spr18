@@ -271,11 +271,10 @@
 	width: 480px;
 }
 
-.ab-img2 img{
-	width: 800px;
-	opacity: 1;
-}
-
+	.ab-img2 img{
+		width: 800px;
+		opacity: 1;
+	}
 }
 
 
@@ -291,15 +290,12 @@
 	/* banner */
 	.ab-banner {
 		height: 200px;
+		background-position: inherit;
+		background-size: 400px 255px;
 	}
 
-	.sidenav, .svg-ab-desktop {
+	.svg-ab-desktop {
 		display: none;
-	}
-
-	.sidenav-mob {
-		display: grid;
-		overflow: hidden;
 	}
 
 	.svg-ab-mobile {

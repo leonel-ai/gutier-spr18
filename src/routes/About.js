@@ -43,7 +43,7 @@ class About extends PureComponent {
 						</g>
 					</svg>
 
-				<svg viewBox="144 0 640 140" className="svg-ab-mobile">
+				<svg viewBox="0 0 520 540" className="svg-ab-mobile">
 						<symbol id="s-text">
 							<text textAnchor="middle"
 										x="30%"
@@ -70,11 +70,6 @@ class About extends PureComponent {
 
 				</div>
 
-
-				<div className="sidenav-mob">
-					<HashLink to='/contact#contact' className="side-contact">
-							Get a Quote</HashLink>
-				</div>
 
 				<div className="ab-box1-desk">
 

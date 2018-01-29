@@ -46,7 +46,7 @@ class Services extends PureComponent {
 						</svg>
 
 
-						<svg viewBox="130 0 620 240" className="svg-srv-mobile">
+						<svg viewBox="0 0 520 540" className="svg-srv-mobile">
 							<symbol id="s-text">
 								<text textAnchor="middle"
 											x="30%"
@@ -71,11 +71,6 @@ class Services extends PureComponent {
 							</g>
 						</svg>
 
-					</div>
-
-					<div className="sidenav-mob">
-					<HashLink to='/contact#contact' className="side-contact">
-						Get a Quote</HashLink>
 					</div>
 
 					<div className="srv-box1-desk">

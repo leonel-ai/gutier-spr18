@@ -406,6 +406,8 @@
 		/* banner */
 		.srv-banner {
 			height: 200px;
+			background-position: inherit;
+			background-size: 470px 200px;
 		}
 
 		.svg-srv-desktop {display: none}

@@ -13,10 +13,6 @@ class Home extends PureComponent {
 				<div className="sidenav">
 					<HashLink to='/contact#contact' className="side-contact">Get a Quote</HashLink>
 				</div>
-
-				<div className="sidenav-hm-mob">
-					<HashLink to='/contact#contact' className="side-contact-hm">Quote</HashLink>
-				</div>
 			</div>
 		)
 	}

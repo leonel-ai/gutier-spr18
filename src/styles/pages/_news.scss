@@ -327,7 +327,9 @@
 
     /* banner */
 	.news-banner {
-		height: 200px;
+    height: 200px;
+    background-position: inherit;
+		background-size: 480px 224px;
 	}
 
   .svg-news-desktop {display: none}
@@ -335,11 +337,6 @@
   .svg-news-mobile {
 		display: inherit;
     }
-
-  .sidenav-mob {
-		display: grid;
-		overflow: hidden;
-	}
 
   /* latest headlines */
 

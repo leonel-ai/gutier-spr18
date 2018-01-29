@@ -46,7 +46,7 @@ class Contact extends PureComponent {
 						</g>
 					</svg>
 
-					<svg viewBox="86 0 620 240" className="svg-news-mobile">
+					<svg viewBox="0 0 520 540" className="svg-news-mobile">
 						<symbol id="s-text">
 							<text textAnchor="middle"
 										x="0%"

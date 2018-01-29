@@ -177,9 +177,9 @@ button:hover, button a:hover, .slider a:hover, .ctaTrain:hover {
 	color: $primary-color;
 }
 
-.sidenav-hm-mob, .NavBar-mobile, .mobile-hm-logo {
-	display: none;
-}
+// .sidenav-mob {
+// 	display: none;
+// }
 
 @media screen and (max-width: 768px) {
 
@@ -206,6 +206,7 @@ html, body{
 .navBar {
 	background-color: $accent-color;
 	height: 62px;
+	z-index: 999999;
 }
 
 	nav {
@@ -222,7 +223,7 @@ html, body{
 			list-style-type: none;
 			opacity: 0;
 			text-align: center;
-			transition: all .5s ease !important;
+			transition: all .25s ease !important;
 			width: 100%;
 			visibility: hidden;
 			padding: 0;
@@ -267,39 +268,34 @@ html, body{
 		}
 	}
 
-	.sidenav-hm-mob {
-		display: block;
-		z-index: 20;
-		max-height: 0px;
-	}
-
-	.sidenav-hm-mob a {
+	.sidenav a {
 		text-align: right;
 		position: fixed;
-		left: -40px;
-		transition: 0.3s;
+		left: -14px;
 		padding: 12px;
 		padding-right: 16px;
-		width: 90px;
+		width: 120px;
 		text-decoration: none;
 		font-size: 18px;
 		color: white;
-		border-radius: 0 5px 5px 0;
-}
-
-	.sidenav-hm-mob a:hover {
-		left: 0;
-		color: #4DFF00;
-		padding-right: 50px;
+		transition: none;
+		z-index: 999999;
 	}
 
-	.side-contact-hm {
-		top: 100px;
+	.sidenav a:hover {
+		color: #4DFF00;
+		left: -14px;
+		padding-right: 16px;
+	}
+
+	.side-contact {
+		top: 200px;
 		background-color: $accent-color;
+		z-index: 999999;
 	}
 
 	svg {
-		position: relative;
+		position: inherit;
 		width: 100%;
 		top: 53%;
 		left: 21%;
