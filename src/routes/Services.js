@@ -46,7 +46,7 @@ class Services extends PureComponent {
 						</svg>
 
 
-						<svg viewBox="0 0 520 540" className="svg-srv-mobile">
+						<svg viewBox="0 0 520 590" className="svg-srv-mobile">
 							<symbol id="s-text">
 								<text textAnchor="middle"
 											x="30%"
