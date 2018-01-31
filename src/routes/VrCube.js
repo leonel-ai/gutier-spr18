@@ -8,7 +8,7 @@ import 'aframe';
 // import 'babel-polyfill';
 import {Scene} from 'aframe-react';
 
-import panImg from '../assets/360.jpg';
+import panoImg from '../assets/panoCity.jpg';
 
 
 class Cube extends Component {
@@ -20,10 +20,11 @@ class Cube extends Component {
           <meta charSet="utf-8" />
             <title>Gutier Roofing</title>
             <script src="../../../dist/aframe-master.js"></script>
+            {/* <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script> */}
         </Helmet>
 
       <Scene>
-          <a-sky id="image-360" radius="20" src={panImg} rotation="0 -130 0"></a-sky>
+          <a-sky id="image-360" radius="18" src={panoImg} rotation="0 0 0"></a-sky>
           <a-camera wasd-controls-enabled="false"></a-camera>
       </Scene>
       </div>

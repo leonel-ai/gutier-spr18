@@ -130,8 +130,7 @@ class News extends PureComponent {
 					</div>
 
 					<div className="news-text4">
-						<p>Interested in more?<br/>Check out our latest insights, recommendations, and industry trends
-							at Medium.com.</p>
+						<p>Interested in more?<br/>Check out our latest insights, recommendations, and industry trends.</p>
 						<p className="actionLink"><a href="http://www.medium.com/@gutier" rel="noopener noreferrer" target="_blank" >Join the community and follow us.  &#9656;</a></p>
 					</div>
 				</div>

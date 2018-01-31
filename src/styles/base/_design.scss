@@ -29,15 +29,16 @@ body {
 }
 
 .navBar {
-	background-color: transparent;
-	position: fixed;
+	background-color: rgba(0,0,0,.15);
+	height: 86px;
+	position: absolute;
 	min-width: 100%;
 	z-index: 100000;
 }
 
 .logo {
-  display: inline-block;
-  height: 32px;
+	display: inline-block;
+  height: 48px;
   margin: .75em 0;
 	width: 100px;
 
@@ -48,16 +49,17 @@ body {
 
 .wrapper {
   margin: 0;
-  max-width: 1320px;
+	max-width: 1320px;
   padding: 0 2%;
 }
 
 nav {
 	ul {
-    display: flex;
+		display: flex;
     justify-content: space-between;
     list-style-type: none;
-    width: 50%;
+		width: 50%;
+		margin-top: 2.25%;
 
     a {
       color: $second-color;
@@ -205,7 +207,8 @@ html, body{
 
 .navBar {
 	background-color: $accent-color;
-	height: 62px;
+	position: fixed;
+	height: 60px;
 	z-index: 999999;
 }
 
@@ -251,7 +254,7 @@ html, body{
 			cursor: pointer;
 			float: right;
 			height: 20px;
-			margin-top: 1.05em;
+			margin-top: 1.5em;
 			margin-right: 1em;
 			width: 35px;
 		}
@@ -260,11 +263,13 @@ html, body{
 			display: block;
 			margin: 0 auto;
 			padding: 0;
+			background-color: $accent-color;
 		}
 
 		.logo img{
 			width: 120px;
 			padding-left: 15%;
+			padding-top: 5%;
 		}
 	}
 
@@ -308,7 +313,7 @@ html, body{
 			fill: none;
 			stroke: white;
 			stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
-			stroke-width: 1px;
+			stroke-width: 1.5px;
 
 	animation: stroke-offset 6s;
 
