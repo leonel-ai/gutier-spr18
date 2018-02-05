@@ -17,7 +17,7 @@
 }
 
 .con-banner {
-	background-image: url('../assets/contactBanner.png');
+	background-image: url('../assets/contactBanner.jpg');
 	max-width: 1440px;
 	height: 500px;
 	background-attachment: fixed;
@@ -337,9 +337,12 @@
 
 	/* banner */
 	.con-banner {
+		background-image: url('../assets/contactBanner-m.jpg');
 		height: 200px;
+		margin-top: 15%;
+		background-attachment: initial;
+		max-width: 470px;
 		background-position: inherit;
-		background-size: 480px 270px;
 	}
 
 	.con-banner > svg {

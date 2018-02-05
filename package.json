@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "aframe": "^0.7.1",
+    "aframe-react": "^4.3.0",
     "aframe-react-boilerplate": "0.0.1",
     "autoprefixer": "^7.2.4",
     "css-loader": "^0.28.7",

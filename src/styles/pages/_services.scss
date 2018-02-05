@@ -405,9 +405,12 @@
 
 		/* banner */
 		.srv-banner {
+			background-image: url('../assets/servicesBanner-m.jpg');
 			height: 200px;
+			margin-top: 15%;
+			background-attachment: initial;
+			max-width: 470px;
 			background-position: inherit;
-			background-size: 470px 200px;
 		}
 
 		.svg-srv-desktop {display: none}

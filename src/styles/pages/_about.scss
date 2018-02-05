@@ -16,7 +16,7 @@
 }
 
 .ab-banner {
-    background-image: url('../assets/aboutBanner.png');
+    background-image: url('../assets/aboutBanner.jpg');
 		max-width: 1440px;
 		height: 500px;
     background-attachment: fixed;
@@ -289,9 +289,12 @@
 
 	/* banner */
 	.ab-banner {
-		height: 200px;
-		background-position: inherit;
-		background-size: 400px 255px;
+		background-image: url('../assets/aboutBanner-m.jpg');
+    height: 200px;
+    margin-top: 15%;
+    background-attachment: initial;
+    max-width: 400px;
+    background-position: inherit;
 	}
 
 	.svg-ab-desktop {

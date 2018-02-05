@@ -10,7 +10,7 @@ import contactGif0 from '../assets/gutier_gifs/G.gif';
 import contactGif2 from '../assets/gutier_gifs/S.gif';
 import contactGif3 from '../assets/gutier_gifs/E.gif';
 import contactGif4 from '../assets/gutier_gifs/R.gif';
-import brochure from '../assets/Gutier_Brochure-2.pdf';
+import brochure from '../assets/Gutier_Brochure.pdf';
 
 
 class Contact extends PureComponent {
