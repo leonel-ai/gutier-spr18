@@ -147,7 +147,6 @@
 }
 
 .news-img2 > img {
-  width: 900px;
   opacity: 1;
   position: relative;
   -webkit-transform:  translate(0, 0);
@@ -253,7 +252,7 @@
   padding-left: 20px;
 }
 
-.sidenav-mob {
+.sidenav-mobm, .news-img1-m, .news-img2-m, .news-img3-m, .logoSmall-img {
 	display: none;
 }
 
@@ -553,11 +552,15 @@
   }
 
   .logoMedium-img {
+    display: none;
+  }
+
+  .logoSmall-img {
+    display: inherit;
     padding: 0;
   }
 
-  .logoMedium-img > img {
-    height: 72px;
+  .logoSmall-img > img {
     left: 50%;
   }
 

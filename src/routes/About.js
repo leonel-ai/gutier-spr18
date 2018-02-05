@@ -4,8 +4,10 @@ import Footer from './Footer';
 
 import '../styles/Routes.css';
 
-import aboutImage1 from '../assets/g1.png';
-import aboutImage2 from '../assets/g5.png';
+import aboutImg1 from '../assets/whyGutier.jpg';
+import aboutImg1Mobile from '../assets/whyGutier-m.jpg';
+import aboutImg2 from '../assets/community.jpg';
+import aboutImg2Mobile from '../assets/community-m.jpg';
 import aboutGif1 from '../assets/gutier_gifs/W.gif';
 import aboutGif2 from '../assets/gutier_gifs/C.gif';
 
@@ -43,7 +45,7 @@ class About extends PureComponent {
 						</g>
 					</svg>
 
-				<svg viewBox="0 0 520 590" className="svg-ab-mobile">
+				<svg viewBox="0 0 520 460" className="svg-ab-mobile">
 						<symbol id="s-text">
 							<text textAnchor="middle"
 										x="30%"
@@ -82,7 +84,10 @@ class About extends PureComponent {
 					</div>
 
 					<div className="ab-img1">
-						<img src={aboutImage1} alt="aboutImage1" />
+						<img src={aboutImg1} alt="aboutImg1" />
+					</div>
+					<div className="ab-img1-m">
+						<img src={aboutImg1Mobile} alt="aboutImg1Mobile" />
 					</div>
 
 					<div className="ab-text1">
@@ -132,7 +137,10 @@ class About extends PureComponent {
 					</div>
 
 					<div className="ab-img2">
-						<img src={aboutImage2} alt="aboutImage2" />
+						<img src={aboutImg2} alt="aboutImg2" />
+					</div>
+					<div className="ab-img2-m">
+						<img src={aboutImg2Mobile} alt="aboutImg2Mobile" />
 					</div>
 
 				</div>

@@ -326,7 +326,7 @@
 	display: none;
 }
 
-.srv-market-mob, .srv-box3-mobile {
+.srv-market-mob, .srv-box3-mobile, .srv-img1-m {
 	display: none;
 }
 
@@ -453,11 +453,15 @@
 			animation-delay: 1s;
 		}
 
-		.srv-img1 img{
+		.srv-img1 {
+			display: none;
+		}
+
+		.srv-img1-m {
+			display: grid;
 			grid-column: 1;
 			grid-row: 2;
 			opacity: 1;
-			width: 320px;
 			padding: 0;
 		}
 

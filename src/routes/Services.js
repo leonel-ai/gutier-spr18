@@ -4,7 +4,8 @@ import Footer from './Footer';
 
 import '../styles/Routes.css';
 
-import serviceImage1 from '../assets/exp.png';
+import serviceImg from '../assets/expertise.jpg';
+import serviceImgMobile from '../assets/expertise-m.jpg';
 import serviceGif1 from '../assets/gutier_gifs/E.gif';
 import serviceGif2 from '../assets/gutier_gifs/M.gif';
 import quoteOpen from '../assets/gutier_gifs/quote1.gif';
@@ -46,7 +47,7 @@ class Services extends PureComponent {
 						</svg>
 
 
-						<svg viewBox="0 0 520 590" className="svg-srv-mobile">
+						<svg viewBox="0 0 520 460" className="svg-srv-mobile">
 							<symbol id="s-text">
 								<text textAnchor="middle"
 											x="30%"
@@ -84,7 +85,11 @@ class Services extends PureComponent {
 						</div>
 
 						<div className="srv-img1">
-							<img src={serviceImage1} alt="serviceImage1" />
+							<img src={serviceImg} alt="serviceImg" />
+						</div>
+
+						<div className="srv-img1-m">
+							<img src={serviceImgMobile} alt="serviceImgMobile" />
 						</div>
 
 						<div className="srv-text1">

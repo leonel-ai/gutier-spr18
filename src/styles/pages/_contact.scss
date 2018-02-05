@@ -124,7 +124,6 @@
 
 .con-img1 img{
 	opacity: 1;
-	width: 800px;
 }
 
 .con-img1:hover {
@@ -151,7 +150,6 @@
 .con-img2 img {
 	opacity: 1;
 	justify-self: end;
-	width: 800px;
 }
 
 .con-img2:hover {
@@ -216,6 +214,10 @@
 	padding-right: 60px;
 	padding-bottom: 40px;
 	justify-self: start;
+}
+
+.con-img1-m, .con-img2-m {
+	display: none;
 }
 
 @media screen and (min-width: 736px) and (max-width: 1366px) {
@@ -283,19 +285,11 @@
 		justify-self: start;
 	}
 
-	.con-img1 img{
-		width: 800px;
-	}
-
 	/* SER */
 	.con-box3-desk {
 		padding-top: 60px;
 		padding-left: 0;
 		padding-bottom: 200px;
-	}
-
-	.con-img2 img {
-		width: 800px;
 	}
 
 	.con-gif2 {
@@ -432,17 +426,21 @@
 		padding-right: 20px;
 }
 
-	.con-img1 {
+.con-img1, .con-img2 {
+	display: none;
+}
+
+	.con-img1-m {
+		display: grid;
 		grid-column: 1;
 		padding: 0;
 		justify-self: start !important;
 	}
 
-	.con-img1 img{
+	.con-img1-m img{
 		grid-column: 1;
 		grid-row: 2;
 		opacity: 1;
-		width: 320px;
 		padding: 0;
 	}
 
@@ -456,16 +454,16 @@
 		padding-bottom: 282px;
 	}
 
-	.con-img2 {
+	.con-img2-m {
+		display: grid;
 		grid-column: 1;
 		grid-row: 3;
 		justify-self: end;
 	}
 
-	.con-img2 img {
+	.con-img2-m img {
 		grid-column: 1;
 		opacity: 1;
-		width: 320px;
 		padding: 0;
 	}
 

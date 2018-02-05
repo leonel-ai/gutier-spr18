@@ -3,10 +3,14 @@ import Footer from './Footer';
 
 import '../styles/Routes.css';
 
-import newsImage1 from '../assets/cnn.png';
-import newsImage2 from '../assets/tel.png';
-import newsImage3 from '../assets/htv.png';
+import newsImg1 from '../assets/cnn.jpg';
+import newsImg1Mobile from '../assets/cnn-m.jpg';
+import newsImg2 from '../assets/tel.jpg';
+import newsImg2Mobile from '../assets/tel-m.jpg';
+import newsImg3 from '../assets/htv.jpg';
+import newsImg3Mobile from '../assets/htv-m.jpg';
 import logo from '../assets/logo.png';
+import logoMobile from '../assets/logoMobile.png';
 import newsGif1 from '../assets/gutier_gifs/N.gif';
 import newsGif2 from '../assets/gutier_gifs/I.gif';
 
@@ -44,7 +48,7 @@ class News extends PureComponent {
 						</g>
 					</svg>
 
-					<svg viewBox="0 0 520 590" className="svg-news-mobile">
+					<svg viewBox="0 0 520 460" className="svg-news-mobile">
 						<symbol id="s-text">
 							<text textAnchor="middle"
 										x="20%"
@@ -83,7 +87,10 @@ class News extends PureComponent {
 
 				<div className="news-box2-desk">
 					<div className="news-img1">
-						<img src={newsImage1} alt="newsImage1" />
+						<img src={newsImg1} alt="newsImg1" />
+					</div>
+					<div className="news-img1-m">
+						<img src={newsImg1Mobile} alt="newsImg1Mobile" />
 					</div>
 
 					<div className="news-text1">
@@ -104,14 +111,20 @@ class News extends PureComponent {
 						</div>
 
 						<div className="news-img2">
-							<img src={newsImage2} alt="newsImage2" />
+							<img src={newsImg2} alt="newsImg2" />
+						</div>
+						<div className="news-img2-m">
+							<img src={newsImg2Mobile} alt="newsImg2Mobile" />
 						</div>
 				</div>
 
 
 				<div className="news-box4-desk">
 					<div className="news-img3">
-						<img src={newsImage3} alt="newsImage3" />
+						<img src={newsImg3} alt="newsImg3" />
+					</div>
+					<div className="news-img3-m">
+						<img src={newsImg3Mobile} alt="newsImg3Mobile" />
 					</div>
 					<div className="news-text3">
 					<div className="animated fadeInRight news-sub3"><a href="http://www.houstontx.gov/htv/insights-to-opportunity.html" rel="noopener noreferrer" target="_blank" >
@@ -127,6 +140,9 @@ class News extends PureComponent {
 				<div className="news-box6-desk">
 					<div className="animated pulse logoMedium-img">
 						<img src={logo} alt="logo" />
+					</div>
+					<div className="animated pulse logoSmall-img">
+						<img src={logoMobile} alt="logoMobile" />
 					</div>
 
 					<div className="news-text4">

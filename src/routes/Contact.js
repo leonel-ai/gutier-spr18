@@ -4,8 +4,10 @@ import Footer from './Footer';
 
 import '../styles/Routes.css';
 
-import contactImage1 from '../assets/g3.png';
-import contactImage2 from '../assets/SER.png';
+import contactImg1 from '../assets/careers.jpg';
+import contactImg1Mobile from '../assets/careers-m.jpg';
+import contactImg2 from '../assets/SER.jpg';
+import contactImg2Mobile from '../assets/SER-m.jpg';
 import contactGif0 from '../assets/gutier_gifs/G.gif';
 import contactGif2 from '../assets/gutier_gifs/S.gif';
 import contactGif3 from '../assets/gutier_gifs/E.gif';
@@ -46,7 +48,7 @@ class Contact extends PureComponent {
 						</g>
 					</svg>
 
-					<svg viewBox="0 0 520 590" className="svg-news-mobile">
+					<svg viewBox="0 0 520 460" className="svg-news-mobile">
 						<symbol id="s-text">
 							<text textAnchor="middle"
 										x="0%"
@@ -109,7 +111,10 @@ class Contact extends PureComponent {
 					</div>
 
 					<div className="con-img1">
-						<img src={contactImage1} alt="contactImage1" />
+						<img src={contactImg1} alt="contactImg1" />
+					</div>
+					<div className="con-img1-m">
+						<img src={contactImg1Mobile} alt="contactImg1Mobile" />
 					</div>
 
 					<div className="con-text2">
@@ -137,7 +142,10 @@ class Contact extends PureComponent {
 					</div>
 
 					<div className="con-img2">
-						<img src={contactImage2} alt="contactImage2" />
+						<img src={contactImg2} alt="contactImg2" />
+					</div>
+					<div className="con-img2-m">
+						<img src={contactImg2Mobile} alt="contactImg2Mobile" />
 					</div>
 
 					<div className="con-text3">

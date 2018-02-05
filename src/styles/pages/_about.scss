@@ -100,7 +100,6 @@
 
 .ab-img1 img{
 	opacity: 1;
-	width: 800px;
 }
 
 .ab-img1:hover {
@@ -172,7 +171,6 @@
 
 .ab-img2 img{
 	opacity: 1;
-	width: 800px;
 }
 
 .ab-img2:hover {
@@ -199,7 +197,7 @@
 	height: 300px;
 }
 
-.sidenav-mob {
+.sidenav-mob, .ab-img1-m, .ab-img2-m {
 	display: none;
 }
 
@@ -235,7 +233,6 @@
 
 	.ab-img1 img{
 		opacity: 1;
-		width: 800px;
 	}
 
 	.ab-text1 {
@@ -272,7 +269,6 @@
 }
 
 	.ab-img2 img{
-		width: 800px;
 		opacity: 1;
 	}
 }
@@ -359,16 +355,20 @@
 	}
 
 	.ab-img1 {
+		display: none;
+	}
+
+	.ab-img1-m {
+		display: grid;
 		grid-column: 1;
 		padding: 0;
 		justify-self: start !important;
 	}
 
-	.ab-img1 img{
+	.ab-img1-m img{
 		grid-column: 1;
 		grid-row: 2;
 		opacity: 1;
-		width: 320px;
 		padding: 0;
 	}
 
@@ -417,15 +417,19 @@
 	}
 
 	.ab-img2 {
+		display: none;
+	}
+
+	.ab-img2-m {
+		display: grid;
 		grid-column: 1;
 		grid-row: 2;
 		justify-self: end;
 	}
 
-	.ab-img2 img{
+	.ab-img2-m img{
 		grid-column: 1;
 		opacity: 1;
-		width: 320px;
 		padding: 0;
 	}
 
