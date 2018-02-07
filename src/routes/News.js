@@ -12,6 +12,7 @@ import newsImg3Mobile from '../assets/htv-m.jpg';
 import logo from '../assets/logo.png';
 import logoMobile from '../assets/logoMobile.png';
 import newsGif1 from '../assets/gutier_gifs/N.gif';
+import newsGif1Mobile from '../assets/gutier_gifs/mobile/N-m.gif';
 import newsGif2 from '../assets/gutier_gifs/I.gif';
 
 
@@ -76,7 +77,10 @@ class News extends PureComponent {
 
 				<div className="news-box1-desk">
 					<div className="news-gif1">
-						<img src={newsGif1} alt="newsGif1" />
+						<img src={newsGif1} alt="newsGif" />
+					</div>
+					<div className="news-gif1-m">
+						<img src={newsGif1Mobile} alt="newsGif" />
 					</div>
 
 					<div className="news-title1">

@@ -9,7 +9,9 @@ import aboutImg1Mobile from '../assets/whyGutier-m.jpg';
 import aboutImg2 from '../assets/community.jpg';
 import aboutImg2Mobile from '../assets/community-m.jpg';
 import aboutGif1 from '../assets/gutier_gifs/W.gif';
+import aboutGif1Mobile from '../assets/gutier_gifs/mobile/W-m.gif';
 import aboutGif2 from '../assets/gutier_gifs/C.gif';
+import aboutGif2Mobile from '../assets/gutier_gifs/mobile/C-m.gif';
 
 
 class About extends PureComponent {
@@ -76,7 +78,10 @@ class About extends PureComponent {
 				<div className="ab-box1-desk">
 
 					<div className="ab-gif1">
-						<img src={aboutGif1} alt="aboutGif1" />
+						<img src={aboutGif1} alt="aboutGif" />
+					</div>
+					<div className="ab-gif1-m">
+						<img src={aboutGif1Mobile} alt="aboutGif" />
 					</div>
 
 					<div className="ab-title1">
@@ -114,7 +119,10 @@ class About extends PureComponent {
 				<div className="ab-box2-desk">
 
 					<div className="ab-gif2">
-						<img src={aboutGif2} alt="aboutGif2" />
+						<img src={aboutGif2} alt="aboutGif" />
+					</div>
+					<div className="ab-gif2-m">
+						<img src={aboutGif2Mobile} alt="aboutGif" />
 					</div>
 
 					<div className="ab-title2">

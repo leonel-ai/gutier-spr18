@@ -254,20 +254,20 @@ class Services extends PureComponent {
 								What Our Clients Say About Us
 							</p>
 							<div className="quote">
-								<p><b>"From the beginning, they were very timely with
+								<p>"From the beginning, they were very timely with
 								scheduling meetings, estimates, and completing our roof. They kept a clean
-								site and didn't interrupt our operations at all. Excellent group to work with!"</b>
+								site and didn't interrupt our operations at all. Excellent group to work with!"
 									<br/><br/>— Jonathan Thomas, Stampede Land Services</p></div>
 							<div className="quote">
-								<p><b>"They presented us solutions very well and executed
+								<p>"They presented us solutions very well and executed
 								the project exactly as promised... can't say enough about their professionalism
-								and how great they are about communicating progress. Top notch."</b>
+								and how great they are about communicating progress. Top notch."
 									<br/><br/>— Ellis Welker, WFMS Inc.</p></div>
 							<div className="quote">
-								<p><b>"Everything about their operations was extremely
+								<p>"Everything about their operations was extremely
 								professional and informative. They took the time to walk me through our
 								problem areas and discussed solutions for us to consider... they had our interests
-								in mind."</b>
+								in mind."
 									<br/><br/>— Ross Summers, Texas Auto</p></div>
 						</div>
 					</div>

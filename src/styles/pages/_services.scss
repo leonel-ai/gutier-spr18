@@ -421,18 +421,24 @@
 		}
 
 		.srv-gif1 {
+			display: none;
+		}
+
+		.srv-gif1-m {
+			display: grid;
 			grid-column: 1;
 			grid-row: 1;
 			justify-self: start;
 			max-width: 0px;
 			max-height: 100px;
 			padding: 0;
-			padding-left: 140px;
+			padding-left: 162px;
+			z-index: -100;
 			opacity: .5;
 		}
 
-		.srv-gif1 img {
-			width: 300px;
+		.srv-gif1-m img {
+			width: 260px;
 		}
 
 		.srv-title1 {
@@ -462,7 +468,7 @@
 			justify-self: center;
 			padding: 0;
 			padding-top: 10px;
-			padding-left: 5rem;
+			padding-left: 0px;
 		}
 
 	/* markets */
@@ -475,6 +481,11 @@
 	}
 
 	.srv-gif2 {
+		display: none;
+	}
+
+	.srv-gif2-m {
+		display: grid;
 		grid-column: 1;
 		grid-row: 1;
 		justify-self: start;
@@ -484,16 +495,16 @@
 		opacity: .5;
 	}
 
-	.srv-gif2 img {
-		width: 300px;
+	.srv-gif2-m img {
+		width: 240px;
 	}
 
 	.srv-title2 {
 		grid-column: 1;
 		grid-row: 1;
-		max-height: 100px;
+		max-height: 130px;
 		max-width: 375px;
-		padding-left: 70.4px;
+		padding-left: 20px;
 		animation-duration: 3s;
 		animation-delay: 1.9s;
 	}
@@ -601,7 +612,7 @@
 			min-height: 90px;
 			align-self: end;
 			justify-self: start;
-			padding-left: 24px;
+			padding-left: 18px;
 			animation-duration: 3s;
 			animation-delay: 3.25s;
 		}
@@ -620,7 +631,7 @@
 			max-width: 0px;
 			padding: 0;
 			padding-top: 200px;
-			padding-right: 400px;
+			padding-right: 356px;
 			opacity: .5;
 		}
 
@@ -630,17 +641,17 @@
 			justify-self: start;
 			max-width: 0px;
 			padding: 0;
-			padding-top: 800px;
-			padding-right: 400px;
+			padding-top: 824px;
+			padding-right: 356px;
 			opacity: .5;
 		}
 
 		.srv-gif3 img {
-			width: 348px;
+			width: 342px;
 		}
 
 		.srv-gif4 img {
-			width: 348px;
+			width: 342px;
 		}
 
 	.srv-trust {

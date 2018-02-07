@@ -164,7 +164,7 @@ button, .ctaTrain {
 
 	p, body {
 			font: 18px $font-body;
-			line-height: 28px;
+			line-height: 1.4em;
 	}
 
 	ul, li {
@@ -234,6 +234,7 @@ button, .ctaTrain {
 
 	.news-sub1, .news-sub2, .news-sub3 {
 			font: 18px $font-title;
+			line-height: 1.4em;
 	}
 
 		/* CONTACT */
@@ -242,15 +243,14 @@ button, .ctaTrain {
 	}
 
 	.con-title{
-			font: 48px $font-title;
+			font: 40px $font-title;
 	}
 
 	.con-title2 {
-			line-height: 52px;
+			line-height: 1.4em;
 	}
 
 	.con-sub, .con-sub-ser {
-		line-height: 38px;
 		font: 24px $font-title;
 	}
 

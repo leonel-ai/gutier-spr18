@@ -9,9 +9,13 @@ import contactImg1Mobile from '../assets/careers-m.jpg';
 import contactImg2 from '../assets/SER.jpg';
 import contactImg2Mobile from '../assets/SER-m.jpg';
 import contactGif0 from '../assets/gutier_gifs/G.gif';
-import contactGif2 from '../assets/gutier_gifs/S.gif';
-import contactGif3 from '../assets/gutier_gifs/E.gif';
-import contactGif4 from '../assets/gutier_gifs/R.gif';
+import contactGif0Mobile from '../assets/gutier_gifs/mobile/G-m.gif';
+import contactGif1 from '../assets/gutier_gifs/S.gif';
+import contactGif1Mobile from '../assets/gutier_gifs/mobile/S-m.gif';
+import contactGif2 from '../assets/gutier_gifs/E.gif';
+import contactGif2Mobile from '../assets/gutier_gifs/mobile/E-m.gif';
+import contactGif3 from '../assets/gutier_gifs/R.gif';
+import contactGif3Mobile from '../assets/gutier_gifs/mobile/R-m.gif';
 import brochure from '../assets/Gutier_Brochure.pdf';
 
 
@@ -78,7 +82,10 @@ class Contact extends PureComponent {
 				<div className="con-box1-desk" id="contact">
 
 					<div className="con-gif0">
-						<img src={contactGif0} alt="contactGif0" />
+						<img src={contactGif0} alt="contactGif" />
+					</div>
+					<div className="con-gif0-m">
+						<img src={contactGif0Mobile} alt="contactGif" />
 					</div>
 
 					<div className="con-text1">
@@ -131,14 +138,20 @@ class Contact extends PureComponent {
 				<div className="con-box3-desk">
 
 					<div className="con-gif2">
-						<img src={contactGif2} alt="contactGif2" />
-						<img src={contactGif3} alt="contactGif3" />
-						<img src={contactGif4} alt="contactGif4" />
+						<img src={contactGif1} alt="serGif" />
+						<img src={contactGif2} alt="serGif" />
+						<img src={contactGif3} alt="serGif" />
+					</div>
+
+					<div className="con-gif2-m">
+						<img src={contactGif1Mobile} alt="serGif" />
+						<img src={contactGif2Mobile} alt="serGif" />
+						<img src={contactGif3Mobile} alt="serGif" />
 					</div>
 
 					<div className="con-title2">
 						<h1 className="animated fadeInLeft con-title con-title2">Gutier + SER<br/>Jobs for Progress</h1>
-						<p className="con-sub-ser">To apply,<br/>please email your resume to <a href="mailto:info@gutier.com?subject=Hello, Gutier + SER">info@gutier.com</a></p>
+						<p className="con-sub-ser">To apply:<br/>Please email your resume to <a href="mailto:info@gutier.com?subject=Hello, Gutier + SER">info@gutier.com</a></p>
 					</div>
 
 					<div className="con-img2">
@@ -158,21 +171,21 @@ class Contact extends PureComponent {
 								<br/><br/>
 								Together, we are committed to achieving the following:
 								<br/><br/>
-										<li>&nbsp;&#9657; Hire qualitifed young adults who successfully complete the training program
+										<li>&nbsp;&#9656; Hire qualitifed young adults who successfully complete the training program
 											and meet job requirements for permanent jobs (when available).</li>
 											<br/>
-										<li>&nbsp;&#9657; Help connect students who are not hired by Gutier with employment opportunities
+										<li>&nbsp;&#9656; Help connect students who are not hired by Gutier with employment opportunities
 											for similar companies.</li>
 											<br/>
-										<li>&nbsp;&#9657; Ensure accelerated placement in employment or post-secondary education for
+										<li>&nbsp;&#9656; Ensure accelerated placement in employment or post-secondary education for
 											program participants.</li>
 											<br/>
-										<li>&nbsp;&#9657; Develop employability and academic skills to succeed in training.</li>
+										<li>&nbsp;&#9656; Develop employability and academic skills to succeed in training.</li>
 											<br/>
-										<li>&nbsp;&#9657; Deliver NCCER Level I Core Training for entry level positions and other
+										<li>&nbsp;&#9656; Deliver NCCER Level I Core Training for entry level positions and other
 											vocational trainings for career advancement and/or mid-level skill jobs.</li>
 											<br/>
-										<li>&nbsp;&#9657; Provide work-based learning opportunities, such as internships and apprenticeships.</li>
+										<li>&nbsp;&#9656; Provide work-based learning opportunities, such as internships and apprenticeships.</li>
 								<br/>
 								</p>
 						</div>

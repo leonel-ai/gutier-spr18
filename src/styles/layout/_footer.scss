@@ -113,11 +113,14 @@
 			grid-row: 2;
 			justify-self: start;
 			align-self: start;
-			padding: 0;
+			text-align: left;
+			padding-left: 20px;
 			padding-top: 10px;
-			max-width: 222px;
-			border-right: 1px solid #6e6e6e;
-			padding-right: 28px;
+			max-width: 186px;
+
+			ul {
+				padding-left: 0;
+			}
 	}
 
 	.ft-social {
@@ -128,7 +131,7 @@
 			height: 127px;
 			padding: 0;
 			padding-top: 10px;
-			padding-left: 15rem;
+			padding-left: 13em;
 	}
 
 	.ft-privacy {
