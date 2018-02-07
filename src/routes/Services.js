@@ -7,11 +7,17 @@ import '../styles/Routes.css';
 import serviceImg from '../assets/expertise.jpg';
 import serviceImgMobile from '../assets/expertise-m.jpg';
 import serviceGif1 from '../assets/gutier_gifs/E.gif';
+import serviceGif1Mobile from '../assets/gutier_gifs/mobile/E-m.gif';
 import serviceGif2 from '../assets/gutier_gifs/M.gif';
+import serviceGif2Mobile from '../assets/gutier_gifs/mobile/M-m.gif';
 import quoteOpen from '../assets/gutier_gifs/quote1.gif';
+import quoteOpenMobile from '../assets/gutier_gifs/mobile/quote1-m.gif';
 import quoteClose from '../assets/gutier_gifs/quote2.gif';
+import quoteCloseMobile from '../assets/gutier_gifs/mobile/quote2-m.gif';
 import clientGif1 from '../assets/gutier_gifs/clients1.gif';
+import clientGif1Mobile from '../assets/gutier_gifs/mobile/clients1-m.gif';
 import clientGif2 from '../assets/gutier_gifs/clients2.gif';
+import clientGif2Mobile from '../assets/gutier_gifs/mobile/clients2-m.gif';
 
 class Services extends PureComponent {
 	state = {expanded: false}
@@ -77,7 +83,10 @@ class Services extends PureComponent {
 					<div className="srv-box1-desk">
 
 						<div className="srv-gif1">
-							<img src={serviceGif1} alt="serviceGif1" />
+							<img src={serviceGif1} alt="serviceGif" />
+						</div>
+						<div className="srv-gif1-m">
+							<img src={serviceGif1Mobile} alt="serviceGif" />
 						</div>
 
 						<div className="srv-title1">
@@ -89,7 +98,7 @@ class Services extends PureComponent {
 						</div>
 
 						<div className="srv-img1-m">
-							<img src={serviceImgMobile} alt="serviceImgMobile" />
+							<img src={serviceImgMobile} alt="serviceImg" />
 						</div>
 
 						<div className="srv-text1">
@@ -114,7 +123,10 @@ class Services extends PureComponent {
 					<div className="srv-box2-desk">
 
 						<div className="srv-gif2">
-							<img src={serviceGif2} alt="serviceGif2" />
+							<img src={serviceGif2} alt="serviceGif" />
+						</div>
+						<div className="srv-gif2-m">
+							<img src={serviceGif2Mobile} alt="serviceGif" />
 						</div>
 
 						<div className="srv-title2">
@@ -136,7 +148,7 @@ class Services extends PureComponent {
 										</p>
 										</div>
 								<div className="com-block2">
-										<img src={clientGif1} alt="clientGif1" />
+									<img src={clientGif1} alt="clientGif" />
 								</div>
 							</div>
 						</div>
@@ -156,7 +168,7 @@ class Services extends PureComponent {
 									</p>
 									</div>
 								<div className="ind-block2">
-									<img src={clientGif2} alt="clientGif2" />
+									<img src={clientGif2} alt="clientGif" />
 								</div>
 							</div>
 						</div>
@@ -212,11 +224,11 @@ class Services extends PureComponent {
 									</div>
 
 								<div className="com-block2">
-										<img src={clientGif1} alt="clientGif1" />
+										<img src={clientGif1Mobile} alt="clientGif" />
 								</div>
 
 								<div className="ind-block2">
-									<img src={clientGif2} alt="clientGif2" />
+									<img src={clientGif2Mobile} alt="clientGif" />
 								</div>
 							</div>
 
@@ -228,11 +240,11 @@ class Services extends PureComponent {
 
 						<div className="quotations">
 							<div className="srv-gif3">
-								<img src={quoteOpen} alt="quoteOpen" />
+								<img src={quoteOpenMobile} alt="quoteOpen" />
 							</div>
 
 							<div className="srv-gif4">
-								<img src={quoteClose} alt="quoteClose" />
+								<img src={quoteCloseMobile} alt="quoteClose" />
 							</div>
 						</div>
 					</div>
@@ -247,7 +259,7 @@ class Services extends PureComponent {
 								site and didn't interrupt our operations at all. Excellent group to work with!"</b>
 									<br/><br/>— Jonathan Thomas, Stampede Land Services</p></div>
 							<div className="quote">
-								<p><b>"They presented us solutions very well and excuted
+								<p><b>"They presented us solutions very well and executed
 								the project exactly as promised... can't say enough about their professionalism
 								and how great they are about communicating progress. Top notch."</b>
 									<br/><br/>— Ellis Welker, WFMS Inc.</p></div>
