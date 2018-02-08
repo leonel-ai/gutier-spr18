@@ -85,6 +85,8 @@ nav {
 	}
 }
 
+.home-mobile { display: none;}
+
 .sidenav {
 	z-index: 100000;
 	max-height: 0px;
@@ -179,10 +181,6 @@ button:hover, button a:hover, .slider a:hover, .ctaTrain:hover {
 	color: $primary-color;
 }
 
-// .sidenav-mob {
-// 	display: none;
-// }
-
 @media screen and (max-width: 768px) {
 
 	* {
@@ -203,6 +201,10 @@ button:hover, button a:hover, .slider a:hover, .ctaTrain:hover {
 html, body{
     margin:0px;
     padding:0px;
+}
+
+.home-mobile {
+	display: inherit;
 }
 
 .navBar {
@@ -236,16 +238,17 @@ html, body{
 		li {
 			color: $second-color;
 			display: block;
-			padding-top: .5em;
-			padding-bottom: .5em;
+			padding-top: .1em;
+			padding-bottom: .1em;
 			text-transform: uppercase;
 		}
 
 
 		#menu-toggle:checked ~ ul {
 			opacity: 1;
-			height: 34vh;
+			height: 100vh;
 			visibility: visible;
+			padding-top: 3em;
 		}
 
 		.label-toggle {
@@ -274,11 +277,10 @@ html, body{
 	}
 
 	.sidenav a {
-		text-align: right;
+		text-align: center;
 		position: absolute;
-		left: -14px;
+		left: 32%;
 		padding: 12px;
-		padding-right: 16px;
 		width: 120px;
 		text-decoration: none;
 		font-size: 18px;
@@ -289,12 +291,12 @@ html, body{
 
 	.sidenav a:hover {
 		color: #4DFF00;
-		left: -14px;
-		padding-right: 16px;
+		left: 32%;
+		padding: 12px;
 	}
 
 	.side-contact {
-		top: 205px;
+		top: 176px;
 		background-color: $accent-color;
 		z-index: 999999;
 	}

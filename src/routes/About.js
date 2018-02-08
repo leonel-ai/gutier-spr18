@@ -47,7 +47,7 @@ class About extends PureComponent {
 						</g>
 					</svg>
 
-				<svg viewBox="0 0 520 460" className="svg-ab-mobile">
+				<svg viewBox="0 0 520 400" className="svg-ab-mobile">
 						<symbol id="s-text">
 							<text textAnchor="middle"
 										x="30%"

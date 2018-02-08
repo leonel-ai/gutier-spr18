@@ -415,7 +415,7 @@
 		/* expertise */
 
 		.srv-box1-desk {
-			padding-top: 10px;
+			padding-top: 0px;
 			padding-right: 0;
 			max-width: 375px;
 		}
@@ -433,8 +433,9 @@
 			max-height: 100px;
 			padding: 0;
 			padding-left: 162px;
+			padding-top: 22px;
 			z-index: -100;
-			opacity: .5;
+			opacity: 1;
 		}
 
 		.srv-gif1-m img {
@@ -444,9 +445,9 @@
 		.srv-title1 {
 			grid-column: 1;
 			grid-row: 1;
-			max-height: 144px;
+			height: 110px;
 			max-width: 375px;
-			padding-left: 20px;
+			padding-left: 14px;
 			animation-duration: 3s;
 			animation-delay: 1s;
 		}
@@ -465,10 +466,10 @@
 
 		.srv-text1 {
 			grid-column: 1;
-			justify-self: center;
+			justify-self: start;
 			padding: 0;
 			padding-top: 10px;
-			padding-left: 0px;
+			padding-left: 30px;
 		}
 
 	/* markets */
@@ -491,8 +492,8 @@
 		justify-self: start;
 		max-width: 0px;
 		padding: 0;
-		padding-left: 10px;
-		opacity: .5;
+		padding-left: 120px;
+		opacity: 1;
 	}
 
 	.srv-gif2-m img {
@@ -502,9 +503,9 @@
 	.srv-title2 {
 		grid-column: 1;
 		grid-row: 1;
-		max-height: 130px;
+		height: 110px;
 		max-width: 375px;
-		padding-left: 20px;
+		padding-left: 14px;
 		animation-duration: 3s;
 		animation-delay: 1.9s;
 	}
@@ -586,7 +587,6 @@
 		animation-delay: 2.6s;
 	}
 
-
 	/* trust */
 
 	.srv-trust-desk {
@@ -612,7 +612,8 @@
 			min-height: 90px;
 			align-self: end;
 			justify-self: start;
-			padding-left: 18px;
+			padding-left: 10px;
+			margin-bottom: 0;
 			animation-duration: 3s;
 			animation-delay: 3.25s;
 		}
@@ -630,9 +631,9 @@
 			justify-self: start;
 			max-width: 0px;
 			padding: 0;
-			padding-top: 200px;
+			padding-top: 192px;
 			padding-right: 356px;
-			opacity: .5;
+			opacity: 1;
 		}
 
 		.srv-gif4 {
@@ -641,9 +642,9 @@
 			justify-self: start;
 			max-width: 0px;
 			padding: 0;
-			padding-top: 824px;
+			padding-top: 810px;
 			padding-right: 356px;
-			opacity: .5;
+			opacity: 1;
 		}
 
 		.srv-gif3 img {
@@ -667,10 +668,11 @@
 		grid-row: 1;
 		height: 48px;
 		text-align: left;
-		padding-left: 50px;
+		padding-left: 30px;
 		padding-right: 40px;
 		padding-bottom: 10px;
-
+		margin-top: 4px;
+		margin-bottom: 30px;
 	}
 
 	.srv-trust > .quote {
@@ -698,7 +700,7 @@
 
 	.quote p {
 		padding-right: 30px;
-		padding-left: 20px;
+		padding-left: 30px;
 		padding-bottom: 10px;
 		padding-top: 10px;
 		text-align: left;

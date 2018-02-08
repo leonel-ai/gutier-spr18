@@ -49,7 +49,7 @@ class News extends PureComponent {
 						</g>
 					</svg>
 
-					<svg viewBox="0 0 520 460" className="svg-news-mobile">
+					<svg viewBox="0 0 520 480" className="svg-news-mobile">
 						<symbol id="s-text">
 							<text textAnchor="middle"
 										x="20%"

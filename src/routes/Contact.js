@@ -52,7 +52,7 @@ class Contact extends PureComponent {
 						</g>
 					</svg>
 
-					<svg viewBox="0 0 520 460" className="svg-news-mobile">
+					<svg viewBox="0 0 520 480" className="svg-news-mobile">
 						<symbol id="s-text">
 							<text textAnchor="middle"
 										x="0%"
@@ -92,7 +92,7 @@ class Contact extends PureComponent {
 						<p><span className="animated fadeInDown con-sub">Gutier Roofing + Sheet Metal</span></p>
 						<p>3536 Navigation Boulevard <br/>
 						Houston, Texas 77003<br/>
-						Ph. 832.532.7823<br/>
+						<a href="tel:832-532-7823">Ph. 832.532.7823</a><br/>
 						info@gutier.com<br/>
 						</p>
 						<form method="get" rel="noopener" target="_blank" action={brochure}>

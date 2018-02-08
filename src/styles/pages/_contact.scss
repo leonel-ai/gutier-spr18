@@ -372,7 +372,7 @@
 		max-height: 100px;
 		max-width: 0px;
 		z-index: -100;
-		opacity: .5;
+		opacity: 1;
 	}
 
 	.con-gif0-m img {
@@ -415,7 +415,7 @@
 	.con-title1 {
 		grid-column: 1;
 		grid-row: 1;
-		max-height: 144px;
+		height: 112px;
 		max-width: 400px;
 		padding-left: 10px;
 		animation-duration: 3s;
@@ -524,6 +524,4 @@
 		text-align: left;
 		max-width: 338px;
 	}
-
-
 }

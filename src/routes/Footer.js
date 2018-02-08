@@ -25,7 +25,7 @@ class Footer extends PureComponent {
 					<p className="ft-cta">contact us</p>
 					<ul><li>3536 Navigation Blvd.<br/>
 					   Houston, TX 77003</li>
-						<li>832.532.7823</li>
+						<li><a href="tel:832-532-7823">832.532.7823</a></li>
 						<li><a href="mailto:info@gutier.com?subject=Hello, Gutier!">info@gutier.com</a></li>
 					</ul>
 				</div>

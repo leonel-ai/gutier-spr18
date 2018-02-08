@@ -38,6 +38,7 @@ class Routes extends PureComponent {
 								<input type="checkbox" id="menu-toggle" />
 								<label htmlFor="menu-toggle" className="label-toggle"></label>
 							<ul>
+								<li className="home-mobile"><NavLink activeStyle={{ color: '#4DFF00' }} onClick={this.burgerToggle} exact to='/'>Home</NavLink></li>
 								<li><NavLink activeStyle={{ color: '#4DFF00' }} onClick={this.burgerToggle} to='/services'>Services</NavLink></li>
 								<li><NavLink activeStyle={{ color: '#4DFF00' }} onClick={this.burgerToggle} to='/about'>About</NavLink></li>
 								<li><NavLink activeStyle={{ color: '#4DFF00' }} onClick={this.burgerToggle} to='/news'>News</NavLink></li>

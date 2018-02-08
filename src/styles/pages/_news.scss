@@ -253,7 +253,7 @@
 }
 
 .sidenav-mobm, .news-img1-m, .news-img2-m, .news-img3-m, .logoSmall-img
-.news-gif1-m {
+.news-gif1-m, .logoSmall-img {
 	display: none;
 }
 
@@ -352,7 +352,7 @@
 		padding-right: 0px;
     padding-top: 10px;
     padding-bottom: 0;
-    height: 160px;
+    height: 86px;
   }
 
 
@@ -366,7 +366,7 @@
 		max-height: 0px;
     max-width: 100px;
     z-index: -100;
-		opacity: .65;
+		opacity: 1;
 	}
 
 	.news-gif1-m img {
@@ -378,7 +378,7 @@
 		grid-row: 1;
 		height: 244px;
 		max-width: 375px;
-    padding-left: 20px;
+    padding-left: 14px;
     line-height: 48px;
     animation-duration: 3s;
     animation-delay: .85s;
@@ -533,7 +533,7 @@
   .news-box6-desk {
     grid-template-columns: 1fr;
     padding: 0;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 60px;
     max-width: 375px;
   }

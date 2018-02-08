@@ -10,9 +10,6 @@ class Home extends PureComponent {
 		return (
 			<div className="hm-grid">
 				<Cube />
-				<div className="sidenav">
-					<HashLink to='/contact#contact' className="side-contact">Get a Quote</HashLink>
-				</div>
 			</div>
 		)
 	}
