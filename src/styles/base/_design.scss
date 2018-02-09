@@ -237,10 +237,20 @@ html, body{
 
 		li {
 			color: $second-color;
+			border-bottom: 2px solid #13356d;
+			border-top: 2px solid #1e54ac;
 			display: block;
 			padding-top: .1em;
 			padding-bottom: .1em;
 			text-transform: uppercase;
+
+			&:first-child {
+				border-top: none;
+			}
+
+			&:last-child {
+				border-bottom: none;
+			}
 		}
 
 
@@ -253,7 +263,7 @@ html, body{
 
 		.label-toggle {
 			display: block !important;
-			background: linear-gradient(to bottom, $second-color 0%, $accent-color 20%, transparent 20%, transparent 40%, $second-color 40%, $accent-color 60%, transparent 60%, transparent 80%, $second-color 80%, $accent-color 100%); //Gradient Hamburger
+			background: linear-gradient(to bottom, $second-color 0%, $accent-color 15%, transparent 20%, transparent 40%, $second-color 20%, $accent-color 60%, transparent 60%, transparent 80%, $second-color 60%, $accent-color 100%); //Gradient Hamburger
 			cursor: pointer;
 			float: right;
 			height: 20px;
