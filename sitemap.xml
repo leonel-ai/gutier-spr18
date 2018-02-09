@@ -4,41 +4,89 @@
   <url>
     <loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/</loc>
     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/360.6020b76b.jpg</image:loc>
-       <image:caption>gutier roofing homepage virtual reality</image:caption>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/panoCity.86a920ea.jpg</image:loc>
+       <image:caption>gutier roofing houston virtual reality</image:caption>
     </image:image>
   </url>
   <url>
     <loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/services</loc>
     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/servicesBanner.5a534be0.jpg</image:loc>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/servicesBanner.be6d1d50.jpg</image:loc>
        <image:caption>gutier roofing industrial commercial services</image:caption>
     </image:image>
-     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/exp.f3a9d126.png</image:loc>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/servicesBanner-m.01d2d18f.jpg</image:loc>
+       <image:caption>gutier roofing mobile industrial commercial services</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/expertise.4bd1b00a.jpg</image:loc>
        <image:caption>gutier roofing services</image:caption>
     </image:image>
-     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/clients1.f99604e6.gif</image:loc>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/expertise-m.9a1432bb.jpg</image:loc>
+       <image:caption>gutier roofing mobile services</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/E.42b68557.gif</image:loc>
+       <image:caption>gutier roofing services</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/E-m.dbc920db.gif</image:loc>
+       <image:caption>gutier roofing mobile services</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/M.41444597.gif</image:loc>
+       <image:caption>gutier roofing services</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/M-m.e3b65559.gif</image:loc>
+       <image:caption>gutier roofing mobile services</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/clients1.0e28bac1.gif</image:loc>
        <image:caption>gutier roofing commercial clients</image:caption>
     </image:image>
-     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/clients2.7b930d4c.gif</image:loc>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/clients1-m.f87686b0.gif</image:loc>
+       <image:caption>gutier roofing mobile commercial clients</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/clients2.c579d545.gif</image:loc>
        <image:caption>gutier roofing industrial clients</image:caption>
     </image:image>
-      <image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/clients2-m.dcf5d282.gif</image:loc>
+       <image:caption>gutier roofing mobile industrial clients</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/quote1.07a370a2.gif</image:loc>
+       <image:caption>gutier roofing industrial clients</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/quote1-m.5607a13c.gif</image:loc>
+       <image:caption>gutier roofing mobile industrial clients</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/quote2.6e022ed9.gif</image:loc>
+       <image:caption>gutier roofing industrial clients</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/quote2-m.3f19c1ed.gif</image:loc>
+       <image:caption>gutier roofing mobile industrial clients</image:caption>
+    </image:image>
+    <image:image>
        <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/cert_01.745be296.png</image:loc>
        <image:caption>gutier roofing statewide historically underutilized business program certification</image:caption>
     </image:image>
-      <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/static/media/cert_02.2e3517d4.png</image:loc>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/cert_02.2ecc6adb.png</image:loc>
        <image:caption>gutier roofing disadvantaged business enterprise certification</image:caption>
     </image:image>
-      <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/cert_03.0f7ea5f9.png</image:loc>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/cert_03.066ad5cf.png</image:loc>
        <image:caption>gutier roofing minority business enterprise certification</image:caption>
     </image:image>
-      <image:image>
+    <image:image>
        <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/cert_04.f1afa059.png</image:loc>
        <image:caption>gutier roofing small business enterprise certification</image:caption>
     </image:image>
@@ -46,16 +94,44 @@
   <url>
     <loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/about</loc>
     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/aboutBanner.291715a0.png</image:loc>
-       <image:caption>gutier roofing about us community banner</image:caption>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/aboutBanner.5f24924e.jpg</image:loc>
+       <image:caption>gutier roofing about us community</image:caption>
     </image:image>
     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/g1.eca742ee.png</image:loc>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/aboutBanner-m.07f66338.jpg</image:loc>
+       <image:caption>gutier roofing mobile about us community</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/whyGutier.bf805ad7.jpg</image:loc>
        <image:caption>gutier roofing safety accountability quality</image:caption>
     </image:image>
     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/g5.af5bd2b2.png</image:loc>
-       <image:caption>gutier roofing community vocational training career mentorship</image:caption>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/whyGutier-m.5933c123.jpg</image:loc>
+       <image:caption>gutier roofing mobile safety accountability quality</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/W.97f4d8bb.gif</image:loc>
+       <image:caption>gutier roofing</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/W-m.d0b75158.gif</image:loc>
+       <image:caption>gutier roofing mobile</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/community.d831188a.jpg</image:loc>
+       <image:caption>gutier roofing community vocational training career mentor</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/community-m.9e185c22.jpg</image:loc>
+       <image:caption>gutier roofing mobile community vocational training career mentor</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/C.e03c0334.gif</image:loc>
+       <image:caption>gutier roofing community vocational training career mentor</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/C-m.77232ab6.gif</image:loc>
+       <image:caption>gutier roofing mobile community vocational training career mentor</image:caption>
     </image:image>
     <image:image>
        <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/cert_01.745be296.png</image:loc>
@@ -77,24 +153,56 @@
   <url>
     <loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/news</loc>
     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/newsBanner.9112c35d.png</image:loc>
-       <image:caption>gutier roofing news headlines press media banner</image:caption>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/newsBanner.f3e0c522.jpg</image:loc>
+       <image:caption>gutier roofing news headlines press media</image:caption>
     </image:image>
     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/cnn.c2ca55f3.png</image:loc>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/newsBanner-m.dbf01bb5.jpg</image:loc>
+       <image:caption>gutier roofing mobile news headlines press media</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/N.f7506c14.gif</image:loc>
+       <image:caption>gutier roofing news headlines press media</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/N-m.e324986a.gif</image:loc>
+       <image:caption>gutier roofing mobile news headlines press media</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/cnn.0e6cc249.jpg</image:loc>
        <image:caption>gutier roofing michael gutierrez cnn espanol houston immigrants hurricane harvey</image:caption>
     </image:image>
     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/tel.c70a1a06.png</image:loc>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/cnn-m.93046af7.jpg</image:loc>
+       <image:caption>gutier roofing michael gutierrez mobile cnn espanol houston immigrants hurricane harvey</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/tel.3fe18378.jpg</image:loc>
        <image:caption>gutier roofing telemundo interview houston minority workforce</image:caption>
     </image:image>
     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/htv.0dd72ba8.png</image:loc>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/tel-m.7f0d8920.jpg</image:loc>
+       <image:caption>gutier roofing mobile telemundo interview houston minority workforce</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/htv.e8489b9f.jpg</image:loc>
        <image:caption>gutier roofing houston tv interview texas</image:caption>
     </image:image>
     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/logo.5a795a6c.png</image:loc>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/htv.0dd72ba8.png</image:loc>
+       <image:caption>gutier roofing mobile houston tv interview texas</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/htv-m.3f80a899.jpg</image:loc>
+       <image:caption>gutier roofing insights</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/logo.35daa901.png</image:loc>
        <image:caption>gutier roofing sheet metal construction logo</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/logoMobile.d71c7904.png</image:loc>
+       <image:caption>gutier roofing sheet metal construction mobile logo</image:caption>
     </image:image>
     <image:image>
        <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/cert_01.745be296.png</image:loc>
@@ -116,16 +224,60 @@
   <url>
     <loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/contact</loc>
     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/contactBanner.d4b697ec.png</image:loc>
-       <image:caption>gutier roofing sheet metal contact social careers training mentorship banner</image:caption>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/contactBanner.0bfb1912.jpg</image:loc>
+       <image:caption>gutier roofing sheet metal contact social careers training mentor</image:caption>
     </image:image>
     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/g3.0cf30db2.png</image:loc>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/contactBanner-m.2ce5ced4.jpg</image:loc>
+       <image:caption>gutier roofing sheet metal mobile contact social careers training mentor</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/G.58b97690.gif</image:loc>
+       <image:caption>gutier roofing sheet metal contact social careers training mentor</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/G-m.05a6d6c7.gif</image:loc>
+       <image:caption>gutier roofing sheet metal mobile contact social careers training mentor</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/careers.147e5fc0.jpg</image:loc>
        <image:caption>gutier roofing houston careers jobs construction labor</image:caption>
     </image:image>
     <image:image>
-       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/SER.5858aab6.png</image:loc>
-       <image:caption>gutier roofing jobs for progress vocational training apprentice career mentorship</image:caption>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/careers-m.1b2a1948.jpg</image:loc>
+       <image:caption>gutier roofing mobile houston careers jobs construction labor</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/S.2d0e5201.gif</image:loc>
+       <image:caption>gutier roofing jobs for progress vocational training apprentice career mentor</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/E.42b68557.gif</image:loc>
+       <image:caption>gutier roofing jobs for progress vocational training apprentice career mentor</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/R.87154cb5.gif</image:loc>
+       <image:caption>gutier roofing jobs for progress vocational training apprentice career mentor</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/S-m.a3901e38.gif</image:loc>
+       <image:caption>gutier roofing jobs for progress vocational training apprentice career mentor</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/E-m.dbc920db.gif</image:loc>
+       <image:caption>gutier roofing jobs for progress vocational training apprentice career mentor</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/R-m.17b8055b.gif</image:loc>
+       <image:caption>gutier roofing jobs for progress vocational training apprentice career mentor</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/SER.f4a9bbc1.jpg</image:loc>
+       <image:caption>gutier roofing jobs for progress vocational training apprentice career mentor</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/SER-m.14786fad.jpg</image:loc>
+       <image:caption>gutier roofing mobile jobs for progress vocational training apprentice career mentor</image:caption>
     </image:image>
     <image:image>
        <image:loc>http://gutierroofing.s3-website.us-east-2.amazonaws.com/static/media/cert_01.745be296.png</image:loc>

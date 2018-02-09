@@ -178,22 +178,10 @@
 	z-index: 100;
 	padding-right: 60px;
 	text-align: right;
-	position: relative;
-	-webkit-transform:  translate(-50%, -50%);
-	-webkit-transition: -webkit-transform .2s ease-in-out;
-	-moz-transform:  translate(-50%, -50%);
-	-moz-transition: -webkit-transform .2s ease-in-out;
-	transform: translate(0, 0);
-	transition-property: all;
-	transition-property: transform .2s ease-in-out;
 }
 
 .con-title2 .subtitles {
 	padding-right: 60px;
-}
-
-.con-title2:hover {
-	transform: translate3d(0, -20px, 0);
 }
 
 .con-title2 {
