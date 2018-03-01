@@ -100,7 +100,6 @@ class Contact extends PureComponent {
 						</form>
 						<p><b>Connect with us:</b><br/>
 							<a href="https://www.linkedin.com/company/9237937/" rel="noopener noreferrer" target="_blank">linkedin </a>
-							<a href="https://www.facebook.com/gutierconstruction/" rel="noopener noreferrer" target="_blank">| facebook </a>
 							<a href="https://www.medium.com/@gutier" rel="noopener noreferrer" target="_blank">| blog</a>
 						</p>
 					</div>
